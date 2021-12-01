@@ -1,0 +1,35 @@
+{
+  "name": "magnoliajs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "blitz dev",
+    "build": "blitz build",
+    "start": "blitz start",
+    "lint": "eslint --ignore-path .gitignore --ext .js .",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepare": "husky install"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 100
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "blitz": "0.43.0",
+    "react-dom": "18.0.0-alpha-5ca4b0433-20211020",
+    "react": "18.0.0-alpha-5ca4b0433-20211020"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "husky": "7.0.4",
+    "lint-staged": "11.3.0-beta.2",
+    "prettier": "2.5.0",
+    "pretty-quick": "3.1.2"
+  },
+  "private": true
+}
