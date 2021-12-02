@@ -1,4 +1,9 @@
-import { ErrorBoundary, ErrorComponent, useQueryErrorResetBoundary } from "blitz";
+import { ErrorBoundary, ErrorComponent, useQueryErrorResetBoundary } from "blitz"
+import "tailwindcss/tailwind.css"
+
+import Layout from "../components/Layout"
+
+
 export default function App({
   Component,
   pageProps
@@ -6,8 +11,10 @@ export default function App({
   const getLayout = Component.getLayout || (page => page);
 
   return <ErrorBoundary FallbackComponent={RootErrorFallback} onReset={useQueryErrorResetBoundary().reset}>
+    <Layout>
       {getLayout(<Component {...pageProps} />)}
-    </ErrorBoundary>;
+    </Layout>
+  </ErrorBoundary>;
 }
 
 function RootErrorFallback({
