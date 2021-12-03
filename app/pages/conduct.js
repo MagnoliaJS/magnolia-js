@@ -22,5 +22,5 @@ const Conduct = () => (
   </div>
 );
 
-// Home.suppressFirstRenderFlicker = true
+Conduct.suppressFirstRenderFlicker = true
 export default Conduct
