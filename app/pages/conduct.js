@@ -5,7 +5,7 @@ const Conduct = () => (
     <Head>
       <title>Code of Conduct | MagnoliaJS</title>
     </Head>
-    <h1 className="text-center text-3xl">Code of Conduct</h1>
+    <h1 className="text-center text-3xl mb-4">Code of Conduct</h1>
     <p>
       All attendees, speakers, sponsors, and volunteers at our conference are required to agree with
       the following code of conduct. Organizers will enforce this code throughout the event. We

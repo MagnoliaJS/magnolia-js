@@ -9,7 +9,7 @@ const Home = () => (
     <h1 className="text-3xl mb-4">MagnoliaJS 2022 is coming May 10-11!</h1>
     <Image src={magnoliajs2019} alt="Audience listening to Ken Wheeler speak at MagnoliaJS 2019." />
     <p>
-      Get ready for the next MagnoliaJS! Join us in Jackson, MS for bowling, code, and{" "}
+      Get ready for the next MagnoliaJS! Join us in Jackson, MS for code, fun times, and{" "}
       <em>vibes</em>.
     </p>
     <p>

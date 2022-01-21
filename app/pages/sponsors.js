@@ -5,7 +5,7 @@ const Sponsors = () => (
     <Head>
       <title>Sponsors | MagnoliaJS</title>
     </Head>
-    <h1 className="text-center text-3xl">Sponsors</h1>
+    <h1 className="text-center text-3xl mb-4">Sponsors</h1>
     <p className="text-center">Come back soon to check out our 2022 sponsors!</p>
     <p className="text-center">
       Interested in sponsoring?{" "}
@@ -14,13 +14,13 @@ const Sponsors = () => (
       </a>
       !
     </p>
-    <p className="text-center">
+    {/* <p className="text-center">
       You can also check out our{" "}
-      <Link href="/sponsors/past-sponsors" className="text-pink-600 underline">
-        past sponsors
+      <Link href="/sponsors/past-sponsors">
+        <a className="text-pink-600 underline">past sponsors</a>
       </Link>
       !
-    </p>
+    </p> */}
   </>
 )
 
