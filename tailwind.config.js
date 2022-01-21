@@ -11,6 +11,9 @@ module.exports = {
           dark: "#363636",
         },
       },
+      minWidth: {
+        "1/3": "33%",
+      },
     },
   },
   variants: {

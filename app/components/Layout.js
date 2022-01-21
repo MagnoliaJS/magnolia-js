@@ -7,7 +7,7 @@ const Layout = (props) => (
       <div className="flex md:w-1/3 mx-auto my-4">
         <Link href="/">
           <a>
-            <Image src={logo} alt="MagnoliaJS logo" />
+            <Image src={logo} alt="MagnoliaJS logo" placeholder="blur" />
           </a>
         </Link>
       </div>
@@ -20,7 +20,9 @@ const Layout = (props) => (
         </Link>
       </div>
     </nav>
-    <main className="flex-grow md:mx-10 lg:mx-48 my-8 p-4 bg-white">{props.children}</main>
+    <main className="flex-grow md:mx-10 lg:mx-48 my-8 px-3 md:px-4 py-4 bg-white">
+      {props.children}
+    </main>
     <footer>&copy; MagnoliaJS</footer>
   </div>
 )

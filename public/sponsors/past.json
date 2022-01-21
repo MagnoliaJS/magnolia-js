@@ -2,31 +2,31 @@
   {
     "name": "Cloudinary",
     "link": "https://cloudinary.com",
-    "logo": ""
+    "logo": "/sponsors/logos/past/cloudinary_logo_blue_0720_svg.svg"
   },
   {
     "name": "EchoBind",
     "link": "https://echobind.com",
-    "logo": "/public/sponsors/logos/past/eb-gradient-black.jpg"
+    "logo": "/sponsors/logos/past/eb-logo-black.svg"
   },
   {
     "name": "Infinite Red",
     "link": "https://infinite.red",
-    "logo": "/public/sponsors/logos/past/InfiniteRedLogo.png"
+    "logo": "/sponsors/logos/past/InfiniteRedLogo.svg"
   },
   {
     "name": "Kopis Mobile",
     "link": "https://kopismobile.com",
-    "logo": ""
+    "logo": "/sponsors/logos/past/kopis_red_w_words.svg"
   },
   {
     "name": "This Dot",
     "link": "https://thisdot.co",
-    "logo": "/public/sponsors/logos/past/Logo-ThisDot.svg"
+    "logo": "/sponsors/logos/past/Logo-ThisDot.svg"
   },
   {
     "name": "Virtual Coffee",
     "link": "https://virtualcoffee.io",
-    "logo": "/public/sponsors/logos/past/virtual-coffee-full.svg"
+    "logo": "/sponsors/logos/past/virtual-coffee-full.svg"
   }
 ]

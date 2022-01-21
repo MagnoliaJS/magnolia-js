@@ -14,13 +14,13 @@ const Sponsors = () => (
       </a>
       !
     </p>
-    {/* <p className="text-center">
+    <p className="text-center">
       You can also check out our{" "}
       <Link href="/sponsors/past-sponsors">
         <a className="text-pink-600 underline">past sponsors</a>
       </Link>
       !
-    </p> */}
+    </p>
   </>
 )
 
