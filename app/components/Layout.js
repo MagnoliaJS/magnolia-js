@@ -9,21 +9,17 @@ const Layout = (props) => (
           <Image src={logo} alt="MagnoliaJS logo" />
         </Link>
       </div>
-      <div className="flex justify-around text-lg">
-        <Link href="/conduct">
+      <div className="flex flex-wrap justify-around text-lg">
+        <Link href="/conduct" className="m-4">
           Conduct
         </Link>
-        <Link href="/sponsors">
+        <Link href="/sponsors" className="m-4">
           Sponsors
         </Link>
       </div>
     </nav>
-    <main className="mx-96">
-      {props.children}
-    </main>
-    <footer>
-      &copy; MagnoliaJS
-    </footer>
+    <main className="md:mx-10 lg:mx-48 bg-pink-200 my-8 p-4">{props.children}</main>
+    <footer>&copy; MagnoliaJS</footer>
   </div>
 )
 

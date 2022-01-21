@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Cloudinary",
+    "link": "https://cloudinary.com",
+    "logo": ""
+  },
+  {
+    "name": "EchoBind",
+    "link": "https://echobind.com",
+    "logo": "/public/sponsors/logos/past/eb-gradient-black.jpg"
+  },
+  {
+    "name": "Infinite Red",
+    "link": "https://infinite.red",
+    "logo": "/public/sponsors/logos/past/InfiniteRedLogo.png"
+  },
+  {
+    "name": "Kopis Mobile",
+    "link": "https://kopismobile.com",
+    "logo": ""
+  },
+  {
+    "name": "This Dot",
+    "link": "https://thisdot.co",
+    "logo": "/public/sponsors/logos/past/Logo-ThisDot.svg"
+  },
+  {
+    "name": "Virtual Coffee",
+    "link": "https://virtualcoffee.io",
+    "logo": "/public/sponsors/logos/past/virtual-coffee-full.svg"
+  }
+]
