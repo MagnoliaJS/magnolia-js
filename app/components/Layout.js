@@ -11,7 +11,7 @@ const Layout = (props) => (
           </a>
         </Link>
       </div>
-      <div className="flex flex-wrap justify-around text-lg">
+      <div className="flex flex-wrap justify-around text-lg font-semibold">
         <Link href="/conduct">
           <a className="mx-4">Conduct</a>
         </Link>

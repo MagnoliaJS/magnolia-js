@@ -15,7 +15,7 @@ const Sponsor = (props) => {
           width="100%"
         />
       ) : null}
-      <h2>{props.name}</h2>
+      <h2 className="mt-4">{props.name}</h2>
     </a>
   )
 }
