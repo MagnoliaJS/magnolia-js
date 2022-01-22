@@ -1,13 +1,18 @@
 [
   {
     "name": "Cloudinary",
-    "link": "https://cloudinary.com",
+    "link": "https://cloudinary.rocks/mpx",
     "logo": "/sponsors/logos/past/cloudinary_logo_blue_0720_svg.svg"
+  },
+  {
+    "name": "The Bean Path",
+    "link": "https://thebeanpath.org",
+    "logo": "/sponsors/logos/past/BeanPathGreen.svg"
   },
   {
     "name": "EchoBind",
     "link": "https://echobind.com",
-    "logo": "/sponsors/logos/past/eb-logo-black.svg"
+    "logo": "/sponsors/logos/past/eb-gradient-black.svg"
   },
   {
     "name": "Infinite Red",
@@ -15,9 +20,19 @@
     "logo": "/sponsors/logos/past/InfiniteRedLogo.svg"
   },
   {
+    "name": "JetBrains",
+    "link": "https://jetbrains.com",
+    "logo": "/sponsors/logos/past/jetbrains.svg"
+  },
+  {
     "name": "Kopis Mobile",
     "link": "https://kopismobile.com",
     "logo": "/sponsors/logos/past/kopis_red_w_words.svg"
+  },
+  {
+    "name": "The Mississippi Coding Academies",
+    "link": "https://mississippicodingacademy.org",
+    "logo": "/sponsors/logos/past/MCA.svg"
   },
   {
     "name": "This Dot",
