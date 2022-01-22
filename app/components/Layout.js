@@ -12,14 +12,18 @@ const Layout = (props) => (
           </a>
         </Link>
       </div>
-      <div className="flex flex-wrap justify-around text-lg font-semibold">
-        <Link href="/conduct">
-          <a className="mx-4">Conduct</a>
-        </Link>
-        <Link href="/sponsors">
-          <a className="mx-4">Sponsors</a>
-        </Link>
-      </div>
+      <ul className="flex flex-wrap justify-around text-lg font-semibold">
+        <li>
+          <Link href="/conduct">
+            <a className="mx-4">Conduct</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/sponsors">
+            <a className="mx-4">Sponsors</a>
+          </Link>
+        </li>
+      </ul>
     </nav>
     <main className="flex-grow md:mx-10 lg:mx-48 mt-8 mb-4 px-3 md:px-4 py-4 bg-white">
       {props.children}
