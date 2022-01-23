@@ -26,7 +26,7 @@ const Layout = (props) => (
         </li>
       </ul>
     </nav>
-    <main className="flex-grow md:mx-10 lg:mx-48 mt-8 mb-4 px-3 md:px-4 py-4 bg-white">
+    <main className="flex-grow md:mx-10 lg:mx-48 mt-8 mb-4 px-3 md:px-4 py-4 bg-white rounded-sm shadow-lg">
       {props.children}
     </main>
     <footer className="flex justify-between md:mx-10 lg:mx-48 px-3 md:px-4">
