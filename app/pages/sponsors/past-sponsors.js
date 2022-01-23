@@ -1,4 +1,4 @@
-import { Head } from "blitz"
+import { Head, Link } from "blitz"
 
 import Sponsor from "../../components/Sponsor"
 import sponsors from "public/sponsors/past.json"
@@ -17,9 +17,9 @@ const PastSponsors = () => {
       </div>
       <p className="text-center">
         Interested in sponsoring?{" "}
-        <a className="text-pink-600 underline" href="mailto:sponsors@magnoliajs.com">
-          Let us know
-        </a>
+        <Link href="/sponsors/sponsorship-info">
+          <a className="text-pink-600 underline">Let us know</a>
+        </Link>
         !
       </p>
     </>
