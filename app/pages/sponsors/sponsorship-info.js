@@ -30,7 +30,6 @@ const SponsorshipInfo = () => {
     <>
       <Head>
         <title>Sponsorship Interest Form | MagnoliaJS</title>
-        <script src="https://www.google.com/recaptcha/api.js"></script>
       </Head>
       <h1 className="text-center text-3xl mb-4">Sponsorship Interest Form</h1>
       <p className="text-center mb-4">
@@ -100,9 +99,6 @@ const SponsorshipInfo = () => {
 
         <button
           type="submit"
-          data-sitekey="6Lf19C4eAAAAAIBCRDPibBcKMhKKPvulmt8BEU4J"
-          data-callback={handleSubmit}
-          data-action="submit"
           className="bg-pink col-span-2 text-white rounded-sm sm:col-start-4 sm:col-end-5 sm:justify-self-end sm:self-center sm:px-4 py-2 sm:mr-2 hover:shadow-lg"
           disabled={state.submitting}
         >
