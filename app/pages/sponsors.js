@@ -9,9 +9,9 @@ const Sponsors = () => (
     <p className="text-center">Come back soon to check out our 2022 sponsors!</p>
     <p className="text-center">
       Interested in sponsoring?{" "}
-      <a className="text-pink-600 underline" href="mailto:sponsors@magnoliajs.com">
-        Let us know
-      </a>
+      <Link href="/sponsors/sponsorship-info">
+        <a className="text-pink-600 underline">Let us know</a>
+      </Link>
       !
     </p>
     <p className="text-center">
