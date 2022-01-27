@@ -20,6 +20,11 @@ const Layout = (props) => (
           </Link>
         </li>
         <li>
+          <Link href="/faq">
+            <a className="mx-4">FAQs</a>
+          </Link>
+        </li>
+        <li>
           <Link href="/sponsors">
             <a className="mx-4">Sponsors</a>
           </Link>
