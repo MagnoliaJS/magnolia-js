@@ -38,25 +38,25 @@ const SponsorshipInfo = () => {
 
       <form className={styles.form} onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>
-        <div>
+        <div className={styles.fieldinfo}>
           <input id="name" type="text" name="name" className={styles.field} required />
           <ValidationError prefix="Name" field="name" errors={state.errors} />
         </div>
 
         <label htmlFor="company">Company</label>
-        <div>
+        <div className={styles.fieldinfo}>
           <input id="company" type="text" name="company" className={styles.field} />
           <ValidationError prefix="Company" field="company" errors={state.errors} />
         </div>
 
         <label htmlFor="email">Email</label>
-        <div>
+        <div className={styles.fieldinfo}>
           <input id="email" type="email" name="email" className={styles.field} required />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
 
         <label htmlFor="message">Message</label>
-        <div>
+        <div className={styles.fieldinfo}>
           <textarea
             id="message"
             name="message"
