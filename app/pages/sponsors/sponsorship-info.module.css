@@ -1,7 +1,7 @@
 .field {
   border: 1px solid #363636;
   border-radius: 2px;
-  display: inline-block;
+  margin-bottom: 1rem;
   padding: 0.75rem;
   width: 100%;
 }
@@ -13,14 +13,11 @@
 
 .fieldinfo {
   display: flex;
+  margin-top: 0.5rem;
 }
 
 .form {
-  align-items: center;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 1fr 3fr;
-  margin: 2rem auto;
+  margin: 1rem auto;
   width: 100%;
 }
 
@@ -29,9 +26,8 @@
   border: 1px solid transparent;
   border-radius: 2px;
   color: white;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
+  width: 100%;
 }
 
 .submit:hover {
@@ -39,8 +35,24 @@
 }
 
 @media (min-width: 678px) {
+  .field {
+    margin-bottom: 0;
+  }
+
+  .fieldinfo {
+    margin-top: 0;
+  }
+
   .form {
+    align-items: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 3fr;
     width: 75%;
+  }
+
+  .label {
+    text-align: right;
   }
 
   .submit {
@@ -48,6 +60,7 @@
     grid-column-start: 2;
     grid-column-end: 3;
     justify-self: right;
+    width: auto;
   }
 }
 

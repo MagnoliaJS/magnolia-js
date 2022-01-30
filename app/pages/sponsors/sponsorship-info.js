@@ -17,7 +17,9 @@ const SponsorshipInfo = () => {
           <title>Sponsorship Interest Form Success | MagnoliaJS</title>
         </Head>
         <h1>Thanks for your submission!</h1>
-        <p>Thanks for your interest in sponsoring MagnoliaJS! We'll be in touch with you soon!</p>
+        <p className="center-text">
+          Thanks for your interest in sponsoring MagnoliaJS! We'll be in touch with you soon!
+        </p>
         <div>
           <Image src={magnolia19} alt="Folks hanging out during a break at MagnoliaJS 2019." />
         </div>
@@ -31,31 +33,39 @@ const SponsorshipInfo = () => {
         <title>Sponsorship Interest Form | MagnoliaJS</title>
       </Head>
       <h1>Sponsorship Interest Form</h1>
-      <p>
+      <p className="center-text">
         Thanks for your interest in sponsoring MagnoliaJS! Fill out this form and we'll get back to
         you ASAP.
       </p>
 
       <form className={styles.form} onSubmit={handleSubmit}>
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name" className={styles.label}>
+          Name
+        </label>
         <div className={styles.fieldinfo}>
           <input id="name" type="text" name="name" className={styles.field} required />
           <ValidationError prefix="Name" field="name" errors={state.errors} />
         </div>
 
-        <label htmlFor="company">Company</label>
+        <label htmlFor="company" className={styles.label}>
+          Company
+        </label>
         <div className={styles.fieldinfo}>
           <input id="company" type="text" name="company" className={styles.field} />
           <ValidationError prefix="Company" field="company" errors={state.errors} />
         </div>
 
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email" className={styles.label}>
+          Email
+        </label>
         <div className={styles.fieldinfo}>
           <input id="email" type="email" name="email" className={styles.field} required />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
 
-        <label htmlFor="message">Message</label>
+        <label htmlFor="message" className={styles.label}>
+          Message
+        </label>
         <div className={styles.fieldinfo}>
           <textarea
             id="message"

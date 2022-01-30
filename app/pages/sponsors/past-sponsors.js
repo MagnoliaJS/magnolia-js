@@ -17,7 +17,7 @@ const PastSponsors = () => {
           <Sponsor name={sponsor.name} link={sponsor.link} logo={sponsor.logo} key={sponsor.link} />
         ))}
       </div>
-      <p>
+      <p className="center-text">
         Interested in sponsoring?{" "}
         <Link href="/sponsors/sponsorship-info">
           <a>Let us know</a>

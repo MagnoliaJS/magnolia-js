@@ -1,7 +1,7 @@
 import { Head, Link } from "blitz"
 
 const Sponsors = () => (
-  <>
+  <div className="center-text">
     <Head>
       <title>Sponsors | MagnoliaJS</title>
     </Head>
@@ -21,7 +21,7 @@ const Sponsors = () => (
       </Link>
       !
     </p>
-  </>
+  </div>
 )
 
 Sponsors.suppressFirstRenderFlicker = true
