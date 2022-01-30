@@ -1,6 +1,7 @@
 .field {
   border: 1px solid #363636;
   border-radius: 2px;
+  font-size: 1rem;
   margin-bottom: 1rem;
   padding: 0.75rem;
   width: 100%;
