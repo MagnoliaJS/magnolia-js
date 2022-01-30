@@ -48,6 +48,7 @@ const Covid = () => (
         <a
           href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html"
           target="_blank"
+          rel="noreferrer"
         >
           CDC list of symptoms of COVID-19
         </a>
@@ -59,6 +60,7 @@ const Covid = () => (
         <a
           href="https://www.cdc.gov/coronavirus/2019-ncov/testing/diagnostic-testing.html#:~:text=People%20who%20have%20come%20into%20close%20contact%C2%A0with%20someone%20with%20COVID%2D19%20should%20be%20tested%20to%20check%20for%20infection%20at%20least%205%20days%20after%20they%20last%20had%20close%20contact%20with%20someone%20with%20COVID%2D19.%20The%20date%20of%20the%20last%20close%20contact%20is%20considered%20day%200."
           target="_blank"
+          rel="noreferrer"
         >
           CDC policy defined here
         </a>
