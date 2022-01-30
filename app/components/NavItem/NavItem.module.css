@@ -1,17 +1,15 @@
 .link {
   color: #363636;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 
 .listitem {
-  margin: 1rem;
+  margin: 0.5rem 1rem;
 }
 
-.active::before {
-  content: "{";
-}
-
-.active::after {
-  content: "}";
+@media (min-width: 678px) {
+  .link {
+    font-size: 1.25rem;
+  }
 }

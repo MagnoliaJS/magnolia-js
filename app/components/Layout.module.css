@@ -35,8 +35,19 @@
 }
 
 @media (min-width: 678px) {
+  .footer {
+    margin: 1rem auto;
+    width: 66%;
+  }
+
   .logo {
     width: 50%;
+  }
+
+  .main {
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 66%;
   }
 
   .nav {
