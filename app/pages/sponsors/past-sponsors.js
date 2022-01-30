@@ -9,16 +9,16 @@ const PastSponsors = () => {
       <Head>
         <title>Past Sponsors | MagnoliaJS</title>
       </Head>
-      <h1 className="text-center text-3xl mb-4">Past Sponsors</h1>
-      <div className="flex flex-wrap justify-around">
+      <h1>Past Sponsors</h1>
+      <div>
         {sponsors.map((sponsor) => (
           <Sponsor name={sponsor.name} link={sponsor.link} logo={sponsor.logo} key={sponsor.link} />
         ))}
       </div>
-      <p className="text-center">
+      <p>
         Interested in sponsoring?{" "}
         <Link href="/sponsors/sponsorship-info">
-          <a className="text-pink-600 underline">Let us know</a>
+          <a>Let us know</a>
         </Link>
         !
       </p>

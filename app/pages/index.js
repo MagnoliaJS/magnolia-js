@@ -2,11 +2,11 @@ import { Head, Image } from "blitz"
 import magnoliajs2019 from "public/magnoliajs-2019-26.jpg"
 
 const Home = () => (
-  <div className="text-center">
+  <>
     <Head>
       <title>MagnoliaJS</title>
     </Head>
-    <h1 className="text-3xl mb-4">MagnoliaJS 2022 is coming May 10-11!</h1>
+    <h1>MagnoliaJS 2022 is coming May 10-11!</h1>
     <Image
       src={magnoliajs2019}
       alt="Audience listening to Ken Wheeler speak at MagnoliaJS 2019."
@@ -19,14 +19,15 @@ const Home = () => (
     <p>
       If you'd like to see the talks from MagnoliaJS 2021, check out{" "}
       <a
-        className="text-pink-600 underline"
         href="https://www.youtube.com/channel/UCiP-LfJJjBMANN8JXySXCDA"
+        target="_blank"
+        rel="noreferrer"
       >
         the MagnoliaJS YouTube channel
       </a>
       !
     </p>
-  </div>
+  </>
 )
 
 Home.suppressFirstRenderFlicker = true

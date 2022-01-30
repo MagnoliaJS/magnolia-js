@@ -1,0 +1,15 @@
+* {
+  font-family: sans-serif;
+}
+
+a {
+  color: rgba(219, 39, 119);
+}
+
+body {
+  background-color: rgba(252, 231, 243, 0.1);
+}
+
+h1 {
+  text-align: center;
+}

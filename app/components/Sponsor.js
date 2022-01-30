@@ -2,10 +2,7 @@ import { Image } from "blitz"
 
 const Sponsor = (props) => {
   return (
-    <a
-      href={props.link}
-      className="m-3 text-center min-w-full md:min-w-1/3 flex flex-col justify-evenly"
-    >
+    <a href={props.link}>
       {props.logo ? (
         <Image
           src={props.logo}
@@ -15,7 +12,7 @@ const Sponsor = (props) => {
           width="100%"
         />
       ) : null}
-      <h2 className="mt-4">{props.name}</h2>
+      <h2>{props.name}</h2>
     </a>
   )
 }

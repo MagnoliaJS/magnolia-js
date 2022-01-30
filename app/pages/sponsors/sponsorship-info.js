@@ -15,11 +15,9 @@ const SponsorshipInfo = () => {
         <Head>
           <title>Sponsorship Interest Form Success | MagnoliaJS</title>
         </Head>
-        <h1 className="text-center text-3xl mb-4">Thanks for your submission!</h1>
-        <p className="text-center mb-4">
-          Thanks for your interest in sponsoring MagnoliaJS! We'll be in touch with you soon!
-        </p>
-        <div className="sm:mx-8">
+        <h1>Thanks for your submission!</h1>
+        <p>Thanks for your interest in sponsoring MagnoliaJS! We'll be in touch with you soon!</p>
+        <div>
           <Image src={magnolia19} alt="Folks hanging out during a break at MagnoliaJS 2019." />
         </div>
       </>

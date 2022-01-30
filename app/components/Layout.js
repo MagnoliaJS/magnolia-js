@@ -1,47 +1,48 @@
 import { Image, Link } from "blitz"
+
+import NavItem from "./NavItem/NavItem"
+
+import styles from "./Layout.module.css"
+
 import logo from "public/MagnoliaHorizontalLogo-DarkJS.png"
 import blitz from "public/blitzjs-logo.svg"
 import twitter from "public/icons/twitter.svg"
 
 const Layout = (props) => (
-  <div className="flex flex-col bg-pink-100 p-3 min-h-screen">
+  <div>
     <nav>
-      <div className="flex md:w-1/3 mx-auto my-4">
+      <div className={styles.logo}>
         <Link href="/">
           <a>
             <Image src={logo} alt="MagnoliaJS logo" placeholder="blur" />
           </a>
         </Link>
       </div>
-      <ul className="flex flex-wrap justify-around text-lg font-semibold">
-        <li>
-          <Link href="/conduct">
-            <a className="mx-4">Conduct</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/faq">
-            <a className="mx-4">FAQs</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/sponsors">
-            <a className="mx-4">Sponsors</a>
-          </Link>
-        </li>
+      <ul className={styles.nav}>
+        <NavItem link="/conduct">Conduct</NavItem>
+        <NavItem link="/faq">FAQs</NavItem>
+        <NavItem link="/sponsors">Sponsors</NavItem>
       </ul>
     </nav>
-    <main className="flex-grow md:mx-10 lg:mx-48 mt-8 mb-4 px-3 md:px-4 py-4 bg-white rounded-sm shadow-lg">
-      {props.children}
-    </main>
-    <footer className="flex justify-between md:mx-10 lg:mx-48 px-3 md:px-4">
+    <main className={styles.main}>{props.children}</main>
+    <footer className={styles.footer}>
       <div>
-        <a href="https://twitter.com/magnoliajsconf">
+        <a
+          href="https://twitter.com/magnoliajsconf"
+          rel="noreferrer"
+          target="_blank"
+          className={styles.footerlink}
+        >
           <Image src={twitter} alt="link to Twitter account." height="16" width="16" />
         </a>
       </div>
       <div>
-        <a href="https://blitzjs.com" rel="noreferrer" target="_blank">
+        <a
+          href="https://blitzjs.com"
+          rel="noreferrer"
+          target="_blank"
+          className={styles.footerlink}
+        >
           Powered by{" "}
           <Image src={blitz} alt="BlitzJS. link to BlitzJS site." height="16" width="42" />
         </a>

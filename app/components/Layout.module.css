@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerlink {
+  color: #363636;
+  text-decoration: none;
+}
+
+.logo {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  background-color: white;
+  border-radius: 2px;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 2rem;
+}
