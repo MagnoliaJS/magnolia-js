@@ -9,7 +9,7 @@ import blitz from "public/blitzjs-logo.svg"
 import twitter from "public/icons/twitter.svg"
 
 const Layout = (props) => (
-  <div>
+  <>
     <nav>
       <div className={styles.logo}>
         <Link href="/">
@@ -49,7 +49,7 @@ const Layout = (props) => (
       </div>
       <div>&copy; MagnoliaJS</div>
     </footer>
-  </div>
+  </>
 )
 
 export default Layout

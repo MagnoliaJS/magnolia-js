@@ -3,7 +3,7 @@ import { Link } from "blitz"
 import styles from "./NavItem.module.css"
 
 const NavItem = (props) => (
-  <li>
+  <li className={styles.listitem}>
     <Link href={props.link}>
       <a className={styles.link}>{props.children}</a>
     </Link>

@@ -1,0 +1,5 @@
+.sponsors {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}

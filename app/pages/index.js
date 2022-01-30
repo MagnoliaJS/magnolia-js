@@ -1,4 +1,5 @@
 import { Head, Image } from "blitz"
+
 import magnoliajs2019 from "public/magnoliajs-2019-26.jpg"
 
 const Home = () => (

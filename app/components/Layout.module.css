@@ -1,6 +1,8 @@
 .footer {
+  align-items: center;
   display: flex;
   justify-content: space-between;
+  margin: 0.5rem;
 }
 
 .footerlink {
@@ -9,7 +11,7 @@
 }
 
 .logo {
-  width: 50%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -18,13 +20,29 @@
   background-color: white;
   border-radius: 2px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  margin: 2rem;
-  padding: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
   list-style-type: none;
-  margin: 2rem;
+  margin: 0.5rem;
+  padding-left: 0;
+  text-align: center;
+}
+
+@media (min-width: 678px) {
+  .logo {
+    width: 50%;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

@@ -4,6 +4,10 @@
   text-decoration: none;
 }
 
+.listitem {
+  margin: 1rem;
+}
+
 .active::before {
   content: "{";
 }
