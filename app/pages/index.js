@@ -7,7 +7,7 @@ const Home = () => (
     <Head>
       <title>MagnoliaJS</title>
     </Head>
-    <h1>MagnoliaJS 2022 is coming May 10-11!</h1>
+    <h1>MagnoliaJS 2022 is coming in the fall!</h1>
     <Image
       src={magnoliajs2019}
       alt="Audience listening to Ken Wheeler speak at MagnoliaJS 2019."
