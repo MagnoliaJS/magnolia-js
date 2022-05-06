@@ -27,17 +27,26 @@ const Faq = () => (
           </li>
         </ul>
       </li>
-      <li>a negative PCR test dated May 6, 2022 or later.</li>
+      <li>a negative PCR test dated September 9, 2022 or later.</li>
     </ul>
+    <p>
+      If this makes you feel uncomfortable, we encourage you to sit this year's conference out and
+      join us when you're ready!
+    </p>
+
     <h3>Do I have to wear a mask at the event?</h3>
     <p>
       <strong>Yes</strong>, you will need to wear a mask at all times while not eating or drinking
-      at MagnoliaJS. Masks will be available at registration.
+      at MagnoliaJS. Masks will be available at registration. If this makes you feel uncomfortable,
+      we encourage you to sit this year's conference out and join us when you're ready!
     </p>
 
     <h2>Location</h2>
     <h3>Is MagnoliaJS 2022 in person?</h3>
-    <p>YES! We're looking forward to seeing everyone's (masked) faces in Jackson this year!</p>
+    <p>
+      YES! We're looking forward to seeing everyone's (masked) faces in Jackson this year! Venue
+      details are coming soon!
+    </p>
 
     <h2>Speaking</h2>
     <h3>Will there be a Call For Papers (CFP)?</h3>
