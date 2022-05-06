@@ -19,8 +19,8 @@ const Covid = () => (
     <ul>
       <li>
         Proof of vaccination against COVID-19 including booster shots if eligible, OR a negative PCR
-        test dated on or after May 7th, 2022. Note that an "at-home" or "rapid" test result will not
-        be accepted for admission to the event.
+        test dated on or after September 9th, 2022. Note that an "at-home" or "rapid" test result
+        will not be accepted for admission to the event.
       </li>
       <li>
         Mask are required at all times inside the conference venue unless actively eating or
@@ -40,7 +40,7 @@ const Covid = () => (
       </li>
     </ul>
     <h2>You should stay home if:</h2>
-    On or after April 26, 2022:
+    On or after August 30, 2022:
     <ul>
       <li>You have tested positive for COVID-19, or</li>
       <li>
