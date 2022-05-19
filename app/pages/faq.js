@@ -41,6 +41,31 @@ const Faq = () => (
       we encourage you to sit this year's conference out and join us when you're ready!
     </p>
 
+    <h2>About MagnoliaJS</h2>
+    <h3>
+      Why <em>Magnolia</em>JS?
+    </h3>
+    <p>
+      The Magnolia is the{" "}
+      <a
+        href="https://www.sos.ms.gov/content/documents/ed_pubs/pubs/MS%20Symbol%20Sheet%20New%20Seal%202015.pdf"
+        rel="noreferrer"
+        target="_blank"
+      >
+        state flower and state tree of Mississippi
+      </a>
+      ! Mississippi is also known as "The Magnolia State" and as of January 11, 2021, a Magnolia
+      blossom is featured prominently on our state flag.
+    </p>
+    <p>
+      For MagnoliaJS 2021, we created{" "}
+      <a href="https://buy.stripe.com/fZe3en3sR4xkcYU6op" rel="noreferrer" target="_blank">
+        stickers featuring the new flag
+      </a>{" "}
+      for the state of Mississippi and sent them to Mississippi residents. Those are now available
+      for purchase to help fund future events!
+    </p>
+
     <h2>Location</h2>
     <h3>Is MagnoliaJS 2022 in person?</h3>
     <p>
