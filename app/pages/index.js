@@ -14,9 +14,9 @@ const Home = () => (
       placeholder="blur"
     />
     <p>
-      Get ready for MagnoliaJS 2022! Join us in Jackson, MS on September 13-14 for code, fun times,
-      and <em>vibes</em>. Be on the lookout for more announcements and when tickets will be
-      available on{" "}
+      Get ready for MagnoliaJS 2022! Join us at the Mississippi Museum of Art in Jackson, MS on
+      September 13-14 for code, fun times, and <em>vibes</em>. Be on the lookout for more
+      announcements and when tickets will be available on{" "}
       <a href="https://twitter.com/MagnoliaJSconf" target="_blank" rel="noreferrer">
         our Twitter account
       </a>
