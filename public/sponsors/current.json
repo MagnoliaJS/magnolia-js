@@ -1,5 +1,11 @@
 [
   {
+    "name": "Cloudinary",
+    "link": "https://cloudinary.rocks/hgi",
+    "logo": "/sponsors/logos/past/cloudinary_logo_blue_0720_svg.svg",
+    "type": "silver"
+  },
+  {
     "name": "Morgan White Group",
     "link": "https://morganwhite.com",
     "logo": "/sponsors/logos/2022/MWG.svg",
