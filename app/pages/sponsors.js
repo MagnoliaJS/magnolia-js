@@ -9,6 +9,14 @@ const Sponsors = () => (
     </Head>
     <h1>Sponsors</h1>
     <p>Thank you to our 2022 sponsors!</p>
+    <h2>Silver Sponsors</h2>
+    {sponsors.map((sponsor) => {
+      if (sponsor.type === "silver") {
+        return (
+          <Sponsor name={sponsor.name} link={sponsor.link} logo={sponsor.logo} key={sponsor.link} />
+        )
+      }
+    })}
     <h2>Community Sponsors</h2>
     {sponsors.map((sponsor) => {
       if (sponsor.type === "community") {
