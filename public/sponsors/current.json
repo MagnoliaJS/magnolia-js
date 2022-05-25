@@ -2,8 +2,14 @@
   {
     "name": "Cloudinary",
     "link": "https://cloudinary.rocks/hgi",
-    "logo": "/sponsors/logos/past/cloudinary_logo_blue_0720_svg.svg",
+    "logo": "/sponsors/logos/2022/cloudinary.svg",
     "type": "silver"
+  },
+  {
+    "name": "Flightcontrol",
+    "link": "https://www.flightcontrol.dev",
+    "logo": "/sponsors/logos/2022/flightcontrol.svg",
+    "type": "badge"
   },
   {
     "name": "Morgan White Group",

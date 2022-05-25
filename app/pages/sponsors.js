@@ -25,6 +25,14 @@ const Sponsors = () => (
         )
       }
     })}
+    <h2>Badge Sponsor</h2>
+    {sponsors.map((sponsor) => {
+      if (sponsor.type === "badge") {
+        return (
+          <Sponsor name={sponsor.name} link={sponsor.link} logo={sponsor.logo} key={sponsor.link} />
+        )
+      }
+    })}
     <p>
       Interested in sponsoring?{" "}
       <Link href="/sponsors/sponsorship-info">
