@@ -17,17 +17,25 @@ const Sponsors = () => (
         )
       }
     })}
-    <h2>Community Sponsors</h2>
+    <h2>Badge Sponsor</h2>
     {sponsors.map((sponsor) => {
-      if (sponsor.type === "community") {
+      if (sponsor.type === "badge") {
         return (
           <Sponsor name={sponsor.name} link={sponsor.link} logo={sponsor.logo} key={sponsor.link} />
         )
       }
     })}
-    <h2>Badge Sponsor</h2>
+    <h2>Lanyard Sponsor</h2>
     {sponsors.map((sponsor) => {
-      if (sponsor.type === "badge") {
+      if (sponsor.type === "lanyard") {
+        return (
+          <Sponsor name={sponsor.name} link={sponsor.link} logo={sponsor.logo} key={sponsor.link} />
+        )
+      }
+    })}
+    <h2>Community Sponsors</h2>
+    {sponsors.map((sponsor) => {
+      if (sponsor.type === "community") {
         return (
           <Sponsor name={sponsor.name} link={sponsor.link} logo={sponsor.logo} key={sponsor.link} />
         )
