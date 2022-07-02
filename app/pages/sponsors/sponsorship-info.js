@@ -40,7 +40,6 @@ const SponsorshipInfo = () => {
         </label>
         <div className={styles.fieldinfo}>
           <input id="company" type="text" name="company" className={styles.field} />
-          <ValidationError prefix="Company" field="company" errors={state.errors} />
         </div>
 
         <label htmlFor="email" className={styles.label}>
