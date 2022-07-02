@@ -21,7 +21,11 @@ const SponsorshipInfo = () => {
           Thanks for your interest in sponsoring MagnoliaJS! We'll be in touch with you soon!
         </p>
         <div>
-          <Image src={magnolia19} alt="Folks hanging out during a break at MagnoliaJS 2019." />
+          <Image
+            src={magnolia19}
+            placeholder="blur"
+            alt="Folks hanging out during a break at MagnoliaJS 2019."
+          />
         </div>
       </>
     )
