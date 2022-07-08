@@ -19,11 +19,11 @@ const Layout = (props) => (
         </Link>
       </div>
       <ul className={styles.nav}>
-        <NavItem link="/venue">Venue & Travel Info</NavItem>
         <NavItem link="/conduct">Conduct</NavItem>
         <NavItem link="/covid">COVID-19 Policy</NavItem>
         <NavItem link="/faq">FAQs</NavItem>
         <NavItem link="/sponsors">Sponsors</NavItem>
+        <NavItem link="/venue">Venue & Travel Info</NavItem>
       </ul>
     </nav>
     <main className={styles.main}>{props.children}</main>

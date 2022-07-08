@@ -25,7 +25,20 @@ hr {
 }
 
 .split-view {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.split-view iframe {
+  aspect-ratio: 4/3;
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .split-view {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 2rem;
+  }
 }
