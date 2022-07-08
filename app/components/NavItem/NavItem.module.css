@@ -4,6 +4,10 @@
   text-decoration: none;
 }
 
+.link div {
+  margin-left: 0.5rem;
+}
+
 .listitem {
   margin: 0.5rem 1rem;
 }
