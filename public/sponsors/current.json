@@ -1,5 +1,11 @@
 [
   {
+    "name": "A Fine Start",
+    "link": "https://afinestart.me/",
+    "logo": "/sponsors/logos/2022/AFineStart_Logo.svg",
+    "type": "community"
+  },
+  {
     "name": "CircleCI",
     "link": "https://circleci.com",
     "logo": "/sponsors/logos/2022/circleci.svg",
