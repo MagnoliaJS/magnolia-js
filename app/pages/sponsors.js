@@ -33,6 +33,14 @@ const Sponsors = () => (
         )
       }
     })}
+    <h2>After-Party Venue Sponsor</h2>
+    {sponsors.map((sponsor) => {
+      if (sponsor.type === "venue-afterparty") {
+        return (
+          <Sponsor name={sponsor.name} link={sponsor.link} logo={sponsor.logo} key={sponsor.link} />
+        )
+      }
+    })}
     <h2>Community Sponsors</h2>
     {sponsors.map((sponsor) => {
       if (sponsor.type === "community") {
