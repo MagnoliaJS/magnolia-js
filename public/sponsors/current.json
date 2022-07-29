@@ -34,5 +34,11 @@
     "link": "https://morganwhite.com",
     "logo": "/sponsors/logos/2022/MWG.svg",
     "type": "community"
+  },
+  {
+    "name": "This Dot",
+    "link": "https://thisdot.co",
+    "logo": "/sponsors/logos/2022/Logo-ThisDot.svg",
+    "type": "stream"
   }
 ]

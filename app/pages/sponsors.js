@@ -17,6 +17,14 @@ const Sponsors = () => (
         )
       }
     })}
+    <h2>Streaming Sponsor</h2>
+    {sponsors.map((sponsor) => {
+      if (sponsor.type === "stream") {
+        return (
+          <Sponsor name={sponsor.name} link={sponsor.link} logo={sponsor.logo} key={sponsor.link} />
+        )
+      }
+    })}
     <h2>Badge Sponsor</h2>
     {sponsors.map((sponsor) => {
       if (sponsor.type === "badge") {
