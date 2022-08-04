@@ -24,7 +24,8 @@ hr {
   text-align: center;
 }
 
-.split-view {
+.split-view,
+.two-column {
   display: flex;
   flex-direction: column;
 }
@@ -40,5 +41,9 @@ hr {
     display: grid;
     grid-template-columns: 3fr 2fr;
     gap: 2rem;
+  }
+  .two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
