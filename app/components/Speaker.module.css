@@ -13,6 +13,10 @@
   color: black;
 }
 
+.speaker h2 {
+  text-align: left;
+}
+
 .speaker img {
   border-radius: 16px 0 0 16px;
 }
@@ -24,18 +28,6 @@
   padding: 1rem;
 }
 
-/* .info:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 200px;
-  border-left: 30px solid white;
-  border-inline-start-width: 30px;
-  border-image: url("/magnolia-flower-only-30px.png") 16;
-  border-image-repeat: space;
-  transform: skewX(5deg);
-}
- */
 .info h2 {
   margin-bottom: 0.5rem;
 }

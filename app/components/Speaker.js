@@ -6,7 +6,7 @@ const Speaker = (props) => {
   return (
     <div className={styles.speaker}>
       {props.photo ? (
-        <Image src={props.photo} alt={props.name} layout="responsive" height="100%" width="100%" />
+        <Image src={props.photo} alt={props.name} objectFit="cover" height="100%" width="100%" />
       ) : null}
       <div className={styles.info}>
         <h2 className={styles.name}>{props.name}</h2>
