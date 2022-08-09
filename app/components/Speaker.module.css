@@ -1,0 +1,33 @@
+.speaker {
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-radius: 16px;
+  background-color: #d17b93;
+  margin: 1rem;
+}
+
+.speaker h2,
+.speaker a,
+.speaker p {
+  color: black;
+}
+
+.speaker h2 {
+  text-align: left;
+}
+
+.speaker img {
+  border-radius: 16px 0 0 16px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.info h2 {
+  margin-bottom: 0.5rem;
+}
