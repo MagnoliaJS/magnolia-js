@@ -32,6 +32,7 @@ const Covid = () => (
         throughout the venue.
       </li>
       <li>We, along with the venue staff, will be routinely sanitizing high-touch surfaces.</li>
+      <li>We will have additional air purification around the venue.</li>
       <li>Trained medical staff will be on-hand for the duration of the event.</li>
       <li>
         If you are feeling unwell or have been exposed to COVID-19, we ask that you skip this year's
@@ -56,21 +57,15 @@ const Covid = () => (
       </li>
       <li>
         You have been exposed to someone diagnosed with COVID-19 and have not had a negative test
-        result, following the{" "}
-        <a
-          href="https://www.cdc.gov/coronavirus/2019-ncov/testing/diagnostic-testing.html#:~:text=People%20who%20have%20come%20into%20close%20contact%C2%A0with%20someone%20with%20COVID%2D19%20should%20be%20tested%20to%20check%20for%20infection%20at%20least%205%20days%20after%20they%20last%20had%20close%20contact%20with%20someone%20with%20COVID%2D19.%20The%20date%20of%20the%20last%20close%20contact%20is%20considered%20day%200."
-          target="_blank"
-          rel="noreferrer"
-        >
-          CDC policy defined here
-        </a>
-        .
+        result.
       </li>
     </ul>
     <p>
-      <strong>Please note that this policy may change as the situation does.</strong> The MagnoliaJS
-      team will continue to monitor CDC recommendations as well as local conditions and update this
-      policy as needed to ensure the health and safety of all at MagnoliaJS 2022!
+      <strong>Please note that this policy may change as the situation does.</strong> Failure to
+      abide by the MagnoliaJS COVID policy will result in your removal from the event without
+      refund. The MagnoliaJS team will continue to monitor CDC recommendations as well as local
+      conditions and update this policy as needed to ensure the health and safety of all at
+      MagnoliaJS 2022!
     </p>
   </>
 )
