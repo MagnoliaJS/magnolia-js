@@ -23,6 +23,10 @@ const Covid = () => (
         will not be accepted for admission to the event.
       </li>
       <li>
+        Rapid testing will be available at the venue each morning. Attendees, speakers, sponsors,
+        and volunteers must have a negative rapid test to enter the venue each day.
+      </li>
+      <li>
         Mask are required at all times inside the conference venue unless actively eating or
         drinking. N95 masks are recommended and will be provided for all attendees free of charge at
         check-in.
