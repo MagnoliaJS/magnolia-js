@@ -75,5 +75,12 @@
     "photo": "/speakers/photos/michael.png",
     "title": "",
     "desc": ""
+  },
+  {
+    "name": "Brandon Bayer",
+    "twitter": "@flybayer",
+    "photo": "/speakers/photos/brandon.jpg",
+    "title": "",
+    "desc": ""
   }
 ]
