@@ -30,6 +30,12 @@
     "type": "badge"
   },
   {
+    "name": "HourWork",
+    "link": "https://hourwork.com",
+    "logo": "/sponsors/logos/2022/hourwork.svg",
+    "type": "platinum"
+  },
+  {
     "name": "Morgan White Group",
     "link": "https://morganwhite.com",
     "logo": "/sponsors/logos/2022/MWG.svg",
