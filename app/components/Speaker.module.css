@@ -13,7 +13,7 @@
   color: black;
 }
 
-.speaker h2 {
+.speaker {
   text-align: left;
 }
 
@@ -28,6 +28,10 @@
   padding: 1rem;
 }
 
-.info h2 {
+.basic {
   margin-bottom: 0.5rem;
+}
+
+.basic h2 {
+  margin-bottom: 0;
 }
