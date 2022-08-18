@@ -1,10 +1,11 @@
 .speaker {
   text-decoration: none;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  flex-direction: column;
   border-radius: 16px;
   background-color: #d17b93;
   margin: 1rem;
+  text-align: left;
 }
 
 .speaker h2,
@@ -13,12 +14,12 @@
   color: black;
 }
 
-.speaker {
-  text-align: left;
+.speaker > div:first-of-type {
+  aspect-ratio: 1 / 1;
 }
 
 .speaker img {
-  border-radius: 16px 0 0 16px;
+  border-radius: 16px 16px 0 0;
 }
 
 .info {
@@ -34,4 +35,19 @@
 
 .basic h2 {
   margin-bottom: 0;
+}
+
+@media (min-width: 680px) {
+  .speaker {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-radius: 16px;
+    background-color: #d17b93;
+    margin: 1rem;
+  }
+
+  .speaker img {
+    border-radius: 16px 0 0 16px;
+  }
 }
