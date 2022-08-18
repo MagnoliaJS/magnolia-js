@@ -22,7 +22,9 @@ const Speaker = (props) => {
         <a href={`https://twitter.com/${props.twitter}`} rel="noreferrer" target="_blank">
           @{props.twitter}
         </a>
-        <p>{props.title ? props.title : "Talk info coming soon!"}</p>
+        <p>
+          {props.bio ? props.bio : `Come hear ${props.name.split(" ").at(0)} at MagnoliaJS 2022!`}
+        </p>
       </div>
     </div>
   )
