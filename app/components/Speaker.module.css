@@ -50,4 +50,8 @@
   .speaker img {
     border-radius: 16px 0 0 16px;
   }
+
+  .speaker > div:first-of-type {
+    aspect-ratio: auto;
+  }
 }
