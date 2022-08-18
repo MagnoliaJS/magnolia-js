@@ -17,8 +17,6 @@ const Speakers = () => (
           return <Speaker {...speaker} />
         })}
     </div>
-
-    <p>and more coming soon!</p>
   </div>
 )
 

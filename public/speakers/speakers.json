@@ -5,7 +5,8 @@
     "twitter": "GantLaborde",
     "photo": "/speakers/photos/gant.jpg",
     "title": "",
-    "desc": ""
+    "desc": "",
+    "bio": "Gant Laborde is an owner of Infinite Red, mentor, adjunct professor, published author, and award-winning speaker. For 20 years, he has been involved in software development and continues strong today. He is recognized as a Google Developer Expert in Web and Machine Learning, but informally he is an “open sourcerer” and aspires to one day become a mad scientist. He blogs, videos, and maintains popular repositories for the community. Follow Gant’s adventures at https://gantlaborde.com/"
   },
   {
     "name": "Nerando Johnson",
@@ -13,7 +14,8 @@
     "twitter": "nerajno",
     "photo": "/speakers/photos/nerando.jpg",
     "title": "",
-    "desc": ""
+    "desc": "",
+    "bio": "Nerando likes to solve problems using programming as a part of his toolkit, (Yup, he currently has the skills of a full stack developer). Nerando is currently one of the community organizers for freeCodeCamp Atlanta for over the last five years. Nerando has worn a few hats before becoming a developer: lab technician, farmer, truck driver, middle school science teacher, business founder, tutor and middle school literacy specialist. He currently has the the post of Fullstack Developer at Equity Prime Mortgage."
   },
   {
     "name": "Vince Falconi",
@@ -21,7 +23,8 @@
     "twitter": "vincefalconi",
     "photo": "/speakers/photos/vince.jpg",
     "title": "",
-    "desc": ""
+    "desc": "",
+    "bio": "Vince is a security-minded web developer, as well as a weightlifter, a gentle breeze on an October afternoon, and always interested in hearing about your favorite monospace font."
   },
   {
     "name": "Bekah Hawrot Weigel",
@@ -29,23 +32,26 @@
     "twitter": "BekahHW",
     "photo": "/speakers/photos/bekah.jpg",
     "title": "",
-    "desc": ""
+    "desc": "",
+    "bio": "Bekah graduated from the Flatiron School Software Engineering program in May of 2019, and since then has spent time as a frontend developer, started the Virtual Coffee developer community, joined the DevRel world as Deepgram’s Technical Community Builder, and continued to mom her four kids. She currently co-hosts the Virtual Coffee podcast, tries to work on her postpartum wellness OSS project, and lifts heavy things in her free time."
   },
   {
     "name": "Todd Libby",
     "pronouns": "He/Him",
     "twitter": "toddlibby",
     "photo": "/speakers/photos/todd.jpg",
-    "title": "",
-    "desc": ""
+    "title": "Making A Strong Case For Accessibility",
+    "desc": "Accessibility is often overlooked or bolted on to the end of a project. The case for accessibility is something we as people who create and build things for the web should be implementing and advocating for from the inception of a project to the release or handoff and beyond.",
+    "bio": "With over 40 years programming experience, 22 years professionally, Todd is always constantly learning programming and advocating for accessibility. With a deep (and sometimes fascinating) love affair with lobster and lobster rolls, being from Maine, living in Arizona, lobster is hard to come by. Todd is a Invited Expert at the W3C and wants to make the web accessible."
   },
   {
     "name": "William Hill",
     "pronouns": "He/Him",
     "twitter": "emjay_hill",
     "photo": "/speakers/photos/william.jpg",
-    "title": "",
-    "desc": ""
+    "title": "You Can Get With This or You Can Get With That: Global State Management Options in React",
+    "desc": "Choosing a global state management strategy for your React app can be an integral part of development. Whether it is a greenfield project or an app refactor, there are tradeoffs to be made regarding complexity, testing, and tooling among other things.  We will look at the pros and cons of several popular global state management strategies: Redux, React Context, and Recoil. The choice is yours.",
+    "bio": "William Hill is a senior software engineer at New Relic.  He has worked as a full-stack engineer writing tools for subject matter experts in nonproliferation, climate science, solar energy, and basketball analytics.  He has also worked as a proponent of increasing diversity in the computing field by recruiting and mentoring engineers from underrepresented groups."
   },
   {
     "name": "Waller Goble",
@@ -53,7 +59,8 @@
     "twitter": "WallerGoble",
     "photo": "/speakers/photos/waller.jpg",
     "title": "",
-    "desc": ""
+    "desc": "",
+    "bio": "Software Engineer at Microsoft working on all things Bing. When not coding, Waller enjoys biking, fermenting things, and being from Atlanta"
   },
   {
     "name": "Taylor Desseyn",
@@ -61,7 +68,8 @@
     "twitter": "tdesseyn",
     "photo": "/speakers/photos/taylor.jpg",
     "title": "",
-    "desc": ""
+    "desc": "",
+    "bio": "11+ year recruiting industry veteran that specifically focuses on recruiting top engineering talent across the country. My passion is helping job seekers and hiring managers level up their careers."
   },
   {
     "name": "Nashlie Sephus",
@@ -69,15 +77,17 @@
     "twitter": "phenomenashlie",
     "photo": "/speakers/photos/nashlie.jpg",
     "title": "",
-    "desc": ""
+    "desc": "",
+    "bio": "Dr. Nashlie Sephus is the Tech Evangelist at AWS AI focusing on responsible AI and also founder of Bean Path, a 501c3 bridging the tech gap in Mississippi through programming and developing the up and coming JXN Tech District."
   },
   {
     "name": "Alex Riviere",
     "pronouns": "He/Him",
     "twitter": "fimion",
     "photo": "/speakers/photos/alex.jpg",
-    "title": "",
-    "desc": ""
+    "title": "Vue for React Developers",
+    "desc": "Have you been using React and wonder why people like Vue? Why would you want to use a templating language? Let's take a React component and slowly turn it into a Vue Component step by step to see how these things relate!",
+    "bio": "Alex is a Co-Host for the Enjoy The Vue podcast, as well as an Atlanta Vue.js Meetup and PyATL co-organizer. You can find him happily making things with Comic Sans on twitter and twitch."
   },
   {
     "name": "Michael Liendo",
@@ -85,14 +95,52 @@
     "twitter": "mtliendo",
     "photo": "/speakers/photos/michael.png",
     "title": "",
-    "desc": ""
+    "desc": "",
+    "bio": "Self-taught frontend developer turned fullstack developer advocate at AWS. I focus on teaching others how to build real-world apps."
   },
   {
     "name": "Brandon Bayer",
     "pronouns": "He/Him",
     "twitter": "flybayer",
     "photo": "/speakers/photos/brandon.jpg",
+    "title": "Fullstack Typesafety with Next.js",
+    "desc": "Achieving complete typesafety with Next.js is a huge challenge, especially if you are fetching data from databases or third party APIs! I’ll show you how to fully leverage ALL of the Typescript features of Next.js. And I'll cover the hottest up and and coming libraries for achieving even greater typesafety than is possible with vanilla Next.js.",
+    "bio": "Brandon is the cofounder and CEO of Flightcontrol and the Creator of Blitz.js. He's deeply passionate about helping people reach their dreams and about making development and entrepreneurship more accessible. Outside of work he loves flying airplanes and helicopters, rock climbing, and traveling. "
+  },
+  {
+    "name": "Adrienne Braganza Tacke",
+    "pronouns": "She/Her",
+    "twitter": "AdrienneTacke",
+    "photo": "/speakers/photos/adrienne.jpg",
     "title": "",
-    "desc": ""
+    "desc": "",
+    "bio": "Adrienne Braganza Tacke is a Filipina software engineer, keynote speaker, published author of the book Coding for Kids: Python, and a LinkedIn Learning instructor who specializes in Cloud Development courses. Perhaps most important, however, is that she spends way too much money on desserts and ungodly amounts of time playing Age of Empires II."
+  },
+  {
+    "name": "Ash Banaszek",
+    "pronouns": "They/Them",
+    "twitter": "ashbanaszek",
+    "photo": "/speakers/photos/ash.jpg",
+    "title": "",
+    "desc": "",
+    "bio": "Ash is a passionate and outspoken UX advocate at Union Pacific Railroad with over a decade experience in melding technology with psychology. Outside of righting tech wrongs, Ash is an award-winning Toastmaster and uses public speaking experience to infuse humor and thought-provoking questions into talks."
+  },
+  {
+    "name": "James Q. Quick",
+    "pronouns": "He/Him",
+    "twitter": "jamesqquick",
+    "photo": "/speakers/photos/james.png",
+    "title": "",
+    "desc": "",
+    "bio": "James is a JavaScript Developer, Speaker, and Teacher with a passion for teaching developers through content. He is a full-time Technical Content Creator with years of experience in Software Development and Developer Advocacy. In his spare time, he runs a YouTube channel, plays co-ed soccer with his wife, spends time with his dogs, and can solve a Rubik's cube in under a minute."
+  },
+  {
+    "name": "Aja Washington",
+    "pronouns": "She/Her",
+    "twitter": "ajabw_",
+    "photo": "/speakers/photos/aja.png",
+    "title": "",
+    "desc": "",
+    "bio": "Nashville native, professional artist (dancer, singer, actress) turned software engineer. Bootcamp graduate and instructor helping adults transition to the tech industry."
   }
 ]
