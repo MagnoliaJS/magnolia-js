@@ -4,7 +4,7 @@
     "pronouns": "He/Him",
     "twitter": "GantLaborde",
     "photo": "/speakers/photos/gant.jpg",
-    "title": "",
+    "title": "How to Solve Complex Problems",
     "desc": "",
     "bio": "Gant Laborde is an owner of Infinite Red, mentor, adjunct professor, published author, and award-winning speaker. For 20 years, he has been involved in software development and continues strong today. He is recognized as a Google Developer Expert in Web and Machine Learning, but informally he is an “open sourcerer” and aspires to one day become a mad scientist. He blogs, videos, and maintains popular repositories for the community. Follow Gant’s adventures at https://gantlaborde.com/"
   },
@@ -13,8 +13,8 @@
     "pronouns": "He/Him",
     "twitter": "nerajno",
     "photo": "/speakers/photos/nerando.jpg",
-    "title": "",
-    "desc": "",
+    "title": "How !To Be Mentored",
+    "desc": "How to does one get the best out of a mentor-ship, while provide providing value to both the mentee and the mentor in times of time spent and growth? The mentee mentor relationship in tech tends to be wrought with issues if not structured properly on both ends. This talk hopes to provide actionable steps learned from my wins and losses based on my experience being a part of a learn-to-code mentorship group for 1 year period.",
     "bio": "Nerando likes to solve problems using programming as a part of his toolkit, (Yup, he currently has the skills of a full stack developer). Nerando is currently one of the community organizers for freeCodeCamp Atlanta for over the last five years. Nerando has worn a few hats before becoming a developer: lab technician, farmer, truck driver, middle school science teacher, business founder, tutor and middle school literacy specialist. He currently has the the post of Fullstack Developer at Equity Prime Mortgage."
   },
   {
@@ -112,7 +112,7 @@
     "pronouns": "She/Her",
     "twitter": "AdrienneTacke",
     "photo": "/speakers/photos/adrienne.jpg",
-    "title": "What Animal Crossing: New Horizons Taught Me About Psychological Safety",
+    "title": "What Animal Crossing: New Horizons taught me about Psychological Safety",
     "desc": "",
     "bio": "Adrienne Braganza Tacke is a Filipina software engineer, keynote speaker, published author of the book Coding for Kids: Python, and a LinkedIn Learning instructor who specializes in Cloud Development courses. Perhaps most important, however, is that she spends way too much money on desserts and ungodly amounts of time playing Age of Empires II."
   },
@@ -121,8 +121,8 @@
     "pronouns": "They/Them",
     "twitter": "ashbanaszek",
     "photo": "/speakers/photos/ash.jpg",
-    "title": "",
-    "desc": "",
+    "title": "Presentations, Storytelling, and How Not to Suck at it",
+    "desc": "Learn from Sr UXer Ash Banaszek on how to give impactful and interesting technical talks. Ash is consistently rated highly by conference-goers as an informative and entertaining speaker, and is a decorated Toastmaster winning awards at Area and Division levels for humorous, impromptu, tall tales, and international speaking categories. In this talk, Ash will share their tips on organizing presentations, increasing engagement, when to add humor, how to fold a story into your tech talk, and using images effectively. Want to be a better presenter? After this talk you may not be a keynoter, but you definitely will \"not suck at it.\"",
     "bio": "Ash is a passionate and outspoken UX advocate at Union Pacific Railroad with over a decade experience in melding technology with psychology. Outside of righting tech wrongs, Ash is an award-winning Toastmaster and uses public speaking experience to infuse humor and thought-provoking questions into talks."
   },
   {
