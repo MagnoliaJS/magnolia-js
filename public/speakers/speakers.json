@@ -67,8 +67,8 @@
     "pronouns": "He/Him",
     "twitter": "tdesseyn",
     "photo": "/speakers/photos/taylor.jpg",
-    "title": "",
-    "desc": "",
+    "title": "Recruiters Suck. Use them.",
+    "desc": "In today’s tech market there are more recruiters than JavaScript libraries. And just like JavaScript libraries, it’s hard to pick a good recruiter that won’t burn out in 6 months. In this open forum talk, I will be answering any and all questions you have always wanted to ask us. Like how do we price positions? What do I look for when working with a recruiter? I will also give tips to everyone like how to write a good resume, are cover letters still relevant, how do I approach a job hunt, and what can make you the most attractive as a candidate in the interview process. This talk is geared for the recent software school grad to the Architect who has recently found themselves back on the job market. I look forward to answering all your questions!",
     "bio": "11+ year recruiting industry veteran that specifically focuses on recruiting top engineering talent across the country. My passion is helping job seekers and hiring managers level up their careers."
   },
   {
@@ -112,7 +112,7 @@
     "pronouns": "She/Her",
     "twitter": "AdrienneTacke",
     "photo": "/speakers/photos/adrienne.jpg",
-    "title": "",
+    "title": "What Animal Crossing: New Horizons Taught Me About Psychological Safety",
     "desc": "",
     "bio": "Adrienne Braganza Tacke is a Filipina software engineer, keynote speaker, published author of the book Coding for Kids: Python, and a LinkedIn Learning instructor who specializes in Cloud Development courses. Perhaps most important, however, is that she spends way too much money on desserts and ungodly amounts of time playing Age of Empires II."
   },
@@ -130,9 +130,18 @@
     "pronouns": "He/Him",
     "twitter": "jamesqquick",
     "photo": "/speakers/photos/james.png",
-    "title": "",
+    "title": "Compressed.fm LIVE!",
     "desc": "",
     "bio": "James is a JavaScript Developer, Speaker, and Teacher with a passion for teaching developers through content. He is a full-time Technical Content Creator with years of experience in Software Development and Developer Advocacy. In his spare time, he runs a YouTube channel, plays co-ed soccer with his wife, spends time with his dogs, and can solve a Rubik's cube in under a minute."
+  },
+  {
+    "name": "Amy Dutton",
+    "pronouns": "She/Her",
+    "twitter": "selfteachme",
+    "photo": "/speakers/photos/amy.jpg",
+    "title": "Compressed.fm LIVE!",
+    "desc": "",
+    "bio": "Amy has over 20 years of web experience. She lives in Nashville, TN with her husband, 3 adorable kids, and 2 dogs. If she's not sitting in front of my computer making things, she's hanging out with family and friends. She loves streaming all the things, playing cards, reading, and drinking coffee. Lots of coffee."
   },
   {
     "name": "Aja Washington",
