@@ -118,6 +118,11 @@ const Schedule = () => (
           <td>Wrap Day 1</td>
           <td></td>
         </tr>
+        <tr>
+          <td>7:00PM</td>
+          <td>Mixer @ MS Museum of Art</td>
+          <td></td>
+        </tr>
       </tbody>
     </table>
 
