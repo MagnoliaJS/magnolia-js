@@ -24,7 +24,7 @@ const Schedule = () => (
         <tr>
           <td>9:15AM</td>
           <td>Keynote</td>
-          <td>Nashlie Sephus</td>
+          <td>Dr. Nashlie Sephus</td>
         </tr>
         <tr>
           <td>10:00AM</td>
