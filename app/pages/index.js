@@ -15,13 +15,9 @@ const Home = () => (
     />
     <p>
       Get ready for MagnoliaJS 2022! Join us at the Mississippi Museum of Art in Jackson, MS on
-      September 13-14 for code, fun times, and <em>vibes</em>. Be on the lookout for more
-      announcements and when tickets will be available on{" "}
-      <a href="https://twitter.com/MagnoliaJSconf" target="_blank" rel="noreferrer">
-        our Twitter account
-      </a>
-      .
+      September 13-14 for code, fun times, and <em>vibes</em>. Tickets are available now!
     </p>
+    <a href="https://ti.to/magnoliajs/2022">Buy your ticket today!</a>
     <p>
       If you'd like to see the talks from MagnoliaJS 2021, check out{" "}
       <a

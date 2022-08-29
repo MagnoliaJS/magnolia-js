@@ -69,8 +69,12 @@ const Faq = () => (
     <h2>Location</h2>
     <h3>Is MagnoliaJS 2022 in person?</h3>
     <p>
-      YES! We're looking forward to seeing everyone's (masked) faces in Jackson this year! Venue
-      details are coming soon!
+      YES! We're looking forward to seeing everyone's (masked) faces in Jackson this year! We'll be
+      hosting the event at the Mississippi Museum of Art. To learn more about the venue and travel,
+      visit our{" "}
+      <Link href="/venue">
+        <a>Venue and Travel page.{props.children}</a>
+      </Link>
     </p>
 
     <h2>Speaking</h2>
@@ -78,7 +82,7 @@ const Faq = () => (
     <p>
       For MagnoliaJS 2022, there will <strong>not</strong> be a CFP. We're a two-person team this
       year, so time is at a premium! We're hoping to assemble a team for the 2023 conference, so be
-      on the lookout for that CFP later this year!
+      on the lookout for that CFP!
     </p>
   </>
 )
