@@ -73,7 +73,7 @@ const Faq = () => (
       hosting the event at the Mississippi Museum of Art. To learn more about the venue and travel,
       visit our{" "}
       <Link href="/venue">
-        <a>Venue and Travel page.{props.children}</a>
+        <a>Venue and Travel page.</a>
       </Link>
     </p>
 
