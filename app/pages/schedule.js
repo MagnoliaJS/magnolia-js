@@ -173,7 +173,7 @@ const Schedule = () => (
         </tr>
         <tr>
           <td>11:30AM</td>
-          <td>TBD</td>
+          <td>Typescript Deep Dive</td>
           <td>Waller Goble</td>
         </tr>
         <tr>
