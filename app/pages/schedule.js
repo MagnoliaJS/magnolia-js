@@ -17,6 +17,11 @@ const Schedule = () => (
       </thead>
       <tbody>
         <tr>
+          <td>8:30AM</td>
+          <td>Registration and Breakfast</td>
+          <td></td>
+        </tr>
+        <tr>
           <td>9:00AM</td>
           <td>Welcome</td>
           <td></td>
@@ -137,13 +142,18 @@ const Schedule = () => (
       </thead>
       <tbody>
         <tr>
+          <td>8:30AM</td>
+          <td>Registration and Breakfast</td>
+          <td></td>
+        </tr>
+        <tr>
           <td>9:00AM</td>
           <td>Welcome</td>
           <td></td>
         </tr>
         <tr>
           <td>9:30AM</td>
-          <td>TBD</td>
+          <td>Adopting a Quality Mindset</td>
           <td>Andronica Klaas</td>
         </tr>
         <tr>
