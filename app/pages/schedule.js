@@ -164,7 +164,7 @@ const Schedule = () => (
         <tr>
           <td>10:10AM</td>
           <td>TBD</td>
-          <td>Michael Liendo</td>
+          <td>Bekah Hawrot Weigel</td>
         </tr>
         <tr>
           <td>10:40AM</td>
@@ -233,8 +233,13 @@ const Schedule = () => (
         </tr>
         <tr>
           <td>4:10PM</td>
-          <td>Giveaways</td>
+          <td>Break</td>
           <td></td>
+        </tr>
+        <tr>
+          <td>4:20PM</td>
+          <td>TBD</td>
+          <td>Michael Liendo</td>
         </tr>
         <tr>
           <td>7:00PM</td>
