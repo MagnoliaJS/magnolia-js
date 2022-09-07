@@ -10,7 +10,7 @@ const Speakers = () => (
     <h1>Speakers</h1>
     <p>Come learn from such incredibly talented people as:</p>
 
-    <div className="two-column">
+    <div>
       {speakers
         .sort((a, b) => a.name.localeCompare(b.name))
         .map((speaker) => {
