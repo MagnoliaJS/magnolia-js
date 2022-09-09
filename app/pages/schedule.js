@@ -183,8 +183,8 @@ const Schedule = () => (
         </tr>
         <tr>
           <td>11:30AM</td>
-          <td>Typescript Deep Dive</td>
-          <td>Waller Goble</td>
+          <td>What AC:NH taught me about Psychological Safety</td>
+          <td>Adrienne Tacke</td>
         </tr>
         <tr>
           <td>12:00PM</td>
@@ -228,8 +228,8 @@ const Schedule = () => (
         </tr>
         <tr>
           <td>3:40PM</td>
-          <td>What AC:NH taught me about Psychological Safety</td>
-          <td>Adrienne Tacke</td>
+          <td>Typescript Deep Dive</td>
+          <td>Waller Goble</td>
         </tr>
         <tr>
           <td>4:10PM</td>
