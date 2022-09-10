@@ -238,7 +238,7 @@ const Schedule = () => (
         </tr>
         <tr>
           <td>4:20PM</td>
-          <td>TBD</td>
+          <td>AWS for Frontend Engineers</td>
           <td>Michael Liendo</td>
         </tr>
         <tr>
