@@ -37,7 +37,6 @@ const Covid = () => (
       </li>
       <li>We, along with the venue staff, will be routinely sanitizing high-touch surfaces.</li>
       <li>We will have additional air purification around the venue.</li>
-      <li>Trained medical staff will be on-hand for the duration of the event.</li>
       <li>
         If you are feeling unwell or have been exposed to COVID-19, we ask that you skip this year's
         event. You will be able to re-assign your ticket to someone eles or have your ticket applied

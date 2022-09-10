@@ -6,6 +6,39 @@ const Faq = () => (
       <title>FAQ | MagnoliaJS</title>
     </Head>
     <h1>Frequently Asked Questions</h1>
+    <h2>Conference Logistics</h2>
+    <h3>With the water situation in Jackson, will we still be having the conference in-person?</h3>
+    <p>
+      <strong>YES!</strong> The museum and host hotel never lost water. We'll also have plenty of
+      drinking water available at the event.
+    </p>
+    <p>
+      The host hotel has a backup plan to get everyone to a hotel with water in the event that we do
+      lose water. We also have a backup plan in the event the venue loses water.
+    </p>
+
+    <h3>Where is the schedule?</h3>
+    <p>
+      You can find the schedule on the <Link to="/schedule">Schedule</Link> page on our site.
+    </p>
+
+    <h3>Will the conference be streamed again this year?</h3>
+    <p>
+      <strong>YES,</strong> we will be streaming MagnoliaJS 2022, thanks to our streaming sponsor,{" "}
+      <a href="https://thisdot.co" target="_blank" rel="noreferrer">
+        This Dot
+      </a>
+      ! The event will be streamed via YouTube this year. Check out{" "}
+      <a
+        href="https://www.youtube.com/channel/UCiP-LfJJjBMANN8JXySXCDA"
+        target="_blank"
+        rel="noreferrer"
+      >
+        MagnoliaJS's YouTube
+      </a>{" "}
+      to set up notifications for when we start the stream!
+    </p>
+
     <h2>COVID</h2>
     <h3>Is proof of vaccination required for admission?</h3>
     <p>You will need to provide either:</p>
