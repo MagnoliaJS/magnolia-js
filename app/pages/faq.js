@@ -19,7 +19,7 @@ const Faq = () => (
 
     <h3>Where is the schedule?</h3>
     <p>
-      You can find the schedule on the <Link to="/schedule">Schedule</Link> page on our site.
+      You can find the schedule on the <Link href="/schedule">Schedule</Link> page on our site.
     </p>
 
     <h3>Will the conference be streamed again this year?</h3>
