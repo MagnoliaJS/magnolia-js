@@ -82,9 +82,6 @@ const Venue = () => (
         <li>Dallas - 6 hrs</li>
       </ul>
     </p>
-    <p>
-      <strong>Things to do?</strong> Coming soon!
-    </p>
   </>
 )
 
