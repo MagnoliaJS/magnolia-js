@@ -42,7 +42,7 @@
     "photo": "/speakers/photos/william.jpg",
     "title": "You Can Get With This or You Can Get With That: Global State Management Options in React",
     "desc": "Choosing a global state management strategy for your React app can be an integral part of development. Whether it is a greenfield project or an app refactor, there are tradeoffs to be made regarding complexity, testing, and tooling among other things.  We will look at the pros and cons of several popular global state management strategies: Redux, React Context, and Recoil. The choice is yours.",
-    "bio": "William Hill is a senior software engineer at New Relic.  He has worked as a full-stack engineer writing tools for subject matter experts in nonproliferation, climate science, solar energy, and basketball analytics.  He has also worked as a proponent of increasing diversity in the computing field by recruiting and mentoring engineers from underrepresented groups."
+    "bio": "William Hill is a senior software engineer.  He has worked as a full-stack engineer writing tools for subject matter experts in nonproliferation, climate science, solar energy, and basketball analytics.  He has also worked as a proponent of increasing diversity in the computing field by recruiting and mentoring engineers from underrepresented groups."
   },
   {
     "name": "Waller Goble",
