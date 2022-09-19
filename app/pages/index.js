@@ -7,19 +7,17 @@ const Home = () => (
     <Head>
       <title>MagnoliaJS</title>
     </Head>
-    <h1>MagnoliaJS 2022 is coming September 13-14!</h1>
+    <h1>MagnoliaJS 2023 dates coming soon!</h1>
     <Image
       src={magnoliajs2019}
       alt="Audience listening to Ken Wheeler speak at MagnoliaJS 2019."
       placeholder="blur"
     />
     <p>
-      Get ready for MagnoliaJS 2022! Join us at the Mississippi Museum of Art in Jackson, MS on
-      September 13-14 for code, fun times, and <em>vibes</em>. Tickets are available now!
+      Thank y'all for an amazing 2022 conference! See you in 2023! Stay tuned for announcements!
     </p>
-    <a href="https://ti.to/magnoliajs/2022">Buy your ticket today!</a>
     <p>
-      If you'd like to see the talks from MagnoliaJS 2021, check out{" "}
+      If you'd like to see the talks from MagnoliaJS 2021 and 2022, check out{" "}
       <a
         href="https://www.youtube.com/channel/UCiP-LfJJjBMANN8JXySXCDA"
         target="_blank"
@@ -32,7 +30,7 @@ const Home = () => (
     <p>
       Please let us know if your company is{" "}
       <Link href="/sponsors/sponsorship-info">
-        <a>interested in sponsoring MagnoliaJS 2022</a>
+        <a>interested in sponsoring MagnoliaJS 2023</a>
       </Link>
       !
     </p>

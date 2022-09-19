@@ -1,6 +1,6 @@
 import { Head } from "blitz"
 import Speaker from "../components/Speaker"
-import speakers from "public/speakers/speakers.json"
+// import speakers from "public/speakers/speakers.json"
 
 const Speakers = () => (
   <div className="center-text">

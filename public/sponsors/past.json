@@ -1,7 +1,25 @@
 [
   {
+    "name": "A Fine Start",
+    "link": "https://afinestart.me/",
+    "logo": "/sponsors/logos/2022/AFineStart_Logo.svg",
+    "type": "community"
+  },
+  {
+    "name": "The Bean Path",
+    "link": "https://thebeanpath.org",
+    "logo": "/sponsors/logos/past/BeanPathGreen.svg",
+    "type": "venue-afterparty"
+  },
+  {
+    "name": "CircleCI",
+    "link": "https://circleci.com",
+    "logo": "/sponsors/logos/2022/circleci.svg",
+    "type": "lanyard"
+  },
+  {
     "name": "Cloudinary",
-    "link": "https://cloudinary.rocks/mpx",
+    "link": "https://cloudinary.rocks/hgi",
     "logo": "/sponsors/logos/past/cloudinary_logo_blue_0720_svg.svg"
   },
   {
@@ -13,6 +31,18 @@
     "name": "EchoBind",
     "link": "https://echobind.com",
     "logo": "/sponsors/logos/past/eb-gradient-black.svg"
+  },
+  {
+    "name": "Flightcontrol",
+    "link": "https://www.flightcontrol.dev",
+    "logo": "/sponsors/logos/2022/flightcontrol.svg",
+    "type": "badge"
+  },
+  {
+    "name": "HourWork",
+    "link": "https://hourwork.com",
+    "logo": "/sponsors/logos/2022/hourwork.svg",
+    "type": "platinum"
   },
   {
     "name": "Infinite Red",
@@ -28,6 +58,12 @@
     "name": "Mississippi Coding Academies",
     "link": "https://mscoding.org",
     "logo": "/sponsors/logos/past/MCA.svg"
+  },
+  {
+    "name": "Morgan White Group",
+    "link": "https://morganwhite.com",
+    "logo": "/sponsors/logos/2022/MWG.svg",
+    "type": "community"
   },
   {
     "name": "This Dot",
