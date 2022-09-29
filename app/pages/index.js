@@ -7,14 +7,16 @@ const Home = () => (
     <Head>
       <title>MagnoliaJS</title>
     </Head>
-    <h1>MagnoliaJS 2023 dates coming soon!</h1>
+    <h1>MagnoliaJS coming to you October 17-18, 2023!</h1>
     <Image
       src={magnoliajs2019}
       alt="Audience listening to Ken Wheeler speak at MagnoliaJS 2019."
       placeholder="blur"
     />
     <p>
-      Thank y'all for an amazing 2022 conference! See you in 2023! Stay tuned for announcements!
+      Get ready for a special Halloween-edition MagnoliaJS 2023! More details and information to
+      come! Join us October 17-18, 2023 at the Mississippi Musseum of Art in Jackson, MS for a
+      spooky-good time!
     </p>
     <p>
       If you'd like to see the talks from MagnoliaJS 2021 and 2022, check out{" "}
