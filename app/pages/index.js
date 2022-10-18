@@ -15,7 +15,7 @@ const Home = () => (
     />
     <p>
       Get ready for a special Halloween-edition MagnoliaJS 2023! More details and information to
-      come! Join us October 17-18, 2023 at the Mississippi Musseum of Art in Jackson, MS for a
+      come! Join us October 17-18, 2023 at the Mississippi Museum of Art in Jackson, MS for a
       spooky-good time!
     </p>
     <p>
