@@ -18,13 +18,8 @@ const Covid = () => (
     </p>
     <ul>
       <li>
-        Proof of vaccination against COVID-19 including booster shots if eligible, OR a negative PCR
-        test dated on or after September 9th, 2022. Note that an "at-home" or "rapid" test result
-        will not be accepted for admission to the event.
-      </li>
-      <li>
-        Rapid testing will be available at the venue each morning. Attendees, speakers, sponsors,
-        and volunteers must have a negative rapid test to enter the venue each day.
+        Rapid testing will be required at the venue each morning. Attendees, speakers, sponsors, and
+        volunteers must have a negative rapid test to enter the venue each day.
       </li>
       <li>
         Mask are required at all times inside the conference venue unless actively eating or
@@ -44,7 +39,7 @@ const Covid = () => (
       </li>
     </ul>
     <h2>You should stay home if:</h2>
-    On or after August 30, 2022:
+    On or after September 30, 2023:
     <ul>
       <li>You have tested positive for COVID-19, or</li>
       <li>
@@ -68,7 +63,7 @@ const Covid = () => (
       abide by the MagnoliaJS COVID policy will result in your removal from the event without
       refund. The MagnoliaJS team will continue to monitor CDC recommendations as well as local
       conditions and update this policy as needed to ensure the health and safety of all at
-      MagnoliaJS 2022!
+      MagnoliaJS 2023!
     </p>
   </>
 )
