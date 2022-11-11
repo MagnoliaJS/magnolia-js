@@ -25,10 +25,10 @@ const Layout = (props) => (
         {/* <NavItem link="/schedule">Schedule</NavItem> */}
         {/* <NavItem link="/speakers">Speakers</NavItem> */}
         <NavItem link="/sponsors">Sponsors</NavItem>
-        {/* <NavItem link="https://ti.to/magnoliajs/2022" external>
+        <NavItem link="https://www.eventbrite.com/e/magnoliajs-2023-tickets-422921328077" external>
           Tickets
         </NavItem>
-        <NavItem link="/venue">Venue & Travel Info</NavItem> */}
+        {/* <NavItem link="/venue">Venue & Travel Info</NavItem> */}
       </ul>
     </nav>
     <main className={styles.main}>{props.children}</main>
