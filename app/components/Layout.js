@@ -4,7 +4,7 @@ import NavItem from "./NavItem/NavItem"
 
 import styles from "./Layout.module.css"
 
-import logo from "public/MagnoliaHorizontalLogo-DarkJS.png"
+import logo from "public/fullSpookyLogo.svg"
 import blitz from "public/blitzjs-logo.svg"
 import twitter from "public/icons/twitter.svg"
 
@@ -14,7 +14,7 @@ const Layout = (props) => (
       <div className={styles.logo}>
         <Link href="/">
           <a>
-            <Image src={logo} alt="MagnoliaJS logo" placeholder="blur" />
+            <Image src={logo} alt="MagnoliaJS logo" />
           </a>
         </Link>
       </div>

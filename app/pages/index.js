@@ -1,6 +1,6 @@
 import { Head, Image, Link } from "blitz"
 
-import magnoliajs2019 from "public/magnoliajs-2019-26.jpg"
+import magnoliajs2022 from "public/MagnoliaJS2022Main.jpeg"
 
 const Home = () => (
   <div className="center-text">
@@ -9,7 +9,7 @@ const Home = () => (
     </Head>
     <h1>MagnoliaJS coming to you October 17-18, 2023!</h1>
     <Image
-      src={magnoliajs2019}
+      src={magnoliajs2022}
       alt="Audience listening to Ken Wheeler speak at MagnoliaJS 2019."
       placeholder="blur"
     />
