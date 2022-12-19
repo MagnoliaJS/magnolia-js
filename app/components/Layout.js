@@ -4,7 +4,7 @@ import NavItem from "./NavItem/NavItem"
 
 import styles from "./Layout.module.css"
 
-import logo from "public/fullSpookyLogo.svg"
+import logo from "public/whiteSpookyLogo.svg"
 import blitz from "public/blitzjs-logo.svg"
 import twitter from "public/icons/twitter.svg"
 
@@ -19,6 +19,9 @@ const Layout = (props) => (
         </Link>
       </div>
       <ul className={styles.nav}>
+        <NavItem link="https://sessionize.com/magnoliajs-2023/" external>
+          Call for Speakers
+        </NavItem>
         <NavItem link="/conduct">Conduct</NavItem>
         <NavItem link="/covid">COVID-19 Policy</NavItem>
         {/* <NavItem link="/faq">FAQs</NavItem> */}

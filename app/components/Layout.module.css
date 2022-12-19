@@ -1,12 +1,13 @@
 .footer {
   align-items: center;
+  color: #ebebeb;
   display: flex;
   justify-content: space-between;
   margin: 0.5rem;
 }
 
 .footerlink {
-  color: #363636;
+  color: #ebebeb;
   text-decoration: none;
 }
 
@@ -16,9 +17,9 @@
 }
 
 .main {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 2px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border: 2px solid white;
   margin: 0.5rem;
   padding: 0.5rem;
 }
