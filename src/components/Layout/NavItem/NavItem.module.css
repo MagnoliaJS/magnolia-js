@@ -1,0 +1,19 @@
+.link {
+  color: #ebebeb;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.link img {
+  margin-left: 0.5rem;
+}
+
+.listitem {
+  margin: 0.5rem 1rem;
+}
+
+@media (min-width: 678px) {
+  .link {
+    font-size: 1.25rem;
+  }
+}
