@@ -27,10 +27,7 @@ const Sponsors = () => {
         <h1>Sponsors</h1>
         <p>
           Interested in sponsoring MagnoliaJS 2023?{" "}
-          <Link href="/sponsors/sponsorship-info">
-            Let us know
-          </Link>{" "}
-          or take a look at our{" "}
+          Take a look at our{" "}
           <a
             href="https://drive.google.com/file/d/1T9lM-y1e-QgPFvGFKWd39XhDMOz5H3uM/view?usp=sharing"
             rel="noreferrer"

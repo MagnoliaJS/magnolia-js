@@ -20,15 +20,12 @@ const Sponsors = () => {
     <Layout>
       <div className="center-text">
         <Head>
-          <title>Sponsors | MagnoliaJS</title>
+          <title>Past Sponsors | MagnoliaJS</title>
         </Head>
-        <h1>Sponsors</h1>
+        <h1>Past Sponsors</h1>
         <p>
           Interested in sponsoring MagnoliaJS 2023?{" "}
-          <Link href="/sponsors/sponsorship-info">
-            Let us know
-          </Link>{" "}
-          or take a look at our{" "}
+          Take a look at our{" "}
           <a
             href="https://drive.google.com/file/d/1T9lM-y1e-QgPFvGFKWd39XhDMOz5H3uM/view?usp=sharing"
             rel="noreferrer"
@@ -39,52 +36,7 @@ const Sponsors = () => {
           !
         </p>
 
-        {sponsors.find((sponsor) => sponsor.tier.name === "Platinum") ? (
-          <>
-            <h2>Platinum Sponsors</h2>
-            {sponsors.map((sponsor) => {
-              if (sponsor.tier.name === "Platinum") {
-                return <Sponsor key={sponsor.name} {...sponsor} />
-              }
-            })}
-          </>
-        ) : null}
-
-        {sponsors.find((sponsor) => sponsor.tier.name === "Gold") ? (
-          <>
-            <h2>Gold Sponsors</h2>
-            {sponsors.map((sponsor) => {
-              if (sponsor.tier.name === "Gold") {
-                return <Sponsor key={sponsor.name} {...sponsor} />
-              }
-            })}
-          </>
-        ) : null}
-
-        {sponsors.find((sponsor) => sponsor.tier.name === "Silver") ? (
-          <>
-            <h2>Silver Sponsors</h2>
-            {sponsors.map((sponsor) => {
-              if (sponsor.tier.name === "Silver") {
-                return <Sponsor key={sponsor.name} {...sponsor} />
-              }
-            })}
-          </>
-        ) : null}
-
-        <h2>Bronze Sponsors</h2>
-        {sponsors.map((sponsor) => {
-          if (sponsor.tier.name === "Bronze") {
-            return <Sponsor key={sponsor.name} {...sponsor} />
-          }
-        })}
-
-        <h2>Community Sponsors</h2>
-        {sponsors.map((sponsor) => {
-          if (sponsor.tier.name === "Community") {
-            return <Sponsor key={sponsor.name} {...sponsor} />
-          }
-        })}
+        {sponsors.map((sponsor) => (<Sponsor key={sponsor.name} {...sponsor} />))}
 
         <p>
           You can also check out our{" "}

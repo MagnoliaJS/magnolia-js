@@ -9,7 +9,11 @@ const Schedule = () => (
       </Head>
       <h1>Schedule</h1>
 
-      <p>Coming soon!</p>
+      <h2>Tuesday, October 17</h2>
+      <p>TBD</p>
+
+      <h2>Wednesday, October 18</h2>
+      <p>TBD</p>
     </div>
   </Layout>
 )
