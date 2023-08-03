@@ -3,6 +3,7 @@ import Speaker from "@/components/Speaker/Speaker"
 import Layout from "@/components/Layout/Layout"
 import { getSpeakers } from "@/sanity/sanity.query"
 import { useEffect, useState } from "react"
+import styles from "./Speakers.module.css"
 
 const Speakers = () => {
   const [speakers, setSpeakers] = useState([])
@@ -25,7 +26,7 @@ const Speakers = () => {
         <h1>Speakers</h1>
         <p>Come learn from such incredibly talented people as:</p>
 
-        <div style={{ display: "flex", flexWrap: "wrap" }}>
+        <div className={styles.speakersList}>
           {speakers
             .sort((a, b) => a.name.localeCompare(b.name))
             .map((speaker) => {
