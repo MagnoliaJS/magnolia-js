@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
   images: {
     remotePatterns: [
@@ -10,6 +10,13 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/tickets',
+        destination: 'https://www.eventbrite.com/e/magnoliajs-2023-tickets-422921328077?aff=website',
+        permanent: true,
+      },
+    ]
+  },
 }
-
-module.exports = nextConfig
