@@ -60,13 +60,8 @@
 @media (min-width: 680px) {
   .speaker {
     text-decoration: none;
-    border-radius: 16px;
     min-height: 250px;
     max-width: 43%;
-  }
-
-  .speaker img {
-    border-radius: 16px 16px 0 0;
   }
 
   .speaker > div:first-of-type {
