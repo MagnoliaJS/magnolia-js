@@ -40,7 +40,7 @@ const Sponsors = () => {
 
         {sponsors.find((sponsor) => sponsor.tier.name === "Platinum") ? (
           <>
-            <h2>Platinum Sponsors</h2>
+            <h2>Platinum Sponsor</h2>
             {sponsors.map((sponsor) => {
               if (sponsor.tier.name === "Platinum") {
                 return <Sponsor key={sponsor.name} {...sponsor} />
@@ -74,6 +74,14 @@ const Sponsors = () => {
         <h2>Bronze Sponsors</h2>
         {sponsors.map((sponsor) => {
           if (sponsor.tier.name === "Bronze") {
+            return <Sponsor key={sponsor.name} {...sponsor} />
+          }
+        })}
+
+        <h2>Werewolf Sponsor</h2>
+        <small>Day 1 Mixer</small>
+        {sponsors.map((sponsor) => {
+          if (sponsor.tier.name === "Werewolf") {
             return <Sponsor key={sponsor.name} {...sponsor} />
           }
         })}
