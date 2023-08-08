@@ -1,4 +1,4 @@
-.menuButton, .closeButton {
+.menuButton {
   display: flex;
   background-color: transparent;
   border: none;
@@ -6,9 +6,10 @@
   position: absolute;
   right: 1rem;
   top: 1rem;
+  z-index: 201;
 }
 
-.menuButton svg, .closeButton svg {
+.menuButton svg {
   fill: white;
   height: 1.5rem;
   padding: 0.25rem;
@@ -46,7 +47,7 @@
 }
 
 .close {
-  transform: translateX(-100%);
+  transform: translateX(100%);
 }
 
 .closeAnimation {
@@ -61,7 +62,7 @@
 
 @keyframes slideIn {
   from {
-    transform: translateX(-100%);
+    transform: translateX(100%);
   }
   to {
     transform: translateX(0);
@@ -73,6 +74,6 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(100%);
   }
 }
