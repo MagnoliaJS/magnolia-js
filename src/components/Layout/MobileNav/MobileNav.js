@@ -26,7 +26,7 @@ const MobileNav = () => {
       {/* TODO: fix this... it's gross. */}
       <div className={`${styles.backdrop} ${menuOpen ? styles.open : isMounted ? styles.closeAnimation : styles.close}`}>
         <ul className={styles.mobileNav}>
-          <li>
+          <li className={styles.logo}>
             <Link href="/">
               <Logo />
             </Link>
