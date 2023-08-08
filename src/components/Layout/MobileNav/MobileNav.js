@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import Logo from "../../UI/Logo/Logo"
 import MenuOpenIcon from "../../UI/icons/MenuOpenIcon"
+import MenuCloseIcon from "../../UI/icons/MenuCloseIcon"
 
 import Backdrop from "./Backdrop/Backdrop"
 import NavItems from "../NavItems/NavItems"
@@ -20,7 +21,7 @@ const MobileNav = () => {
     <>
       <Backdrop clicked={() => setMenuOpen(false)} show={menuOpen} />
       <button className={styles.menuButton} onClick={() => setMenuOpen(!menuOpen)}>
-        <MenuOpenIcon />
+        {menuOpen ? <MenuCloseIcon /> : <MenuOpenIcon />}
       </button>
       {/* TODO: fix this... it's gross. */}
       <div className={`${styles.backdrop} ${menuOpen ? styles.open : isMounted ? styles.closeAnimation : styles.close}`}>

@@ -1,7 +1,7 @@
-import BookClosed from "public/icons/BookClosed.svg"
+import Pumpkin from "public/icons/pumpkin-solid.svg"
 
 const MenuOpenIcon = () => (
-  <BookClosed />
+  <Pumpkin />
 )
 
 export default MenuOpenIcon
