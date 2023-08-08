@@ -7,8 +7,13 @@
   text-decoration: none;
 }
 
-.link img {
+.link:hover {
+  filter: drop-shadow(0px 0px 7px rgb(191, 82, 114));
+}
+
+.link svg {
   margin-left: 0.5rem;
+  height: 1rem;
 }
 
 .listitem {

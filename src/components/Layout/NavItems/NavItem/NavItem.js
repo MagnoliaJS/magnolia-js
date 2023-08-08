@@ -1,7 +1,6 @@
 import Link from "next/link"
-import Image from "next/image"
 
-import externalLink from "public/icons/external-link.svg"
+import ExternalLinkIcon from "@/components/UI/icons/ExternalLinkIcon"
 import styles from "./NavItem.module.css"
 
 const NavItem = (props) => {
@@ -10,7 +9,7 @@ const NavItem = (props) => {
       <li className={styles.listitem}>
         <a href={props.link} className={styles.link} rel="noreferrer" target="_blank">
           {props.children}
-          <Image src={externalLink} alt="Leads to external page." height="16" width="16" />
+          <ExternalLinkIcon />
         </a>
       </li>
     )
