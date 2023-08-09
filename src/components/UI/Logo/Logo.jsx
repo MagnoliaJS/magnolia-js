@@ -1,7 +1,5 @@
-import WhiteSpookyLogo from "public/whiteSpookyLogo.svg"
+import WhiteSpookyLogo from 'public/whiteSpookyLogo.svg'
 
-const Logo = () => (
-  <WhiteSpookyLogo />
-)
+const Logo = () => <WhiteSpookyLogo />
 
 export default Logo

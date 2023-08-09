@@ -1,13 +1,18 @@
-import Link from "next/link"
+import Link from 'next/link'
 
-import ExternalLinkIcon from "@/components/UI/icons/ExternalLinkIcon"
-import styles from "./NavItem.module.css"
+import ExternalLinkIcon from '@/components/UI/icons/ExternalLinkIcon'
+import styles from './NavItem.module.css'
 
 const NavItem = (props) => {
   if (props.external) {
     return (
       <li className={styles.listitem}>
-        <a href={props.link} className={styles.link} rel="noreferrer" target="_blank">
+        <a
+          href={props.link}
+          className={styles.link}
+          rel="noreferrer"
+          target="_blank"
+        >
           {props.children}
           <ExternalLinkIcon />
         </a>

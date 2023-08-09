@@ -1,9 +1,9 @@
-import Head from "next/head"
-import Speaker from "@/components/Speaker/Speaker"
-import Layout from "@/components/Layout/Layout"
-import { getSpeakers } from "@/sanity/sanity.query"
-import { useEffect, useState } from "react"
-import styles from "./Speakers.module.css"
+import Head from 'next/head'
+import Speaker from '@/components/Speaker/Speaker'
+import Layout from '@/components/Layout/Layout'
+import { getSpeakers } from '@/sanity/sanity.query'
+import { useEffect, useState } from 'react'
+import styles from './Speakers.module.css'
 
 const Speakers = () => {
   const [speakers, setSpeakers] = useState([])

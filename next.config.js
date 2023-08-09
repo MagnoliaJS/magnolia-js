@@ -14,7 +14,8 @@ module.exports = {
     return [
       {
         source: '/tickets',
-        destination: 'https://www.eventbrite.com/e/magnoliajs-2023-tickets-422921328077?aff=website',
+        destination:
+          'https://www.eventbrite.com/e/magnoliajs-2023-tickets-422921328077?aff=website',
         permanent: true,
       },
     ]

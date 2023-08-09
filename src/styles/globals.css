@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
 
 * {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
 }
 
 a {
@@ -49,6 +49,12 @@ tbody tr:nth-child(odd) {
 
 .center-text {
   text-align: center;
+}
+
+.center-text p {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .split-view,

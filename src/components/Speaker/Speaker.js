@@ -1,7 +1,7 @@
-import Image from "next/image"
-import Link from "next/link"
-import styles from "./Speaker.module.css"
-import twitter from "public/icons/twitter.svg"
+import Image from 'next/image'
+import Link from 'next/link'
+import styles from './Speaker.module.css'
+import twitter from 'public/icons/twitter.svg'
 
 const Speaker = (props) => {
   console.log(props)
@@ -19,12 +19,25 @@ const Speaker = (props) => {
       ) : null}
       <div className={styles.info}>
         <div className={styles.basic}>
-          <h2 className={styles.name}>{props.name} <span className={styles.pronouns}>({props.pronouns})</span></h2>
+          <h2 className={styles.name}>
+            {props.name}{' '}
+            <span className={styles.pronouns}>({props.pronouns})</span>
+          </h2>
           <span className={styles.title}>{props.title}</span>
         </div>
         {props.twitter ? (
-          <a href={`https://twitter.com/${props.twitter}`} rel="noreferrer" target="_blank">
-            <Image src={twitter} alt={`link to ${props.name}'s Twitter account.`} height="16" width="16" /> @{props.twitter}
+          <a
+            href={`https://twitter.com/${props.twitter}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <Image
+              src={twitter}
+              alt={`link to ${props.name}'s Twitter account.`}
+              height="16"
+              width="16"
+            />{' '}
+            @{props.twitter}
           </a>
         ) : null}
       </div>

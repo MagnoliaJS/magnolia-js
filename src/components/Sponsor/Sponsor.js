@@ -1,10 +1,15 @@
-import Image from "next/image"
+import Image from 'next/image'
 
-import styles from "./Sponsor.module.css"
+import styles from './Sponsor.module.css'
 
 const Sponsor = (props) => {
   return (
-    <a href={props.link} className={styles.sponsor} rel="noreferrer" target="_blank">
+    <a
+      href={props.link}
+      className={styles.sponsor}
+      rel="noreferrer"
+      target="_blank"
+    >
       {props.logo ? (
         <Image
           src={props.logo.image}

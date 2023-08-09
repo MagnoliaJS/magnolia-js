@@ -1,5 +1,5 @@
-import Layout from "@/components/Layout/Layout"
-import Head from "next/head"
+import Layout from '@/components/Layout/Layout'
+import Head from 'next/head'
 
 const Venue = () => (
   <Layout>
@@ -12,29 +12,39 @@ const Venue = () => (
       <div>
         <h3>
           380 South Lamar Street, Jackson MS 39201 (
-          <a href="https://goo.gl/maps/qLrLWjCeUuJHKLFMA" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://goo.gl/maps/qLrLWjCeUuJHKLFMA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Map Link
           </a>
           )
         </h3>
         <p>
-          From the{" "}
-          <a href="https://www.msmuseumart.org/" target="_blank" rel="noopener noreferrer">
+          From the{' '}
+          <a
+            href="https://www.msmuseumart.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             museum&apos;s website:
           </a>
         </p>
         <p>
           <i>
-            The Mississippi Museum of Art is more than an art museum in Jackson, Mississippi. It is
-            a museum of Mississippi—a museum that connects Mississippians to our culture, our
-            history, our communities, and to each other. It is a museum informed by the legacy of
-            our past and emboldened by a vision of a future without division.
+            The Mississippi Museum of Art is more than an art museum in Jackson,
+            Mississippi. It is a museum of Mississippi—a museum that connects
+            Mississippians to our culture, our history, our communities, and to
+            each other. It is a museum informed by the legacy of our past and
+            emboldened by a vision of a future without division.
           </i>
         </p>
         <p>
-          We&apos;re excited to host MagnoliaJS 2022 at the Mississippi Museum of Art in their beautiful
-          event space. Attendees will also have the ability to enjoy the museum&apos;s collection of
-          Mississippi art during the event.
+          We&apos;re excited to host MagnoliaJS 2022 at the Mississippi Museum
+          of Art in their beautiful event space. Attendees will also have the
+          ability to enjoy the museum&apos;s collection of Mississippi art
+          during the event.
         </p>
       </div>
       <iframe
@@ -49,27 +59,35 @@ const Venue = () => (
     <h2>Conference Hotel - The Westin Jackson</h2>
     <h3>
       407 S Congress St, Jackson, MS 39201 (
-      <a href="https://g.page/WestinJackson?share" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://g.page/WestinJackson?share"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Map Link
       </a>
       )
     </h3>
-    <p>Details and room block coming soon!</p>
+    <p>
+      The Westin Jackson is the closest hotel to the venue - just steps away
+      from the MS Museum of Art. We don&apos;t currently have a room block
+      reserved, but if there is interest we can do so.
+    </p>
     <hr />
     <h2>Travel Info</h2>
     <p>
-      <strong>Flying in?</strong> Nearest Airport - Jackson-Medgar Wiley Evers International Airport
-      (JAN)
+      <strong>Flying in?</strong> Nearest Airport - Jackson-Medgar Wiley Evers
+      International Airport (JAN)
     </p>
     <p>
       <strong>Road trip?</strong> Driving times from:
-      <ul>
-        <li>New Orleans - 2 hrs 45 min</li>
-        <li>Memphis - 3 hrs</li>
-        <li>Atlanta - 5 hrs 30mins</li>
-        <li>Dallas - 6 hrs</li>
-      </ul>
     </p>
+    <ul>
+      <li>New Orleans - 2 hrs 45 min</li>
+      <li>Memphis - 3 hrs</li>
+      <li>Atlanta - 5 hrs 30mins</li>
+      <li>Dallas - 6 hrs</li>
+    </ul>
   </Layout>
 )
 

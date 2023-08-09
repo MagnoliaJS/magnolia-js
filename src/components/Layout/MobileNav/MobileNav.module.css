@@ -56,7 +56,9 @@
 }
 
 @media screen and (min-width: 840px) {
-  .mobileNav, .menuButton, .open {
+  .mobileNav,
+  .menuButton,
+  .open {
     display: none;
   }
 }
