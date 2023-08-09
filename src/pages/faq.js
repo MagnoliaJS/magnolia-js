@@ -1,6 +1,6 @@
-import Layout from "@/components/Layout/Layout"
-import Head from "next/head"
-import Link from "next/link"
+import Layout from '@/components/Layout/Layout'
+import Head from 'next/head'
+import Link from 'next/link'
 
 const Faq = () => (
   <Layout>
@@ -18,10 +18,10 @@ const Faq = () => (
     <h3>Will the conference be streamed again this year?</h3>
     <p>
       <strong>YES,</strong> we will be streaming MagnoliaJS 2023! The event will
-      be streamed via YouTube this year. Register for a FREE{" "}
+      be streamed via YouTube this year. Register for a FREE{' '}
       <a href="/tickets" rel="noreferrer" target="_blank">
         virtual conference ticket
-      </a>{" "}
+      </a>{' '}
       to get the link when it is available (roughly 24 hours before the event
       begins).
     </p>
@@ -49,7 +49,7 @@ const Faq = () => (
       Why <em>Magnolia</em>JS?
     </h3>
     <p>
-      The Magnolia is the{" "}
+      The Magnolia is the{' '}
       <a
         href="https://www.sos.ms.gov/content/documents/ed_pubs/pubs/MS%20Symbol%20Sheet%20New%20Seal%202015.pdf"
         rel="noreferrer"
@@ -62,14 +62,14 @@ const Faq = () => (
       flag.
     </p>
     <p>
-      For MagnoliaJS 2021, we created{" "}
+      For MagnoliaJS 2021, we created{' '}
       <a
         href="https://buy.stripe.com/fZe3en3sR4xkcYU6op"
         rel="noreferrer"
         target="_blank"
       >
         stickers featuring the new flag
-      </a>{" "}
+      </a>{' '}
       for the state of Mississippi and sent them to Mississippi residents. Those
       are now available for purchase to help fund future events!
     </p>
@@ -79,7 +79,7 @@ const Faq = () => (
     <p>
       YES! We&apos;re looking forward to seeing everyone in Jackson this year!
       We&apos;ll be hosting the event at the Mississippi Museum of Art. To learn
-      more about the venue and travel, visit our{" "}
+      more about the venue and travel, visit our{' '}
       <Link href="/venue">Venue and Travel page.</Link>
     </p>
 

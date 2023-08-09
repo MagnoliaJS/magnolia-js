@@ -1,4 +1,4 @@
-import Twitter from "public/icons/twitter.svg"
+import Twitter from 'public/icons/twitter.svg'
 
 const TwitterIcon = () => <Twitter />
 

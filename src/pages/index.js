@@ -1,8 +1,8 @@
-import Head from "next/head"
-import Link from "next/link"
-import Image from "next/image"
-import Layout from "@/components/Layout/Layout"
-import magnoliajs2022 from "public/MagnoliaJS2022Main.jpeg"
+import Head from 'next/head'
+import Link from 'next/link'
+import Image from 'next/image'
+import Layout from '@/components/Layout/Layout'
+import magnoliajs2022 from 'public/MagnoliaJS2022Main.jpeg'
 
 const Home = () => (
   <Layout>
@@ -20,7 +20,7 @@ const Home = () => (
       />
       <p>
         Get ready for a special Halloween-edition MagnoliaJS 2023! Check out our
-        list of amazing <Link href="/speakers">speakers</Link> and thank our{" "}
+        list of amazing <Link href="/speakers">speakers</Link> and thank our{' '}
         <Link href="/sponsors">sponsors</Link> for making this event possible!
         Join us October 17-18, 2023 at the Mississippi Museum of Art in Jackson,
         MS for a spooky-good time!
@@ -43,15 +43,15 @@ const Home = () => (
         Serverless, Accessibility, Performance, Testing, and more.
       </p>
       <p>
-        MagnoliaJS is organized by native Mississippians,{" "}
+        MagnoliaJS is organized by native Mississippians,{' '}
         <a
           href="https://twitter.com/_KaylaSween"
           target="_blank"
           rel="noreferrer"
         >
           Kayla
-        </a>{" "}
-        and{" "}
+        </a>{' '}
+        and{' '}
         <a
           href="https://twitter.com/_RichardSween"
           target="_blank"
@@ -59,7 +59,7 @@ const Home = () => (
         >
           Richard Sween
         </a>
-        {", "}
+        {', '}
         who are passionate supporting the developer community in the heart of
         the Hospitality State. We are supported by our generous sponsors, who
         help us keep the ticket prices affordable and provide scholarships for
@@ -85,7 +85,7 @@ const Home = () => (
       <h2>Previous Years</h2>
       <p>
         If you&apos;d like to see the talks from MagnoliaJS 2021 and 2022, check
-        out{" "}
+        out{' '}
         <a
           href="https://www.youtube.com/@magnoliajs/playlists"
           target="_blank"
@@ -98,16 +98,16 @@ const Home = () => (
 
       <h2>Sponsorship Opportunities</h2>
       <p>
-        Feel free to take a look at our{" "}
+        Feel free to take a look at our{' '}
         <a
           href="https://drive.google.com/file/d/1T9lM-y1e-QgPFvGFKWd39XhDMOz5H3uM/view?usp=sharing"
           rel="noreferrer"
           target="_blank"
         >
           sponsorship prospectus
-        </a>{" "}
+        </a>{' '}
         to learn more about sponsorship opportunities for MagnoliaJS 2023 and
-        please let us know if your company is{" "}
+        please let us know if your company is{' '}
         <Link href="/sponsors/sponsorship-info">interested in sponsoring</Link>!
       </p>
     </div>

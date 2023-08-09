@@ -1,7 +1,7 @@
-import Image from "next/image"
-import Link from "next/link"
-import styles from "./Speaker.module.css"
-import twitter from "public/icons/twitter.svg"
+import Image from 'next/image'
+import Link from 'next/link'
+import styles from './Speaker.module.css'
+import twitter from 'public/icons/twitter.svg'
 
 const Speaker = (props) => {
   console.log(props)
@@ -20,7 +20,7 @@ const Speaker = (props) => {
       <div className={styles.info}>
         <div className={styles.basic}>
           <h2 className={styles.name}>
-            {props.name}{" "}
+            {props.name}{' '}
             <span className={styles.pronouns}>({props.pronouns})</span>
           </h2>
           <span className={styles.title}>{props.title}</span>
@@ -36,7 +36,7 @@ const Speaker = (props) => {
               alt={`link to ${props.name}'s Twitter account.`}
               height="16"
               width="16"
-            />{" "}
+            />{' '}
             @{props.twitter}
           </a>
         ) : null}

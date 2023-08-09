@@ -1,10 +1,10 @@
-import Head from "next/head"
-import ErrorComponent from "next/error"
-import Layout from "../components/Layout/Layout"
+import Head from 'next/head'
+import ErrorComponent from 'next/error'
+import Layout from '../components/Layout/Layout'
 
 export default function Page404() {
   const statusCode = 404
-  const title = "This page could not be found"
+  const title = 'This page could not be found'
   return (
     <Layout>
       <Head>

@@ -1,5 +1,5 @@
-import Layout from "@/components/Layout/Layout"
-import Head from "next/head"
+import Layout from '@/components/Layout/Layout'
+import Head from 'next/head'
 
 const Venue = () => (
   <Layout>
@@ -22,7 +22,7 @@ const Venue = () => (
           )
         </h3>
         <p>
-          From the{" "}
+          From the{' '}
           <a
             href="https://www.msmuseumart.org/"
             target="_blank"

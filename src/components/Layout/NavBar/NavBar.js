@@ -1,5 +1,5 @@
-import NavItems from "../NavItems/NavItems"
-import styles from "./NavBar.module.css"
+import NavItems from '../NavItems/NavItems'
+import styles from './NavBar.module.css'
 
 const NavBar = () => {
   return (

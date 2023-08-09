@@ -1,4 +1,4 @@
-import ExternalLink from "public/icons/external-link.svg"
+import ExternalLink from 'public/icons/external-link.svg'
 
 const ExternalLinkIcon = () => <ExternalLink />
 

@@ -1,9 +1,9 @@
-import { createClient } from "@sanity/client"
+import { createClient } from '@sanity/client'
 
 const config = {
-  projectId: "40ricksp",
-  dataset: "production",
-  apiVersion: "2023-08-02",
+  projectId: '40ricksp',
+  dataset: 'production',
+  apiVersion: '2023-08-02',
   useCdn: false,
 }
 

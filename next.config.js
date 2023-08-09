@@ -4,27 +4,27 @@ module.exports = {
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "cdn.sanity.io",
-        port: "",
+        protocol: 'https',
+        hostname: 'cdn.sanity.io',
+        port: '',
       },
     ],
   },
   async redirects() {
     return [
       {
-        source: "/tickets",
+        source: '/tickets',
         destination:
-          "https://www.eventbrite.com/e/magnoliajs-2023-tickets-422921328077?aff=website",
+          'https://www.eventbrite.com/e/magnoliajs-2023-tickets-422921328077?aff=website',
         permanent: true,
       },
-    ];
+    ]
   },
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>
-      rule.test?.test?.(".svg")
-    );
+      rule.test?.test?.('.svg'),
+    )
 
     config.module.rules.push(
       // Reapply the existing rule, but only for svg imports ending in ?url
@@ -38,13 +38,13 @@ module.exports = {
         test: /\.svg$/i,
         issuer: /\.[jt]sx?$/,
         resourceQuery: { not: /url/ }, // exclude if *.svg?url
-        use: ["@svgr/webpack"],
-      }
-    );
+        use: ['@svgr/webpack'],
+      },
+    )
 
     // Modify the file loader rule to ignore *.svg, since we have it handled now.
-    fileLoaderRule.exclude = /\.svg$/i;
+    fileLoaderRule.exclude = /\.svg$/i
 
-    return config;
+    return config
   },
-};
+}

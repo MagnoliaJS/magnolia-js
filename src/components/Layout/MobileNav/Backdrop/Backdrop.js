@@ -1,4 +1,4 @@
-import styles from "./Backdrop.module.css"
+import styles from './Backdrop.module.css'
 
 const backdrop = (props) =>
   props.show ? (

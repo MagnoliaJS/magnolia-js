@@ -1,11 +1,11 @@
-import Link from "next/link"
+import Link from 'next/link'
 
-import styles from "./Layout.module.css"
-import NavBar from "./NavBar/NavBar"
-import MobileNav from "./MobileNav/MobileNav"
-import Logo from "../UI/Logo/Logo"
-import TwitterIcon from "../UI/icons/TwitterIcon"
-import YouTubeIcon from "../UI/icons/YouTubeIcon"
+import styles from './Layout.module.css'
+import NavBar from './NavBar/NavBar'
+import MobileNav from './MobileNav/MobileNav'
+import Logo from '../UI/Logo/Logo'
+import TwitterIcon from '../UI/icons/TwitterIcon'
+import YouTubeIcon from '../UI/icons/YouTubeIcon'
 
 const Layout = (props) => (
   <>

@@ -1,7 +1,7 @@
-import Link from "next/link"
+import Link from 'next/link'
 
-import ExternalLinkIcon from "@/components/UI/icons/ExternalLinkIcon"
-import styles from "./NavItem.module.css"
+import ExternalLinkIcon from '@/components/UI/icons/ExternalLinkIcon'
+import styles from './NavItem.module.css'
 
 const NavItem = (props) => {
   if (props.external) {

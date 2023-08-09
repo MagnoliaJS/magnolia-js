@@ -1,5 +1,5 @@
-import Head from "next/head"
-import Layout from "@/components/Layout/Layout"
+import Head from 'next/head'
+import Layout from '@/components/Layout/Layout'
 
 const Covid = () => (
   <Layout>
@@ -40,10 +40,10 @@ const Covid = () => (
         surfaces.
       </li>
       <li>
-        We will have{" "}
+        We will have{' '}
         <a href="https://molekule.com" rel="noreferrer" target="_blank">
           Molekule air purifiers
-        </a>{" "}
+        </a>{' '}
         around the venue.
       </li>
       <li>
@@ -59,7 +59,7 @@ const Covid = () => (
       <li>You have tested positive for COVID-19, or</li>
       <li>
         You have experienced fever, cough, shortness of breath, or any other
-        symptoms listed on the{" "}
+        symptoms listed on the{' '}
         <a
           href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html"
           target="_blank"
@@ -77,7 +77,7 @@ const Covid = () => (
     <p>
       <strong>
         Please note that this policy may change as the situation does.
-      </strong>{" "}
+      </strong>{' '}
       Failure to abide by the MagnoliaJS COVID policy will result in your
       removal from the event without refund. The MagnoliaJS team will continue
       to monitor CDC recommendations as well as local conditions and update this

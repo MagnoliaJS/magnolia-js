@@ -1,11 +1,11 @@
-import Head from "next/head"
-import Image from "next/image"
-import { useRouter } from "next/router"
-import Layout from "@/components/Layout/Layout"
-import { getSpeaker } from "@/sanity/sanity.query"
-import { useEffect, useState } from "react"
-import { PortableText } from "@portabletext/react"
-import styles from "./SpeakerPage.module.css"
+import Head from 'next/head'
+import Image from 'next/image'
+import { useRouter } from 'next/router'
+import Layout from '@/components/Layout/Layout'
+import { getSpeaker } from '@/sanity/sanity.query'
+import { useEffect, useState } from 'react'
+import { PortableText } from '@portabletext/react'
+import styles from './SpeakerPage.module.css'
 
 const SpeakerPage = () => {
   const router = useRouter()

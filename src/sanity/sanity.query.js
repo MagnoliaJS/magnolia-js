@@ -1,5 +1,5 @@
-import { groq } from "next-sanity"
-import client from "./sanity.client"
+import { groq } from 'next-sanity'
+import client from './sanity.client'
 
 export async function getSpeakers() {
   return client.fetch(

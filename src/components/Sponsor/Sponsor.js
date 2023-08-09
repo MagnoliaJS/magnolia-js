@@ -1,6 +1,6 @@
-import Image from "next/image"
+import Image from 'next/image'
 
-import styles from "./Sponsor.module.css"
+import styles from './Sponsor.module.css'
 
 const Sponsor = (props) => {
   return (

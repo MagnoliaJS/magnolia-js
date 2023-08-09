@@ -1,5 +1,5 @@
-import Head from "next/head"
-import Layout from "../components/Layout/Layout"
+import Head from 'next/head'
+import Layout from '../components/Layout/Layout'
 
 const Conduct = () => (
   <Layout>
@@ -38,7 +38,7 @@ const Conduct = () => (
       sexual attention.
     </p>
     <p>
-      Participants asked to stop any harassing behavior are expected to comply{" "}
+      Participants asked to stop any harassing behavior are expected to comply{' '}
       <strong>immediately</strong>.
     </p>
     <p>
@@ -74,13 +74,13 @@ const Conduct = () => (
     </p>
     <p>
       <strong>
-        If you notice any violation of the code of conduct, please report it to{" "}
+        If you notice any violation of the code of conduct, please report it to{' '}
         <a href="mailto:conduct@magnoliajs.com">Kayla Sween</a> immediately.
       </strong>
     </p>
     <p>
       <em>
-        This code of conduct was expanded on and is originally from{" "}
+        This code of conduct was expanded on and is originally from{' '}
         <a href="https://confcodeofconduct.com">Conference Code of Conduct</a>.
       </em>
     </p>
