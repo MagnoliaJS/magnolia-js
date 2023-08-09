@@ -70,8 +70,8 @@ const Venue = () => (
     </h3>
     <p>
       The Westin Jackson is the closest hotel to the venue - just steps away
-      from the MS Museum of Art. We don't currently have a room block reserved,
-      but if there is interest we can do so.
+      from the MS Museum of Art. We don&apos;t currently have a room block
+      reserved, but if there is interest we can do so.
     </p>
     <hr />
     <h2>Travel Info</h2>
