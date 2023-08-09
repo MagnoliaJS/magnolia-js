@@ -20,11 +20,22 @@ const MobileNav = () => {
   return (
     <>
       <Backdrop clicked={() => setMenuOpen(false)} show={menuOpen} />
-      <button className={styles.menuButton} onClick={() => setMenuOpen(!menuOpen)}>
+      <button
+        className={styles.menuButton}
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
         {menuOpen ? <MenuCloseIcon /> : <MenuOpenIcon />}
       </button>
       {/* TODO: fix this... it's gross. */}
-      <div className={`${styles.backdrop} ${menuOpen ? styles.open : isMounted ? styles.closeAnimation : styles.close}`}>
+      <div
+        className={`${styles.backdrop} ${
+          menuOpen
+            ? styles.open
+            : isMounted
+            ? styles.closeAnimation
+            : styles.close
+        }`}
+      >
         <ul className={styles.mobileNav}>
           <li className={styles.logo}>
             <Link href="/">
@@ -34,7 +45,6 @@ const MobileNav = () => {
           <NavItems />
         </ul>
       </div>
-
     </>
   )
 }

@@ -30,7 +30,9 @@ const SpeakerPage = () => {
         <Head>
           <title>{speaker && `${speaker.name} | `}Speakers | MagnoliaJS</title>
         </Head>
-        {!speaker ? <h1>Loading...</h1> : (
+        {!speaker ? (
+          <h1>Loading...</h1>
+        ) : (
           <>
             <div className={styles.heading}>
               <h1 className={styles.name}>{speaker.name}</h1>
@@ -47,7 +49,11 @@ const SpeakerPage = () => {
             />
             <p>{speaker.title}</p>
             {speaker.twitter ? (
-              <a href={`https://twitter.com/${speaker.twitter}`} rel="noreferrer" target="_blank">
+              <a
+                href={`https://twitter.com/${speaker.twitter}`}
+                rel="noreferrer"
+                target="_blank"
+              >
                 @{speaker.twitter}
               </a>
             ) : null}
@@ -63,7 +69,6 @@ const SpeakerPage = () => {
             </div>
           </>
         )}
-
       </div>
     </Layout>
   )

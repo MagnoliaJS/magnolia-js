@@ -7,7 +7,12 @@ const NavItem = (props) => {
   if (props.external) {
     return (
       <li className={styles.listitem}>
-        <a href={props.link} className={styles.link} rel="noreferrer" target="_blank">
+        <a
+          href={props.link}
+          className={styles.link}
+          rel="noreferrer"
+          target="_blank"
+        >
           {props.children}
           <ExternalLinkIcon />
         </a>

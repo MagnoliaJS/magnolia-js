@@ -6,6 +6,11 @@
   margin: 0.5rem 0.5rem 2rem 0.5rem;
 }
 
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+}
+
 .footerlink {
   color: #ebebeb;
   text-decoration: none;

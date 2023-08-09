@@ -12,7 +12,9 @@ const Sponsors = () => {
     const fetchSponsors = async () => {
       const sponsors = await getSponsors()
       // probably can do this with groq
-      const currentSponsors = sponsors.filter((sponsor) => sponsor.year === 2023)
+      const currentSponsors = sponsors.filter(
+        (sponsor) => sponsor.year === 2023,
+      )
       setSponsors(currentSponsors)
     }
 
@@ -26,8 +28,7 @@ const Sponsors = () => {
         </Head>
         <h1>Sponsors</h1>
         <p>
-          Interested in sponsoring MagnoliaJS 2023?{" "}
-          Take a look at our{" "}
+          Interested in sponsoring MagnoliaJS 2023? Take a look at our{" "}
           <a
             href="https://drive.google.com/file/d/1T9lM-y1e-QgPFvGFKWd39XhDMOz5H3uM/view?usp=sharing"
             rel="noreferrer"
@@ -95,10 +96,7 @@ const Sponsors = () => {
 
         <p>
           You can also check out our{" "}
-          <Link href="/sponsors/past-sponsors">
-            past sponsors
-          </Link>
-          !
+          <Link href="/sponsors/past-sponsors">past sponsors</Link>!
         </p>
       </div>
     </Layout>

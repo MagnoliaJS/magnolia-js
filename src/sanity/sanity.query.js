@@ -11,7 +11,7 @@ export async function getSpeakers() {
       photo {alt, "image": asset->url},
       twitter,
       pronouns,
-    }`
+    }`,
   )
 }
 
@@ -28,7 +28,7 @@ export async function getSpeaker(slug) {
       talkTitle,
       talkDescription
     }`,
-    { slug }
+    { slug },
   )
 }
 
@@ -41,6 +41,6 @@ export async function getSponsors() {
       year,
       tier->,
       logo {alt, "image": asset->url},
-    }`
+    }`,
   )
 }
