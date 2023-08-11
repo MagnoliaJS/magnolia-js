@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import styles from "./Speaker.module.css"
-import twitter from "public/icons/twitter.svg"
+import TwitterIcon from "../UI/icons/TwitterIcon"
 
 const Speaker = (props) => {
   console.log(props)
@@ -24,7 +24,7 @@ const Speaker = (props) => {
         </div>
         {props.twitter ? (
           <a href={`https://twitter.com/${props.twitter}`} rel="noreferrer" target="_blank">
-            <Image src={twitter} alt={`link to ${props.name}'s Twitter account.`} height="16" width="16" /> @{props.twitter}
+            <TwitterIcon /> @{props.twitter}
           </a>
         ) : null}
       </div>
