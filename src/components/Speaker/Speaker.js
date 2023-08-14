@@ -19,11 +19,11 @@ const Speaker = (props) => {
       ) : null}
       <div className={styles.info}>
         <div className={styles.basic}>
-          <h2 className={styles.name}>{props.name} <span className={styles.pronouns}>({props.pronouns})</span></h2>
+          <h2 className={styles.name}>{props.name} {props.pronouns ? (<span className={styles.pronouns}>({props.pronouns})</span>) : null}</h2>
           <span className={styles.title}>{props.title}</span>
         </div>
         {props.twitter ? (
-          <a href={`https://twitter.com/${props.twitter}`} rel="noreferrer" target="_blank">
+          <a href={`https://twitter.com/${props.twitter}`} rel="noreferrer" target="_blank" className={styles.twitter}>
             <TwitterIcon /> @{props.twitter}
           </a>
         ) : null}

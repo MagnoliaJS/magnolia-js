@@ -29,6 +29,17 @@
   padding: 1rem;
 }
 
+.info a {
+  display: flex;
+  align-items: center;
+}
+
+.info svg {
+  height: 1rem;
+  fill: black;
+  margin-right: 0.25rem;
+}
+
 .basic {
   margin-bottom: 0.5rem;
 }
@@ -51,10 +62,6 @@
 .title {
   text-transform: uppercase;
   font-size: 0.8rem;
-}
-
-.twitterLogo {
-  fill: black;
 }
 
 @media (min-width: 680px) {
