@@ -13,7 +13,7 @@ const Home = () => (
       <h1>MagnoliaJS coming to you October 17-18, 2023!</h1>
       <Image
         src={magnoliajs2022}
-        alt="Audience listening to Ken Wheeler speak at MagnoliaJS 2019."
+        alt="Audience at MagnoliaJS 2022."
         placeholder="blur"
         loading="lazy"
         layout="intrinsic"
