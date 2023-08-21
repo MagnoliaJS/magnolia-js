@@ -44,3 +44,49 @@ export async function getSponsors() {
     }`
   )
 }
+
+export async function getRecCategories() {
+  return client.fetch(
+    groq`*[_type == "recommendationType"]{
+      _id,
+      name,
+    }`
+  )
+}
+
+export async function getRecSubCategories() {
+  return client.fetch(
+    groq`*[_type == "recommendationSubType"]{
+      _id,
+      name,
+      parentType->,
+    }`
+  )
+}
+
+export async function getRecommendations() {
+  return client.fetch(
+    groq`*[_type == "recommendation"]{
+      _id,
+      name,
+      link,
+      description,
+      recommendationType->,
+      recommendationSubType->,
+    }`
+  )
+}
+
+export async function getRecommendationsForCategory(category) {
+  return client.fetch(
+    groq`*[_type == "recommendation" && recommendationType._ref == $recommendationType]{
+      _id,
+      name,
+      link,
+      description,
+      recommendationType->,
+      recommendationSubType->,
+    }`,
+    { category }
+  )
+}
