@@ -68,6 +68,16 @@ tbody tr:nth-child(odd) {
   width: 100%;
 }
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 @media (min-width: 1024px) {
   .split-view {
     display: grid;
