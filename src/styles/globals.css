@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
 
+:root {
+  --magnoliajs-pink: #bf5272;
+}
+
+
 * {
   font-family: "Source Sans 3", sans-serif;
 }
 
 a {
-  color: rgba(191, 82, 114);
+  color: var(--magnoliajs-pink);
 }
 
 body {
@@ -22,11 +27,11 @@ h1 {
 hr {
   margin: 2rem 1rem;
   border: none;
-  border-top: 1px solid rgba(191, 82, 114);
+  border-top: 1px solid var(--magnoliajs-pink);
 }
 
 table {
-  border: 3px solid rgba(191, 82, 114);
+  border: 3px solid var(--magnoliajs-pink);
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
