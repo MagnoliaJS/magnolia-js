@@ -38,10 +38,10 @@ const Sponsors = () => {
           !
         </p>
 
-        <h2>Werewolf Sponsor</h2>
-        <small>Day 1 Mixer</small>
+        <h2>Ghost Sponsor</h2>
+        <small>Streaming</small>
         {sponsors.map((sponsor) => {
-          if (sponsor.tier.name === "Werewolf") {
+          if (sponsor.tier.name === "Ghost") {
             return <Sponsor key={sponsor.name} {...sponsor} />
           }
         })}
