@@ -89,7 +89,7 @@ const Schedule = () => (
           </tr>
           <tr>
             <td>2:45pm</td>
-            <td><Link href="/speakers/pato-vargas">From Chaos to Order: How React Monorepos Can Simplify Your Codebase w/ Pato Vargas</Link></td>
+            <td><Link href="/speakers/patricio-vargas">From Chaos to Order: How React Monorepos Can Simplify Your Codebase w/ Pato Vargas</Link></td>
           </tr>
           <tr>
             <td>3:15pm</td>
@@ -149,7 +149,7 @@ const Schedule = () => (
           </tr>
           <tr>
             <td>9:50am</td>
-            <td><Link href="/speakers/mo-daniel">How to Learn Technical Skills Effectively w/ Mo Daniel</Link></td>
+            <td><Link href="/speakers/modupeoluwa-daniel">How to Learn Technical Skills Effectively w/ Mo Daniel</Link></td>
           </tr>
           <tr>
             <td>10:10am</td>
