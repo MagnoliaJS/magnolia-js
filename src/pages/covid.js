@@ -23,7 +23,7 @@ const Covid = () => (
     <ul>
       <li>
         Masks are recommended, but not required. N95 masks will be provided for all attendees free
-        of charge at check-in.
+        of charge at check-in if desired.
       </li>
       <li>
         Hand sanitizer will be available at check-in, at meal service, and at various locations
