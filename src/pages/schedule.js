@@ -185,7 +185,7 @@ const Schedule = () => (
           </tr>
           <tr>
             <td>1:35pm</td>
-            <td><Link href="/speakers/michael-liendo">Want to Moonlight While Employed? Let’s Get SaaSy! w/ Michael Liendo</Link></td>
+            <td><Link href="/speakers/michael-liendo">Want to Moonlight While Employed? Let&apos;s Get SaaSy! w/ Michael Liendo</Link></td>
           </tr>
           <tr>
             <td>2:05pm</td>
@@ -193,7 +193,7 @@ const Schedule = () => (
           </tr>
           <tr>
             <td>2:10pm</td>
-            <td><Link href="/speakers/valarie-regas">If it isn't hot, it doesn't deliver: Apache Pinot, Food Delivery and why real-time analytics matter. w/ Valarie Regas</Link></td>
+            <td><Link href="/speakers/valarie-regas">If it isn&apos;t hot, it doesn&apos;t deliver: Apache Pinot, Food Delivery and why real-time analytics matter. w/ Valarie Regas</Link></td>
           </tr>
           <tr>
             <td>2:40pm</td>
