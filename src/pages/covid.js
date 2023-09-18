@@ -8,6 +8,10 @@ const Covid = () => (
     </Head>
     <h1>COVID-19 Policy</h1>
     <p>
+      <strong>TLDR</strong>: please don&apos;t come to MagnoliaJS if you&apos;re sick, even if it&apos;s not COVID.
+      Join us when you feel better. 🧡
+    </p>
+    <p>
       The health and safety of our attendees, speakers, sponsors, and vendors is our number one
       priority. As such, this policy may change as we get closer to the event.
     </p>
@@ -17,10 +21,6 @@ const Covid = () => (
       conference:
     </p>
     <ul>
-      <li>
-        Rapid testing will be required at the venue each morning. Attendees, speakers, sponsors, and
-        volunteers must have a negative rapid test to enter the venue each day.
-      </li>
       <li>
         Masks are recommended, but not required. N95 masks will be provided for all attendees free
         of charge at check-in.
@@ -63,10 +63,7 @@ const Covid = () => (
         result.
       </li>
     </ul>
-    <p>
-      <strong>TLDR</strong>: please don&apos;t come to MagnoliaJS if you&apos;re sick, even if it&apos;s not COVID.
-      Join us when you feel better. 🧡
-    </p>
+
     <p>
       <strong>Please note that this policy may change as the situation does.</strong> Failure to
       abide by the MagnoliaJS COVID policy will result in your removal from the event without
