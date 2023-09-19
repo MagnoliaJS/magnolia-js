@@ -54,7 +54,7 @@ table td {
 }
 
 table tr th:nth-child(1) {
-  width: 10%;
+  width: 20%;
 }
 
 table tr td:nth-child(2) {
@@ -103,5 +103,8 @@ tbody tr:nth-child(odd) {
   }
   table {
     width: 75%;
+  }
+  table tr th:nth-child(1) {
+    width: 10%;
   }
 }
