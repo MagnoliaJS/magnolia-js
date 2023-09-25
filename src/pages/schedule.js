@@ -156,27 +156,19 @@ const Schedule = () => (
             <td>Break</td>
           </tr>
           <tr>
-            <td>10:15am</td>
-            <td><Link href="/speakers/lizzie-siegle">Understanding LangChain Agents and Tools with Twilio (or with SMS) w/ Lizzie Siegle</Link></td>
-          </tr>
-          <tr>
-            <td>10:45am</td>
-            <td>Break</td>
-          </tr>
-          <tr>
-            <td>10:50am</td>
+            <td>10:25am</td>
             <td><Link href="/speakers/blake-watson">The Joys of Home-Cooked Apps w/ Blake Watson</Link></td>
           </tr>
           <tr>
-            <td>11:20am</td>
+            <td>10:55am</td>
             <td>Break</td>
           </tr>
           <tr>
-            <td>11:25am</td>
+            <td>11:00am</td>
             <td><Link href="/speakers/mark-noonan">The Testing Sea Monster: a whale of a tale about front-end testing w/ Mark Noonan</Link></td>
           </tr>
           <tr>
-            <td>12:00pm</td>
+            <td>11:30am</td>
             <td>Lunch</td>
           </tr>
           <tr>
@@ -200,27 +192,19 @@ const Schedule = () => (
             <td>Break</td>
           </tr>
           <tr>
-            <td>2:45pm</td>
-            <td><Link href="/speakers/linda-ikechukwu">Bring development closer to production with valid HTTPS certificates w/ Linda Ikechukwu</Link></td>
-          </tr>
-          <tr>
-            <td>3:15pm</td>
-            <td>Break</td>
-          </tr>
-          <tr>
-            <td>3:20pm</td>
+            <td>3:00pm</td>
             <td><Link href="/speakers/nerando-johnson">Unlocked: Growing Your Skills Through Open Source Development And Civic Hacking w/ Nerando Johnson</Link></td>
           </tr>
           <tr>
-            <td>4:00pm</td>
+            <td>3:25pm</td>
             <td>Break</td>
           </tr>
           <tr>
-            <td>4:05pm</td>
+            <td>3:30pm</td>
             <td><Link href="/speakers/todd-libby">Deceptive Patterns & FAST w/ Todd Libby</Link></td>
           </tr>
           <tr>
-            <td>4:35pm</td>
+            <td>4:00pm</td>
             <td>Day 2 Closing Remarks and Giveaways</td>
           </tr>
           <tr>
