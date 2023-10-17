@@ -29,7 +29,7 @@ const Schedule = () => (
           </tr>
           <tr>
             <td>9:15am</td>
-            <td><Link href="/speakers/homer-gaines">Enhancing Accessibility: Addressing Challenges and Embracing Neurodiversity w/ Homer Gaines</Link></td>
+            <td><Link href="/speakers/taylor-desseyn">Content Creation w/ Taylor Desseyn</Link></td>
           </tr>
           <tr>
             <td>9:45am</td>
@@ -119,6 +119,10 @@ const Schedule = () => (
             <td>5:10pm</td>
             <td>Day 1 Closing Remarks</td>
           </tr>
+          <tr>
+            <td>7:00pm</td>
+            <td>Day 1 Mixer at the Mississippi Museum of Art</td>
+          </tr>
         </tbody>
       </table>
 
@@ -156,19 +160,19 @@ const Schedule = () => (
             <td>Break</td>
           </tr>
           <tr>
-            <td>10:25am</td>
+            <td>10:30am</td>
             <td><Link href="/speakers/blake-watson">The Joys of Home-Cooked Apps w/ Blake Watson</Link></td>
           </tr>
           <tr>
-            <td>10:55am</td>
+            <td>11:00am</td>
             <td>Break</td>
           </tr>
           <tr>
-            <td>11:00am</td>
+            <td>11:05am</td>
             <td><Link href="/speakers/mark-noonan">The Testing Sea Monster: a whale of a tale about front-end testing w/ Mark Noonan</Link></td>
           </tr>
           <tr>
-            <td>11:30am</td>
+            <td>12:00pm</td>
             <td>Lunch</td>
           </tr>
           <tr>
@@ -185,7 +189,7 @@ const Schedule = () => (
           </tr>
           <tr>
             <td>2:10pm</td>
-            <td><Link href="/speakers/valarie-regas">If it isn&apos;t hot, it doesn&apos;t deliver: Apache Pinot, Food Delivery and why real-time analytics matter. w/ Valarie Regas</Link></td>
+            <td><Link href="/speakers/nerando-johnson">Unlocked: Growing Your Skills Through Open Source Development And Civic Hacking w/ Nerando Johnson</Link></td>
           </tr>
           <tr>
             <td>2:40pm</td>
@@ -193,14 +197,6 @@ const Schedule = () => (
           </tr>
           <tr>
             <td>3:00pm</td>
-            <td><Link href="/speakers/nerando-johnson">Unlocked: Growing Your Skills Through Open Source Development And Civic Hacking w/ Nerando Johnson</Link></td>
-          </tr>
-          <tr>
-            <td>3:25pm</td>
-            <td>Break</td>
-          </tr>
-          <tr>
-            <td>3:30pm</td>
             <td><Link href="/speakers/todd-libby">Deceptive Patterns & FAST w/ Todd Libby</Link></td>
           </tr>
           <tr>
