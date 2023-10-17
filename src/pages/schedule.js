@@ -56,14 +56,6 @@ const Schedule = () => (
             <td><Link href="/speakers/angie-jones">Refactoring the Web w/ Angie Jones</Link></td>
           </tr>
           <tr>
-            <td>11:20am</td>
-            <td>Break</td>
-          </tr>
-          <tr>
-            <td>11:25am</td>
-            <td><Link href="/speakers/jaimin-patel">D3.js: Changing the Way People Do Cancer Research w/ Jaimin Patel</Link></td>
-          </tr>
-          <tr>
             <td>12:00pm</td>
             <td>Lunch</td>
           </tr>
@@ -73,7 +65,7 @@ const Schedule = () => (
           </tr>
           <tr>
             <td>1:35pm</td>
-            <td><Link href="/speakers/karl-groves">Everything You Need to Know About JavaScript Accessibility w/ Karl Groves</Link></td>
+            <td><Link href="/speakers/jaimin-patel">D3.js: Changing the Way People Do Cancer Research w/ Jaimin Patel</Link></td>
           </tr>
           <tr>
             <td>2:05pm</td>
@@ -81,7 +73,7 @@ const Schedule = () => (
           </tr>
           <tr>
             <td>2:10pm</td>
-            <td><Link href="/speakers/tyler-clark">Getting the Job… Tips For Your Next React Interview Challenge w/ Tyler Clark</Link></td>
+            <td><Link href="/speakers/karl-groves">Everything You Need to Know About JavaScript Accessibility w/ Karl Groves</Link></td>
           </tr>
           <tr>
             <td>2:40pm</td>
@@ -89,7 +81,7 @@ const Schedule = () => (
           </tr>
           <tr>
             <td>2:45pm</td>
-            <td><Link href="/speakers/patricio-vargas">From Chaos to Order: How React Monorepos Can Simplify Your Codebase w/ Pato Vargas</Link></td>
+            <td><Link href="/speakers/tyler-clark">Getting the Job… Tips For Your Next React Interview Challenge w/ Tyler Clark</Link></td>
           </tr>
           <tr>
             <td>3:15pm</td>
@@ -97,26 +89,26 @@ const Schedule = () => (
           </tr>
           <tr>
             <td>3:20pm</td>
-            <td><Link href="/speakers/abbey-perini">Cognitive Load and Your Development Environment w/ Abbey Perini</Link></td>
+            <td><Link href="/speakers/patricio-vargas">From Chaos to Order: How React Monorepos Can Simplify Your Codebase w/ Pato Vargas</Link></td>
+          </tr>
+          <tr>
+            <td>3:50pm</td>
+            <td>Break</td>
           </tr>
           <tr>
             <td>4:00pm</td>
-            <td>Break</td>
-          </tr>
-          <tr>
-            <td>4:05pm</td>
             <td><Link href="/speakers/danielle-maxwell">To Micro Frontend or Not to Micro Frontend: 5 Questions to Ask First w/ Danielle Maxwell</Link></td>
           </tr>
           <tr>
-            <td>4:35pm</td>
+            <td>4:30pm</td>
             <td>Break</td>
           </tr>
           <tr>
-            <td>4:40pm</td>
+            <td>4:35pm</td>
             <td><Link href="/speakers/taylor-desseyn">A Manifesto in Hiring w/ Taylor Desseyn</Link></td>
           </tr>
           <tr>
-            <td>5:10pm</td>
+            <td>5:00pm</td>
             <td>Day 1 Closing Remarks</td>
           </tr>
           <tr>
@@ -189,14 +181,22 @@ const Schedule = () => (
           </tr>
           <tr>
             <td>2:10pm</td>
-            <td><Link href="/speakers/nerando-johnson">Unlocked: Growing Your Skills Through Open Source Development And Civic Hacking w/ Nerando Johnson</Link></td>
+            <td><Link href="/speakers/abbey-perini">Cognitive Load and Your Development Environment w/ Abbey Perini</Link></td>
           </tr>
           <tr>
             <td>2:40pm</td>
             <td>Break</td>
           </tr>
           <tr>
-            <td>3:00pm</td>
+            <td>2:45pm</td>
+            <td><Link href="/speakers/nerando-johnson">Unlocked: Growing Your Skills Through Open Source Development And Civic Hacking w/ Nerando Johnson</Link></td>
+          </tr>
+          <tr>
+            <td>3:15pm</td>
+            <td>Break</td>
+          </tr>
+          <tr>
+            <td>3:20pm</td>
             <td><Link href="/speakers/todd-libby">Deceptive Patterns & FAST w/ Todd Libby</Link></td>
           </tr>
           <tr>
