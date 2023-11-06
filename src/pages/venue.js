@@ -46,14 +46,14 @@ const Venue = () => (
       ></iframe>
     </div>
 
-    <h2>Conference Hotel - The Westin Jackson</h2>
+    {/* <h2>Conference Hotel - The Westin Jackson</h2>
     <h3>
       407 S Congress St, Jackson, MS 39201 (
       <a href="https://g.page/WestinJackson?share" target="_blank" rel="noopener noreferrer">
         Map Link
       </a>
       )
-    </h3>
+    </h3> */}
     <p>Details and room block coming soon!</p>
     <hr />
     <h2>Travel Info</h2>

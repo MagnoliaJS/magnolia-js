@@ -24,7 +24,7 @@ const Sponsors = () => {
         </Head>
         <h1>Past Sponsors</h1>
         <p>
-          Interested in sponsoring MagnoliaJS 2023?{" "}
+          Interested in sponsoring MagnoliaJS 2024?{" "}
           Take a look at our{" "}
           <a
             href="https://drive.google.com/file/d/1T9lM-y1e-QgPFvGFKWd39XhDMOz5H3uM/view?usp=sharing"
@@ -37,14 +37,6 @@ const Sponsors = () => {
         </p>
 
         {sponsors.map((sponsor) => (<Sponsor key={sponsor.name} {...sponsor} />))}
-
-        <p>
-          You can also check out our{" "}
-          <Link href="/sponsors/past-sponsors">
-            past sponsors
-          </Link>
-          !
-        </p>
       </div>
     </Layout>
   )

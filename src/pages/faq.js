@@ -22,7 +22,7 @@ const Faq = () => (
     </p>
 
     <h2>COVID &amp; Other Illnesses</h2>
-    <h3>Can I come to MagnoliaJS 2023 if I&apos;m sick?</h3>
+    <h3>Can I come to MagnoliaJS 2024 if I&apos;m sick?</h3>
     <p>
       <strong>No</strong>. Regardless of if you have COVID or some other communicable illness, we
       encourage you to stay at home. If you are sick, please let us know and we will work with you
@@ -31,7 +31,7 @@ const Faq = () => (
     </p>
     <h3>Do I have to wear a mask at the event?</h3>
     <p>
-      <strong>No</strong>. Masks are encouraged, but not required at MagnoliaJS 2023. N95 masks will
+      <strong>No</strong>. Masks are encouraged, but not required at MagnoliaJS 2024. N95 masks will
       be available at registration.
     </p>
     <p>
@@ -68,18 +68,18 @@ const Faq = () => (
     </p>
 
     <h2>Location</h2>
-    <h3>Is MagnoliaJS 2023 in person?</h3>
+    {/* <h3>Is MagnoliaJS 2024 in person?</h3>
     <p>
       YES! We&apos;re looking forward to seeing everyone in Jackson this year! We&apos;ll be hosting the event
       at the Mississippi Museum of Art. To learn more about the venue and travel, visit our{" "}
       <Link href="/venue">
         Venue and Travel page.
       </Link>
-    </p>
+    </p> */}
 
     <h2>Speaking</h2>
-    <h3>Can I speak at MagnoliaJS 2023?</h3>
-    <p>Our CFP for this year has closed, but be on the look out for next year&apos;s!</p>
+    <h3>Can I speak at MagnoliaJS 2024?</h3>
+    <p>Our CFP hasn&apos;t opened yet, but be on the look out for when it does!</p>
   </Layout>
 )
 

@@ -44,7 +44,7 @@ const Covid = () => (
       </li>
     </ul>
     <h2>You should stay home if:</h2>
-    On or after September 30, 2023:
+    On or after October 1, 2024:
     <ul>
       <li>You have tested positive for COVID-19, or</li>
       <li>

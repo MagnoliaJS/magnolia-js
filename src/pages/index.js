@@ -10,7 +10,7 @@ const Home = () => (
       <Head>
         <title>MagnoliaJS</title>
       </Head>
-      <h1>MagnoliaJS coming to you October 17-18, 2023!</h1>
+      <h1>MagnoliaJS will return! 👻</h1>
       <Image
         src={magnoliajs2022}
         alt="Audience at MagnoliaJS 2022."
@@ -18,11 +18,6 @@ const Home = () => (
         loading="lazy"
         layout="intrinsic"
       />
-      <p>
-        Get ready for a special Halloween-edition MagnoliaJS 2023! More details and information to
-        come! Join us October 17-18, 2023 at the Mississippi Museum of Art in Jackson, MS for a
-        spooky-good time!
-      </p>
 
       <h2>About MagnoliaJS</h2>
       <p>
@@ -46,7 +41,7 @@ const Home = () => (
 
       <h2>Previous Years</h2>
       <p>
-        If you&apos;d like to see the talks from MagnoliaJS 2021 and 2022, check out{" "}
+        If you&apos;d like to see the talks from MagnoliaJS 2021, 2022, and 2023, check out{" "}
         <a
           href="https://www.youtube.com/channel/UCiP-LfJJjBMANN8JXySXCDA"
           target="_blank"
@@ -67,7 +62,7 @@ const Home = () => (
         >
           sponsorship prospectus
         </a>{" "}
-        to learn more about sponsorship opportunities for MagnoliaJS 2023 and please let us know if
+        to learn more about sponsorship opportunities for MagnoliaJS 2024 and please let us know if
         your company is{" "}
         <Link href="/sponsors/sponsorship-info">
           interested in sponsoring
