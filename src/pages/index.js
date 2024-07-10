@@ -3,6 +3,7 @@ import Link from "next/link"
 import Image from "next/image"
 import Layout from "@/components/Layout/Layout"
 import magnoliajs2022 from "/public/MagnoliaJS2022Main.jpeg"
+import BrevoEmailForm from "@/components/EmailGrab/EmailGrab"
 
 const Home = () => (
   <Layout>
@@ -69,6 +70,7 @@ const Home = () => (
         </Link>
         !
       </p>
+      <BrevoEmailForm />
     </div>
   </Layout>
 )
