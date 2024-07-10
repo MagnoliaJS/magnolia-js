@@ -1,12 +1,7 @@
-// <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
-
 const BrevoEmailForm = () => {
     return (
         <>
-            <div
-                className="sib-form"
-                style={{ textAlign: 'center', backgroundColor: '#EFF2F7' }}
-            >
+            <div className="sib-form" style={{ textAlign: 'center' }}>
                 <div id="sib-form-container" className="sib-form-container">
                     <div
                         id="error-message"
@@ -83,7 +78,9 @@ const BrevoEmailForm = () => {
                             action="https://bd3da8ba.sibforms.com/serve/MUIFANwem5GwoHTHkAk5ys2_GV8Nruut_ZRxV4gaAHjGR69tfq21X2cbG41gEf1fmUTkaaxrkHp_MBxFge9kActmrEJ9AyIPRp2AdCLNGIZGL0ohnbPy7-3lqml0hGyhJSk7gyrUL2SjTXShRbEpXoeELpX9eGtwtWN9-LCL7CVbAVv1k1SUbnRrX0j8mnUQoRZHMF3PyDo52LTW"
                             data-type="subscription"
                         >
-                            <h2>Keep in Touch!</h2>
+                            <h2 style={{ textAlign: 'center' }}>
+                                Keep in Touch!
+                            </h2>
                             <div style={{ padding: '8px 0' }}>
                                 <div
                                     className="sib-form-block"
@@ -186,7 +183,7 @@ const BrevoEmailForm = () => {
                                             fontFamily:
                                                 '"Helvetica", sans-serif',
                                             color: '#FFFFFF',
-                                            backgroundColor: '#3E4857',
+                                            backgroundColor: '#bf5272',
                                             borderRadius: '3px',
                                             borderWidth: 0,
                                         }}
