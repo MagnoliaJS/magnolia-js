@@ -1,4 +1,4 @@
-import Tiktok from "public/icons/tiktok.svg"
+import Tiktok from "/public/icons/tiktok.svg"
 
 const TiktokIcon = () => (
   <>

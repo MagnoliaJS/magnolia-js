@@ -1,4 +1,4 @@
-import Discord from "public/icons/discord.svg"
+import Discord from "/public/icons/discord.svg"
 
 const DiscordIcon = () => (
   <>

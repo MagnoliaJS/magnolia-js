@@ -1,4 +1,4 @@
-import Youtube from "public/icons/youtube.svg"
+import Youtube from "/public/icons/youtube.svg"
 
 const YoutubeIcon = () => (
   <>
