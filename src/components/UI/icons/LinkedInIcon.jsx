@@ -1,4 +1,4 @@
-import LinkedIn from "public/icons/linkedin.svg"
+import LinkedIn from "/public/icons/linkedin.svg"
 
 const LinkedInIcon = () => (
   <>

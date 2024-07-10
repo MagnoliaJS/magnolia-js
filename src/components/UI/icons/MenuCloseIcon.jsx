@@ -1,4 +1,4 @@
-import JackOLantern from "public/icons/jack-o-lantern-solid.svg"
+import JackOLantern from "/public/icons/jack-o-lantern-solid.svg"
 
 const MenuCloseIcon = () => (
   <>
