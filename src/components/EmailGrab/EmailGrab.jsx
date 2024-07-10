@@ -218,7 +218,7 @@ const BrevoEmailForm = () => {
                     </div>
                 </div>
             </div>
-            <script src="/brevo.js"></script>
+            <script defer src="/brevo.js"></script>
             <script
                 defer
                 src="https://sibforms.com/forms/end-form/build/main.js"
