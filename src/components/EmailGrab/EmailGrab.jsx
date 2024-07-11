@@ -64,7 +64,7 @@ const BrevoEmailForm = () => {
                         style={{
                             textAlign: 'center',
                             backgroundColor: 'rgba(255,255,255,1)',
-                            maxWidth: '540px',
+                            maxWidth: '1000px',
                             borderRadius: '3px',
                             borderWidth: '1px',
                             borderColor: '#C0CCD9;',
