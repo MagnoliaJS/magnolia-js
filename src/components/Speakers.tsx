@@ -53,7 +53,9 @@ const Speakers = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <h3 className="text-white text-center">Coming soon! 👻</h3>
+
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {speakers.map((speaker, index) => (
             <div
               key={index}
@@ -84,7 +86,7 @@ const Speakers = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -19,6 +19,8 @@ const Sponsors = () => {
     { name: "Raven Research", logo: "🐦‍⬛" },
   ];
 
+  const giveawaySponsors = [{ name: "Magnolia Bricks", logo: "🧱" }];
+
   return (
     <section id="sponsors" className="py-20 bg-gradient-to-b from-purple-900/10 to-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -31,8 +33,7 @@ const Sponsors = () => {
           </p>
         </div>
 
-        {/* Platinum Sponsors */}
-        <div className="mb-12">
+        {/* <div className="mb-12">
           <h3 className="text-2xl font-bold text-orange-500 text-center mb-8">Platinum Spirits</h3>
           <div className="flex justify-center space-x-12">
             {platinumSponsors.map((sponsor, index) => (
@@ -49,7 +50,6 @@ const Sponsors = () => {
           </div>
         </div>
 
-        {/* Gold Sponsors */}
         <div className="mb-12">
           <h3 className="text-2xl font-bold text-yellow-500 text-center mb-8">Gold Ghouls</h3>
           <div className="flex justify-center flex-wrap gap-8">
@@ -67,7 +67,6 @@ const Sponsors = () => {
           </div>
         </div>
 
-        {/* Silver Sponsors */}
         <div>
           <h3 className="text-2xl font-bold text-gray-400 text-center mb-8">Silver Specters</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -83,10 +82,30 @@ const Sponsors = () => {
               </div>
             ))}
           </div>
+        </div> */}
+
+        <div className="mb-12">
+          <h3 className="text-2xl font-bold text-yellow-500 text-center mb-8">Giveaway Goblins</h3>
+          <div className="flex justify-center flex-wrap gap-8">
+            {giveawaySponsors.map((sponsor, index) => (
+              <div
+                key={index}
+                className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-yellow-500/30 hover:border-yellow-500/70 transition-all duration-300 transform hover:scale-105"
+              >
+                <div className="text-center">
+                  <div className="text-4xl mb-3">{sponsor.logo}</div>
+                  <h4 className="text-lg font-bold text-white">{sponsor.name}</h4>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
         <div className="text-center mt-16">
-          <p className="text-gray-400 mb-6">Interested in sponsoring HacktoberFright?</p>
+          <p className="text-gray-400 mb-6">
+            We can't have an event without wonderful sponsors like you. Interested in sponsoring
+            MagnoliaConf?
+          </p>
           <button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
             Become a Sponsor
           </button>
