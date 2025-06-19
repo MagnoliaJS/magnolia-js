@@ -15,11 +15,6 @@ const Footer = () => {
               Mississippi's premier Halloween-themed software development conference. Where code
               meets creativity in the most spook-tacular way!
             </p>
-            <div className="flex space-x-4">
-              <Github className="h-6 w-6 text-gray-400 hover:text-orange-500 cursor-pointer transition-colors" />
-              <Twitter className="h-6 w-6 text-gray-400 hover:text-orange-500 cursor-pointer transition-colors" />
-              <Mail className="h-6 w-6 text-gray-400 hover:text-orange-500 cursor-pointer transition-colors" />
-            </div>
           </div>
 
           <div>
