@@ -6,6 +6,7 @@
 
 @layer base {
   :root {
+    --magnolia-pink: #bf5272;
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -99,5 +100,24 @@
 
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+.logo {
+  animation: fade-in 2s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: prefers-reduced-motion) {
+  .logo {
+    animation: none;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    filter: drop-shadow(0 0 0 rgb(191, 82, 114));
+  }
+  100% {
+    filter: drop-shadow(0 0 10px rgb(191, 82, 114));
   }
 }

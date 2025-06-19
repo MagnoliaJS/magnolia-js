@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { Menu } from "lucide-react";
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faJackOLantern, faPumpkin } from "@fortawesome/pro-solid-svg-icons";
+import { ReactComponent as Logo } from "/public/logo.svg";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +25,9 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="lg:w-[30%] w-[100%]">
-            <img src="/logo.svg" alt="MagnoliaConf Logo" />
+            <a href="/">
+              <Logo className="logo" />
+            </a>
           </div>
 
           <div className="hidden md:flex space-x-8">
