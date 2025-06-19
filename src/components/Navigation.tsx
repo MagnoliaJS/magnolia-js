@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { Menu, X, Ghost } from "lucide-react";
+import { Menu } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faJackOLantern, faPumpkin } from "@fortawesome/pro-solid-svg-icons";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,9 +24,8 @@ const Navigation = () => {
     <nav className="fixed top-0 w-full bg-black/90 backdrop-blur-sm z-50 border-b border-orange-500/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="flex items-center space-x-2">
-            <Ghost className="h-8 w-8 text-orange-500" />
-            <span className="text-2xl font-bold text-white">HacktoberFright</span>
+          <div className="lg:w-[30%] w-[100%]">
+            <img src="/logo.svg" alt="MagnoliaConf Logo" />
           </div>
 
           <div className="hidden md:flex space-x-8">
@@ -43,7 +44,11 @@ const Navigation = () => {
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden text-white hover:text-orange-500 transition-colors"
           >
-            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            {isOpen ? (
+              <FontAwesomeIcon icon={faJackOLantern} />
+            ) : (
+              <FontAwesomeIcon icon={faPumpkin} />
+            )}
           </button>
         </div>
 
