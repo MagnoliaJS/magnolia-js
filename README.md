@@ -1,3 +1,7 @@
+# Magnolia 2025 site
+
+Listen, I had Lovable make this and it's pretty good... so this is what we're working with rn.
+
 1. Pull it down, run `npm install`.
 2. Run `vite` or `npx vite`.
 3. You're good to go.
