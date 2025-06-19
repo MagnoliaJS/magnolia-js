@@ -107,17 +107,54 @@
   animation: fade-in 2s ease-in-out infinite alternate;
 }
 
-@media (prefers-reduced-motion: prefers-reduced-motion) {
-  .logo {
+.jack-glow {
+  filter: drop-shadow(0 0 5px orange);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo,
+  .ghost {
     animation: none;
   }
 }
 
 @keyframes fade-in {
   0% {
-    filter: drop-shadow(0 0 0 rgb(191, 82, 114));
+    filter: drop-shadow(0 0 0 var(--magnolia-pink));
   }
   100% {
-    filter: drop-shadow(0 0 10px rgb(191, 82, 114));
+    filter: drop-shadow(0 0 10px var(--magnolia-pink));
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 10rem;
+  }
+}
+
+.ghost {
+  animation: squiggly-anim 0.75s ease-in-out infinite;
+  will-change: filter;
+  fill: white;
+  height: 10rem;
+  margin: 0 auto;
+}
+
+@keyframes squiggly-anim {
+  0% {
+    filter: url("#squiggly-0");
+  }
+  25% {
+    filter: url("#squiggly-1");
+  }
+  50% {
+    filter: url("#squiggly-2");
+  }
+  75% {
+    filter: url("#squiggly-3");
+  }
+  100% {
+    filter: url("#squiggly-4");
   }
 }

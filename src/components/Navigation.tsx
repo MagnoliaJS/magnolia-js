@@ -42,12 +42,9 @@ const Navigation = () => {
             ))}
           </div>
 
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-white hover:text-orange-500 transition-colors"
-          >
+          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-white">
             {isOpen ? (
-              <FontAwesomeIcon icon={faJackOLantern} />
+              <FontAwesomeIcon icon={faJackOLantern} className="jack-glow" />
             ) : (
               <FontAwesomeIcon icon={faPumpkin} />
             )}
