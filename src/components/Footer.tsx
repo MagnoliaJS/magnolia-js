@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Ghost className="h-8 w-8 text-orange-500" />
-              <span className="text-2xl font-bold text-white">HacktoberFright</span>
+              <span className="text-2xl font-bold text-white">MagnoliaConf</span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
               Mississippi's premier Halloween-themed software development conference. Where code
