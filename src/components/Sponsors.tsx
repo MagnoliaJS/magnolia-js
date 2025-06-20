@@ -1,6 +1,13 @@
-import React from "react";
+import { link } from "fs";
+import { ReactComponent as ProgressLogo } from "/public/progress.svg";
 
 const Sponsors = () => {
+  const hackathonSponsor = {
+    name: "Progress",
+    logo: <ProgressLogo className="fill-white w-auto h-[4rem] block m-4" />,
+    link: "https://www.telerik.com/kendo-ui",
+  };
+
   const platinumSponsors = [
     { name: "Phantom Corp", logo: "🦇" },
     { name: "Spectral Systems", logo: "👻" },
@@ -19,7 +26,19 @@ const Sponsors = () => {
     { name: "Raven Research", logo: "🐦‍⬛" },
   ];
 
-  const giveawaySponsors = [{ name: "Magnolia Bricks", logo: "🧱" }];
+  const giveawaySponsors = [
+    {
+      name: "Magnolia Bricks",
+      logo: (
+        <img
+          src="/public/magnoliabricks.png"
+          alt="Magnolia Bricks Logo."
+          className="w-auto h-[10rem] block m-4"
+        />
+      ),
+      link: "https://magnoliabricks.com",
+    },
+  ];
 
   return (
     <section id="sponsors" className="py-20 bg-gradient-to-b from-purple-900/10 to-black">
@@ -31,6 +50,20 @@ const Sponsors = () => {
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             These amazing organizations help make MagnoliaConf possible
           </p>
+        </div>
+
+        <div className="mb-12">
+          <h3 className="text-2xl font-bold text-orange-500 text-center mb-8">
+            Haunted Hackathon Sponsor
+          </h3>
+          <div className="flex justify-center space-x-12">
+            <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl border border-yellow-500/30 hover:border-yellow-500/70 transition-all duration-300 transform hover:scale-105">
+              <div className="text-center w-max">
+                {hackathonSponsor.logo}
+                <span className="sr-only">{hackathonSponsor.name}</span>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* <div className="mb-12">
@@ -85,17 +118,16 @@ const Sponsors = () => {
         </div> */}
 
         <div className="mb-12">
-          <h3 className="text-2xl font-bold text-yellow-500 text-center mb-8">Giveaway Goblins</h3>
+          <h3 className="text-2xl font-bold text-yellow-500 text-center mb-8">
+            Ghostly Giveaway Sponsor{giveawaySponsors.length > 1 ? "s" : ""}
+          </h3>
           <div className="flex justify-center flex-wrap gap-8">
             {giveawaySponsors.map((sponsor, index) => (
               <div
                 key={index}
-                className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-yellow-500/30 hover:border-yellow-500/70 transition-all duration-300 transform hover:scale-105"
+                className="bg-gray-900/50 backdrop-blur-sm rounded-xl border border-yellow-500/30 hover:border-yellow-500/70 transition-all duration-300 transform hover:scale-105"
               >
-                <div className="text-center">
-                  <div className="text-4xl mb-3">{sponsor.logo}</div>
-                  <h4 className="text-lg font-bold text-white">{sponsor.name}</h4>
-                </div>
+                <div className="text-center">{sponsor.logo}</div>
               </div>
             ))}
           </div>
