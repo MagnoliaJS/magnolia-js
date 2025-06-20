@@ -158,3 +158,10 @@
     filter: url("#squiggly-4");
   }
 }
+
+#speakers,
+#sponsors,
+#venue,
+#conduct {
+  scroll-margin-top: 4rem;
+}
