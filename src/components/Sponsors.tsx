@@ -138,9 +138,12 @@ const Sponsors = () => {
             We can't have an event without wonderful sponsors like you. Interested in sponsoring
             MagnoliaConf?
           </p>
-          <button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+          <a
+            href="mailto:sponsors@magnoliaconf.com?subject=Sponsor%20Magnolia%20Conf%202025"
+            className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+          >
             Become a Sponsor
-          </button>
+          </a>
         </div>
       </div>
     </section>
