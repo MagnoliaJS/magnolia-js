@@ -4,7 +4,7 @@ import { ReactComponent as ProgressLogo } from "/public/progress.svg";
 const Sponsors = () => {
   const hackathonSponsor = {
     name: "Progress",
-    logo: <ProgressLogo className="fill-white w-auto h-[4rem] block m-4" />,
+    logo: <ProgressLogo className="fill-white w-auto h-[10rem] block m-4" />,
     link: "https://www.telerik.com/kendo-ui",
   };
 
