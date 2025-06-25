@@ -12,6 +12,7 @@ const Navigation = () => {
     { href: "#sponsors", label: "Sponsors" },
     { href: "#venue", label: "Venue" },
     { href: "#conduct", label: "Code of Conduct" },
+    { href: "https://shop.magnoliaconf.com", label: "Shop" },
   ];
 
   const scrollToSection = (href: string) => {
@@ -31,15 +32,28 @@ const Navigation = () => {
           </div>
 
           <div className="hidden md:flex space-x-8">
-            {navItems.map((item) => (
-              <button
-                key={item.href}
-                onClick={() => scrollToSection(item.href)}
-                className="text-gray-300 hover:text-orange-500 transition-colors duration-300 font-medium"
-              >
-                {item.label}
-              </button>
-            ))}
+            {navItems.map((item) => {
+              if (item.href.startsWith("https")) {
+                return (
+                  <a
+                    href={item.href}
+                    key={item.href}
+                    className="text-gray-300 hover:text-orange-500 transition-colors duration-300 font-medium"
+                  >
+                    {item.label}
+                  </a>
+                );
+              }
+              return (
+                <button
+                  key={item.href}
+                  onClick={() => scrollToSection(item.href)}
+                  className="text-gray-300 hover:text-orange-500 transition-colors duration-300 font-medium"
+                >
+                  {item.label}
+                </button>
+              );
+            })}
           </div>
 
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-white">
