@@ -1,5 +1,5 @@
 import { Calendar, MapPin } from "lucide-react";
-import { ReactComponent as Ghost } from "/public/ghost.svg";
+import { ReactComponent as Ghost } from "/src/assets/ghost.svg";
 
 const Hero = () => {
   return (
@@ -7,7 +7,7 @@ const Hero = () => {
       id="home"
       className="min-h-screen bg-gradient-to-br from-black via-purple-900/20 to-black flex items-center justify-center relative overflow-hidden"
     >
-      <div className="absolute inset-0 bg-[url('public/3EDF98BE-219B-4DA0-BE01-A754340E4B82_1_105_c.jpeg')] bg-cover bg-center opacity-30"></div>
+      <div className="absolute inset-0 bg-[image:url('/3EDF98BE-219B-4DA0-BE01-A754340E4B82_1_105_c.jpeg')] bg-cover bg-center opacity-30"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center hero z-10">
         <div className="mb-8">

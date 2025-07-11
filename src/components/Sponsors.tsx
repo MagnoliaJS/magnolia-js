@@ -1,5 +1,6 @@
 import { link } from "fs";
-import { ReactComponent as ProgressLogo } from "/public/progress.svg";
+import { ReactComponent as ProgressLogo } from "/src/assets/progress.svg";
+import magnoliaBricksLogo from "/src/assets/magnoliabricks.png";
 
 const Sponsors = () => {
   const hackathonSponsor = {
@@ -26,12 +27,16 @@ const Sponsors = () => {
     { name: "Raven Research", logo: "🐦‍⬛" },
   ];
 
+  const communitySponsors = [
+    { name: "HTML for People", logo: "", link: "https://htmlforpeople.com" },
+  ];
+
   const giveawaySponsors = [
     {
       name: "Magnolia Bricks",
       logo: (
         <img
-          src="/public/magnoliabricks.png"
+          src={magnoliaBricksLogo}
           alt="Magnolia Bricks Logo."
           className="w-auto h-[10rem] block m-4"
         />
@@ -57,12 +62,15 @@ const Sponsors = () => {
             Haunted Hackathon Sponsor
           </h3>
           <div className="flex justify-center space-x-12">
-            <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl border border-yellow-500/30 hover:border-yellow-500/70 transition-all duration-300 transform hover:scale-105">
+            <a
+              href={hackathonSponsor.link}
+              className="bg-gray-900/50 backdrop-blur-sm rounded-xl border border-yellow-500/30 hover:border-yellow-500/70 transition-all duration-300 transform hover:scale-105"
+            >
               <div className="text-center w-max">
                 {hackathonSponsor.logo}
                 <span className="sr-only">{hackathonSponsor.name}</span>
               </div>
-            </div>
+            </a>
           </div>
         </div>
 
@@ -99,23 +107,24 @@ const Sponsors = () => {
             ))}
           </div>
         </div>
-
-        <div>
-          <h3 className="text-2xl font-bold text-gray-400 text-center mb-8">Silver Specters</h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {silverSponsors.map((sponsor, index) => (
-              <div
+*/}
+        <div className="mb-12">
+          <h3 className="text-2xl font-bold text-gray-400 text-center mb-8">Community Coven</h3>
+          <div className="flex justify-center flex-wrap gap-8">
+            {communitySponsors.map((sponsor, index) => (
+              <a
                 key={index}
+                href={sponsor.link}
                 className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-4 border border-gray-500/30 hover:border-gray-400/70 transition-all duration-300 transform hover:scale-105"
               >
                 <div className="text-center">
                   <div className="text-3xl mb-2">{sponsor.logo}</div>
                   <h4 className="text-sm font-bold text-white">{sponsor.name}</h4>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
-        </div> */}
+        </div>
 
         <div className="mb-12">
           <h3 className="text-2xl font-bold text-yellow-500 text-center mb-8">
@@ -138,12 +147,21 @@ const Sponsors = () => {
             We can't have an event without wonderful sponsors like you. Interested in sponsoring
             MagnoliaConf?
           </p>
-          <a
-            href="mailto:sponsors@magnoliaconf.com?subject=Sponsor%20Magnolia%20Conf%202025"
-            className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
-          >
-            Become a Sponsor
-          </a>
+
+          <div className="flex justify-center space-x-6">
+            <a
+              href="https://drive.google.com/file/d/1p2bgQooxI1Cbp2wUXDO6F-PJ-9ffgx6V/view?usp=sharing"
+              className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+            >
+              Check out our Prospectus
+            </a>
+            <a
+              href="mailto:sponsors@magnoliaconf.com?subject=Sponsor%20Magnolia%20Conf%202025"
+              className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+            >
+              Become a Sponsor
+            </a>
+          </div>
         </div>
       </div>
     </section>
