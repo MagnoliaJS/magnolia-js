@@ -57,7 +57,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="text-gray-400">hey@magnoliajs.com</li>
               <li className="text-gray-400">Jackson, Mississippi</li>
-              <li className="text-gray-400">October 21-23, 2024</li>
+              <li className="text-gray-400">October 21-23, 2025</li>
             </ul>
           </div>
         </div>

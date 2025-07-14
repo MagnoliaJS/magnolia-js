@@ -55,6 +55,13 @@ const Speakers = () => {
 
         <h3 className="text-white text-center">Coming soon! 👻</h3>
 
+        <a
+          href="https://forms.gle/Hzfeobmcbnnbombp7"
+          className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+        >
+          Apply to speak!
+        </a>
+
         {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {speakers.map((speaker, index) => (
             <div
