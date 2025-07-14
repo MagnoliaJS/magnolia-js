@@ -6,6 +6,7 @@ import Sponsors from "../components/Sponsors";
 import Venue from "../components/Venue";
 import CodeOfConduct from "../components/CodeOfConduct";
 import Footer from "../components/Footer";
+import EmailGrab from "@/components/EmailGrab";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <Speakers />
       <Sponsors />
       <Venue />
+      <EmailGrab />
       <CodeOfConduct />
       <Footer />
     </div>
