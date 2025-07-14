@@ -1,11 +1,10 @@
 const EmailGrab = () => (
   <section className="bg-gradient-to-b from-black to-purple-900/10">
     <div
+      className="w-[100vw] pt-[151vw] sm:pt-[105vw] md:pt-[55vw] lg:pt-[40vw] xl:pt-[32vw] 2xl:pt-[27vw]"
       style={{
         position: "relative",
         overflow: "hidden",
-        width: "50vw",
-        paddingTop: "31vw",
         marginLeft: "auto",
         marginRight: "auto",
       }}
