@@ -9,11 +9,14 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Ghost className="h-8 w-8 text-orange-500" />
-              <span className="text-2xl font-bold text-white">MagnoliaConf</span>
+              <span className="text-2xl font-bold text-white">
+                MagnoliaConf
+              </span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
-              Mississippi's premier Halloween-themed software development conference. Where code
-              meets creativity in the most spook-tacular way!
+              Mississippi's premier Halloween-themed software development
+              conference. Where code meets creativity in the most spook-tacular
+              way!
             </p>
           </div>
 
@@ -37,7 +40,10 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#venue" className="text-gray-400 hover:text-orange-500 transition-colors">
+                <a
+                  href="#venue"
+                  className="text-gray-400 hover:text-orange-500 transition-colors"
+                >
                   Venue
                 </a>
               </li>
@@ -55,7 +61,7 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">Contact</h4>
             <ul className="space-y-2">
-              <li className="text-gray-400">hey@magnoliajs.com</li>
+              <li className="text-gray-400">info@magnoliajs.com</li>
               <li className="text-gray-400">Jackson, Mississippi</li>
               <li className="text-gray-400">October 21-23, 2025</li>
             </ul>
@@ -64,7 +70,8 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2025 MagnoliaConf. All rights reserved. Made with 🎃 in Mississippi.
+            © 2025 MagnoliaConf. All rights reserved. Made with 🎃 in
+            Mississippi.
           </p>
         </div>
       </div>
