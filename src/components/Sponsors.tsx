@@ -25,10 +25,10 @@ const Sponsors = () => {
   ]
 
   const specialThanks = [
+    'Jackie Condon',
+    'Nerando Johnson',
     'Kenneth LaFrance',
     'Abbey Perini',
-    'Nerando Johnson',
-    'Jackie Condon',
     'Alex Riviere',
   ]
 
@@ -138,6 +138,20 @@ const Sponsors = () => {
                 className='bg-gray-900/50 backdrop-blur-sm rounded-xl border border-yellow-500/30 hover:border-yellow-500/70 transition-all duration-300 transform hover:scale-105'
               >
                 <div className='text-center'>{sponsor.logo}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className='mb-12'>
+          <h3 className='text-2xl font-bold text-yellow-500 text-center mb-8'>Special Thanks</h3>
+          <div className='flex justify-center flex-wrap gap-8'>
+            {specialThanks.map((sponsor, index) => (
+              <div
+                key={index}
+                className='bg-gray-900/50 backdrop-blur-sm p-4 rounded-xl border border-yellow-500/30 hover:border-yellow-500/70 transition-all duration-300 transform hover:scale-105'
+              >
+                <div className='text-center text-white'>{sponsor}</div>
               </div>
             ))}
           </div>
