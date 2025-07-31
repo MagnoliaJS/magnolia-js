@@ -1,63 +1,63 @@
-import React from "react";
-import { Github, Twitter, Linkedin } from "lucide-react";
+import React from 'react'
+import { Github, Twitter, Linkedin } from 'lucide-react'
 
 const Speakers = () => {
   const speakers = [
     {
-      name: "Dr. Sarah Nightcode",
-      title: "Senior Software Architect",
-      company: "Phantom Technologies",
+      name: 'Dr. Sarah Nightcode',
+      title: 'Senior Software Architect',
+      company: 'Phantom Technologies',
       image:
-        "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face",
-      bio: "Expert in distributed systems and microservices architecture with 15 years of haunting legacy codebases.",
-      topic: "Exorcising Monolithic Demons: A Guide to Microservices",
+        'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face',
+      bio: 'Expert in distributed systems and microservices architecture with 15 years of haunting legacy codebases.',
+      topic: 'Exorcising Monolithic Demons: A Guide to Microservices',
     },
     {
-      name: "Marcus Ghostly",
-      title: "Lead DevOps Engineer",
-      company: "Spectral Solutions",
+      name: 'Marcus Ghostly',
+      title: 'Lead DevOps Engineer',
+      company: 'Spectral Solutions',
       image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
-      bio: "Cloud infrastructure wizard specializing in containerization and CI/CD pipelines that never die.",
-      topic: "Docker Containers: Keeping Your Apps Alive Forever",
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face',
+      bio: 'Cloud infrastructure wizard specializing in containerization and CI/CD pipelines that never die.',
+      topic: 'Docker Containers: Keeping Your Apps Alive Forever',
     },
     {
-      name: "Luna Cryptkeeper",
-      title: "Cybersecurity Specialist",
-      company: "Vault Guardians",
+      name: 'Luna Cryptkeeper',
+      title: 'Cybersecurity Specialist',
+      company: 'Vault Guardians',
       image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
-      bio: "Protector of digital realms with expertise in ethical hacking and penetration testing.",
+        'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face',
+      bio: 'Protector of digital realms with expertise in ethical hacking and penetration testing.',
       topic: "Hunting Vulnerabilities: A Penetration Tester's Guide",
     },
     {
-      name: "Viktor Bytecode",
-      title: "AI/ML Engineer",
-      company: "Neural Networks Inc",
+      name: 'Viktor Bytecode',
+      title: 'AI/ML Engineer',
+      company: 'Neural Networks Inc',
       image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
-      bio: "Machine learning enthusiast who trains neural networks to predict the future (and stock prices).",
-      topic: "Teaching Machines to See: Computer Vision Spells",
+        'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face',
+      bio: 'Machine learning enthusiast who trains neural networks to predict the future (and stock prices).',
+      topic: 'Teaching Machines to See: Computer Vision Spells',
     },
-  ];
+  ]
 
   return (
-    <section id="speakers" className="py-20 bg-gradient-to-b from-black to-purple-900/10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Our <span className="text-orange-500">Ghostly</span> Speakers
+    <section id='speakers' className='py-20 bg-gradient-to-b from-black to-purple-900/10'>
+      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
+        <div className='text-center mb-16'>
+          <h2 className='text-4xl md:text-5xl font-bold text-white mb-4'>
+            Our <span className='text-orange-500'>Ghostly</span> Speakers
           </h2>
-          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+          <p className='text-xl text-gray-400 max-w-3xl mx-auto'>
             Meet the brilliant minds who will share their otherworldly knowledge and experience
           </p>
         </div>
 
-        <h3 className="text-white text-center">Coming soon! 👻</h3>
+        <h3 className='text-white text-center mb-5'>Coming soon! 👻</h3>
 
         <a
-          href="https://forms.gle/Hzfeobmcbnnbombp7"
-          className="bg-purple-600 hover:bg-purple-700 text-white text-center px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+          href='https://forms.gle/Hzfeobmcbnnbombp7'
+          className='bg-purple-600 hover:bg-purple-700 text-white text-center px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105'
         >
           Apply to speak!
         </a>
@@ -96,7 +96,7 @@ const Speakers = () => {
         </div> */}
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Speakers;
+export default Speakers
