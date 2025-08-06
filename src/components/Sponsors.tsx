@@ -2,6 +2,7 @@ import { ReactComponent as ProgressLogo } from '/src/assets/progress.svg'
 import hclbLogo from '/src/assets/hclb.jpg'
 import magnoliaBricksLogo from '/src/assets/magnoliabricks.png'
 import cloudinaryLogo from '/src/assets/cloudinary.png'
+import infiniteRedLogo from '/src/assets/infinitered.png'
 
 const Sponsors = () => {
   const hackathonSponsor = {
@@ -34,6 +35,16 @@ const Sponsors = () => {
 
   const communitySponsors = [
     { name: 'HTML for People', logo: '', link: 'https://htmlforpeople.com' },
+  ]
+
+  const batSponsors = [
+    {
+      name: 'Infinite Red',
+      logo: (
+        <img src={infiniteRedLogo} alt='Infinite Red Logo' className='w-auto h-[6rem] block m-4' />
+      ),
+      link: 'https://infinite.red',
+    },
   ]
 
   const specialThanks = [
@@ -151,6 +162,24 @@ const Sponsors = () => {
           <h3 className='text-2xl font-bold text-gray-400 text-center mb-8'>Community Coven</h3>
           <div className='flex justify-center flex-wrap gap-8'>
             {communitySponsors.map((sponsor, index) => (
+              <a
+                key={index}
+                href={sponsor.link}
+                className='bg-gray-900/50 backdrop-blur-sm rounded-xl p-4 border border-gray-500/30 hover:border-gray-400/70 transition-all duration-300 transform hover:scale-105'
+              >
+                <div className='text-center'>
+                  <div className='text-3xl mb-2'>{sponsor.logo}</div>
+                  <h4 className='text-sm font-bold text-white'>{sponsor.name}</h4>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div className='mb-12'>
+          <h3 className='text-2xl font-bold text-yellow-500 text-center mb-8'>Bat Sponsors</h3>
+          <div className='flex justify-center flex-wrap gap-8'>
+            {batSponsors.map((sponsor, index) => (
               <a
                 key={index}
                 href={sponsor.link}

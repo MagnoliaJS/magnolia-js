@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJackOLantern, faPumpkin } from '@fortawesome/pro-solid-svg-icons'
-import { ReactComponent as Logo } from '/public/logo.svg'
+import { ReactComponent as Logo } from '/src/assets/logo.svg'
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false)
