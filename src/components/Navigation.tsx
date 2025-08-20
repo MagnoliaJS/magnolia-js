@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faJackOLantern, faPumpkin } from '@fortawesome/pro-solid-svg-icons'
+import { faExternalLink, faJackOLantern, faPumpkin } from '@fortawesome/pro-solid-svg-icons'
 import { ReactComponent as Logo } from '/src/assets/logo.svg'
 
 const Navigation = () => {
@@ -33,7 +33,7 @@ const Navigation = () => {
             </a>
           </div>
 
-          <div className='hidden md:flex space-x-8 items-center'>
+          <div className='hidden lg:flex space-x-8 items-center'>
             {navItems.map((item) => {
               if (item.href.startsWith('https')) {
                 return (
@@ -42,7 +42,7 @@ const Navigation = () => {
                     key={item.href}
                     className='text-gray-300 hover:text-orange-500 transition-colors duration-300 font-medium'
                   >
-                    {item.label}
+                    {item.label} <FontAwesomeIcon icon={faExternalLink} className='ml-2' />
                   </a>
                 )
               }
@@ -58,7 +58,7 @@ const Navigation = () => {
             })}
           </div>
 
-          <button onClick={() => setIsOpen(!isOpen)} className='md:hidden text-white'>
+          <button onClick={() => setIsOpen(!isOpen)} className='lg:hidden text-white'>
             {isOpen ? (
               <FontAwesomeIcon icon={faJackOLantern} className='jack-glow' />
             ) : (
@@ -68,7 +68,7 @@ const Navigation = () => {
         </div>
 
         {isOpen && (
-          <div className='md:hidden'>
+          <div className='lg:hidden'>
             <div className='px-2 pt-2 pb-3 space-y-1 bg-black/95'>
               {navItems.map((item) => {
                 if (item.href.startsWith('https')) {
@@ -78,7 +78,7 @@ const Navigation = () => {
                       key={item.href}
                       className='block px-3 py-2 text-gray-300 hover:text-orange-500 transition-colors duration-300 font-medium w-full text-left'
                     >
-                      {item.label}
+                      {item.label} <FontAwesomeIcon icon={faExternalLink} className='ml-2' />
                     </a>
                   )
                 }
