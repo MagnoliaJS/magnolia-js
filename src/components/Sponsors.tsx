@@ -230,18 +230,24 @@ const Sponsors = () => {
             MagnoliaConf?
           </p>
 
-          <div className='flex justify-center space-x-6'>
+          <div className='flex flex-wrap justify-center align-center space-x-6'>
             <a
               href='https://drive.google.com/file/d/1p2bgQooxI1Cbp2wUXDO6F-PJ-9ffgx6V/view?usp=sharing'
-              className='bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105'
+              className='bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 m-1 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105'
             >
               Check out our Prospectus
             </a>
             <a
               href='mailto:sponsors@magnoliaconf.com?subject=Sponsor%20Magnolia%20Conf%202025'
-              className='bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105'
+              className='bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 m-1 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105'
             >
               Become a Sponsor
+            </a>
+            <a
+              href='https://shop.magnoliaconf.com/pages/donate'
+              className='bg-green-600 hover:bg-green-700 text-white px-8 py-3 m-1 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105'
+            >
+              Donate
             </a>
           </div>
         </div>

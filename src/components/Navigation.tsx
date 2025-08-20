@@ -13,6 +13,7 @@ const Navigation = () => {
     { href: '#venue', label: 'Venue' },
     { href: '#tickets', label: 'Tickets' },
     { href: '#conduct', label: 'Code of Conduct' },
+    { href: 'https://shop.magnoliaconf.com/pages/donate', label: 'Donate' },
     { href: 'https://shop.magnoliaconf.com', label: 'Shop' },
   ]
 
@@ -69,15 +70,28 @@ const Navigation = () => {
         {isOpen && (
           <div className='md:hidden'>
             <div className='px-2 pt-2 pb-3 space-y-1 bg-black/95'>
-              {navItems.map((item) => (
-                <button
-                  key={item.href}
-                  onClick={() => scrollToSection(item.href)}
-                  className='block px-3 py-2 text-gray-300 hover:text-orange-500 transition-colors duration-300 font-medium w-full text-left'
-                >
-                  {item.label}
-                </button>
-              ))}
+              {navItems.map((item) => {
+                if (item.href.startsWith('https')) {
+                  return (
+                    <a
+                      href={item.href}
+                      key={item.href}
+                      className='block px-3 py-2 text-gray-300 hover:text-orange-500 transition-colors duration-300 font-medium w-full text-left'
+                    >
+                      {item.label}
+                    </a>
+                  )
+                }
+                return (
+                  <button
+                    key={item.href}
+                    onClick={() => scrollToSection(item.href)}
+                    className='block px-3 py-2 text-gray-300 hover:text-orange-500 transition-colors duration-300 font-medium w-full text-left'
+                  >
+                    {item.label}
+                  </button>
+                )
+              })}
             </div>
           </div>
         )}
