@@ -139,14 +139,6 @@ const Speakers = () => {
       bio: 'Vincent is a recovering full-stack developer based in Jackson, Mississippi. He cusses a lot, but only because he cares.',
       topic: 'DevTool Wars: Across the Browser-verse',
     },
-    {
-      name: 'Will Klein',
-      title: 'Lead Developer Relations Engineer, Developer Experience',
-      company: 'North',
-      image: WillKlein,
-      bio: "Will is dedicated to crafting exceptional developer experiences that help us increase our understanding, creativity, and flow. Throughout his career, he's shared expertise building developer tools, organized meetups, and helped build thriving technical communities. Now at North Developer, he leads the effort to elevate the developer experience of their APIs and payments platform, through clear documentation, practical examples, and by working with the developer community to solve their challenges.",
-      topic: 'DevTool Wars: Across the Browser-verse',
-    },
   ]
 
   return (
