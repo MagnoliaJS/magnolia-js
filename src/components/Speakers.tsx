@@ -1,6 +1,7 @@
 import AbbeyPerini from '../assets/speakers/AbbeyPerini.jpg'
 import AbhishekChatterjee from '../assets/speakers/AbhishekChatterjee.jpg'
 import AmeerSami from '../assets/speakers/AmeerSami.jpg'
+import AmyBlankenship from '../assets/speakers/AmyBlankenship.jpg'
 import AudoraChalker from '../assets/speakers/AudoraChalker.jpg'
 import BlakeWatson from '../assets/speakers/BlakeWatson.jpeg'
 import BrianChirgwin from '../assets/speakers/BrianChirgwin.jpg'
@@ -40,6 +41,14 @@ const Speakers = () => {
       image: AmeerSami,
       bio: 'Protector of digital realms with expertise in ethical hacking and penetration testing.',
       topic: "Hunting Vulnerabilities: A Penetration Tester's Guide",
+    },
+    {
+      name: 'Amy Blankenship',
+      title: 'FullStack Developer',
+      company: '',
+      image: AmyBlankenship,
+      bio: "After getting a BFA from Mississippi State University, I fell into development when I was too inexperienced to understand job descriptions. In the intervening years, I've worked in a variety of technologies, working for myself as well as for companies as small as 10 people up to large corporations and government contractors.",
+      topic: "Don't Miss the Forest for the Trees",
     },
     {
       name: 'Audora Chalker',
