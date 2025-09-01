@@ -5,6 +5,7 @@ import AmyBlankenship from '../assets/speakers/AmyBlankenship.jpg'
 import AudoraChalker from '../assets/speakers/AudoraChalker.jpg'
 import BlakeWatson from '../assets/speakers/BlakeWatson.jpeg'
 import BrianChirgwin from '../assets/speakers/BrianChirgwin.jpg'
+import ChrisDeMars from '../assets/speakers/ChrisDeMars.jpg'
 import ChristinaYu from '../assets/speakers/ChristinaYu.jpeg'
 import JenLooper from '../assets/speakers/JenLooper.jpeg'
 import JoshGoldberg from '../assets/speakers/JoshGoldberg.jpg'
@@ -14,7 +15,6 @@ import NerandoJohnson from '../assets/speakers/NerandoJohnson.jpg'
 import ThorbenPrimke from '../assets/speakers/ThorbenPrimke.jpg'
 import TrevorAcy from '../assets/speakers/TrevorAcy.jpg'
 import VincentFalconi from '../assets/speakers/VincentFalconi.jpeg'
-import WillKlein from '../assets/speakers/WillKlein.jpg'
 
 const Speakers = () => {
   const speakers = [
@@ -73,6 +73,14 @@ const Speakers = () => {
       image: BrianChirgwin,
       bio: 'Brian Chirgwin is a developer with over 40+ years of experience in many different industries including healthcare, weather, law enforcement, and insurance. He has learned many programming languages over the years such as Pascal, C/C++, Java, JavaScript, Go and others. Used many frameworks such as Angular and React and even wrote one. He has a Bachelors Degree in Computer Science from Central Connecticut State University.\n\nBrian lives in East New Mexico, also known as West West Texas, with his wife Theresa and dog Roulette, a half Black Dachshund and Red Heeler and enjoys Whiskey and Bourbon.',
       topic: 'A Tour of Go and Why You Should Learn it',
+    },
+    {
+      name: 'Chris DeMars',
+      title: 'Senior Developer Advocate',
+      company: 'TuxCare',
+      image: ChrisDeMars,
+      bio: "Chris DeMars is a Senior Developer Advocate. He has over 20 years of technical experience and speaks globally on various frontend topics and has received accolades for his community contributions, including the prestigious Microsoft MVP and Progress Champion awards to name a few. Chris is passionate about enhancing web development and helping developers achieve their goals. In his free time, he enjoys rating Detroit-style pizza, searching for Bigfoot, and investigating UFO's.",
+      topic: 'Know Your JS: SBOMs for Frontend Devs',
     },
     {
       name: 'Christina Yu',
