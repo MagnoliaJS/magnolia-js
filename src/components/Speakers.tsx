@@ -57,8 +57,8 @@ const Speakers = () => {
       title: 'Frontend Engineer',
       company: ' ',
       image: AudoraChalker,
-      bio: 'Machine learning enthusiast who trains neural networks to predict the future (and stock prices).',
-      topic: 'Teaching Machines to See: Computer Vision Spells',
+      bio: '',
+      topic: 'happy little screens: the art of your dev environment',
     },
     {
       name: 'Blake Watson',
