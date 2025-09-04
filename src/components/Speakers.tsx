@@ -7,11 +7,13 @@ import BlakeWatson from '../assets/speakers/BlakeWatson.jpeg'
 import BrianChirgwin from '../assets/speakers/BrianChirgwin.jpg'
 import ChrisDeMars from '../assets/speakers/ChrisDeMars.jpg'
 import ChristinaYu from '../assets/speakers/ChristinaYu.jpeg'
+import JasonTorres from '../assets/speakers/JasonTorres.jpg'
 import JenLooper from '../assets/speakers/JenLooper.jpeg'
 import JoshGoldberg from '../assets/speakers/JoshGoldberg.jpg'
 import KathleenMcMahon from '../assets/speakers/KathleenMcMahon.jpg'
 import MichaelLamb from '../assets/speakers/MichaelLamb.jpg'
 import NerandoJohnson from '../assets/speakers/NerandoJohnson.jpg'
+import RoxyRodriguezBecker from '../assets/speakers/RoxyRodriguezBecker.png'
 import ThorbenPrimke from '../assets/speakers/ThorbenPrimke.jpg'
 import TrevorAcy from '../assets/speakers/TrevorAcy.jpg'
 import VincentFalconi from '../assets/speakers/VincentFalconi.jpeg'
@@ -91,6 +93,14 @@ const Speakers = () => {
       topic: 'Adopting AI Coding Tools: Enterprise Lessons in Speed and Scale',
     },
     {
+      name: 'Jason Torres',
+      title: 'Community Manager',
+      company: 'Torc',
+      image: JasonTorres,
+      bio: 'uh. well I spent 15 years, then moved over to tech where I taught myself to code and then realized hey I want to help people and moved to community. Now I talk about how Rick Astley created the best framework to create thriving tech communities and why quitting shit is ok to do sometimes.',
+      topic: 'The schematic to community as told by Rick Astley',
+    },
+    {
       name: 'Jen Looper',
       title: 'Director of Developer Relations, Cloudinary',
       company: 'Cloudinary',
@@ -130,6 +140,14 @@ const Speakers = () => {
       bio: '',
       topic:
         'Negotiation is the Key... A Little Violence and Ice-Cream"(Side Project Planning: From Wild Ideas to Working Software)',
+    },
+    {
+      name: 'Roxy Rodriguez-Becker',
+      title: 'Software Engineer',
+      company: 'RodBeck Digital',
+      image: RoxyRodriguezBecker,
+      bio: "Hi! I'm Roxy. I have a background in education, web development, and content creation. I am a full time librarian and part time freelance software engineer. Most recently I was on CodeTV's Web Dev Challenge and emceed at RenderATL. \nI am a mother of 3 in Houston, Texas. I love podcasts, 5am workouts, and problem-solving. I am actively on the hunt for a developer, support, or dev rel role!",
+      topic: 'Ship It First, Fix It Later: Problem-Solving with Vanilla JS',
     },
     {
       name: 'Thorben Primke',
