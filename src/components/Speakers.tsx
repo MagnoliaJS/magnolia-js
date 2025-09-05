@@ -5,18 +5,21 @@ import AmyBlankenship from '../assets/speakers/AmyBlankenship.jpg'
 import AudoraChalker from '../assets/speakers/AudoraChalker.jpg'
 import BlakeWatson from '../assets/speakers/BlakeWatson.jpeg'
 import BrianChirgwin from '../assets/speakers/BrianChirgwin.jpg'
+import CalypsoHernandez from '../assets/speakers/CalypsoHernandez.png'
 import ChrisDeMars from '../assets/speakers/ChrisDeMars.jpg'
 import ChristinaYu from '../assets/speakers/ChristinaYu.jpeg'
 import JasonTorres from '../assets/speakers/JasonTorres.jpg'
 import JenLooper from '../assets/speakers/JenLooper.jpeg'
 import JoshGoldberg from '../assets/speakers/JoshGoldberg.jpg'
 import KathleenMcMahon from '../assets/speakers/KathleenMcMahon.jpg'
+import MichaelBrown from '../assets/speakers/MichaelBrown.jpg'
 import MichaelLamb from '../assets/speakers/MichaelLamb.jpg'
 import NerandoJohnson from '../assets/speakers/NerandoJohnson.jpg'
 import RoxyRodriguezBecker from '../assets/speakers/RoxyRodriguezBecker.png'
 import ThorbenPrimke from '../assets/speakers/ThorbenPrimke.jpg'
 import TrevorAcy from '../assets/speakers/TrevorAcy.jpg'
 import VincentFalconi from '../assets/speakers/VincentFalconi.jpeg'
+import WillKlein from '../assets/speakers/WillKlein.jpg'
 
 const Speakers = () => {
   const speakers = [
@@ -42,7 +45,7 @@ const Speakers = () => {
       company: 'S&C Electric Company',
       image: AmeerSami,
       bio: 'Protector of digital realms with expertise in ethical hacking and penetration testing.',
-      topic: "Hunting Vulnerabilities: A Penetration Tester's Guide",
+      topic: 'A JavaScript Less Future?',
     },
     {
       name: 'Amy Blankenship',
@@ -77,6 +80,14 @@ const Speakers = () => {
       topic: 'A Tour of Go and Why You Should Learn it',
     },
     {
+      name: 'Calypso Hernandez',
+      title: 'Executive Operations Lead',
+      company: 'This Dot Labs',
+      image: CalypsoHernandez,
+      bio: 'Calypso is a versatile professional with a unique background in theatre, education, and tech. After years of experience in theatre and teaching, Calypso recently transitioned into the tech industry, working with innovative startups where she applies her skills in communication, design, and collaboration to fast-paced, high-growth environments. This blend of creative and technical experience has equipped Calypso with a deep understanding of how to foster constructive feedback, empower teams, and drive continuous improvement. Calypso also thrives on building strong, connected communities. She brings a fresh perspective on collaboration, communication, and community building in both creative and tech spaces.',
+      topic: 'Post It Anyway: From Blank Screen to Finding Your Voice in Tech',
+    },
+    {
       name: 'Chris DeMars',
       title: 'Senior Developer Advocate',
       company: 'TuxCare',
@@ -102,7 +113,7 @@ const Speakers = () => {
     },
     {
       name: 'Jen Looper',
-      title: 'Director of Developer Relations, Cloudinary',
+      title: 'Director of Developer Relations',
       company: 'Cloudinary',
       image: JenLooper,
       bio: "Jen Looper is a creative technologist and educator with over 25 years' experience as a web and mobile developer and Developer Advocate. She is the Director of Developer Relations at Cloudinary and has worked as a software engineer and Developer Advocate at companies including Progress/Telerik and Microsoft and AWS, specializing in creating cross-platform mobile and web apps and applied machine learning and curricula. A published author, Jen has written Computer Science for Kids (https://cs4kids.club), a textbook aligned to CSTA standards for grades 6-8, as well as The Illustrated AWS Cloud (https://illustrated-aws.netlify.app/), both published by Wiley. She's a multilingual multiculturalist with a passion for web technologies, applied machine learning and AI and discovering new things every day. With a PhD in medieval French literature, Jen's area of focus is curriculum development and the application of sound pedagogy to technical topics. Visit Jen's personal site at https://www.jenlooper.com.",
@@ -123,6 +134,14 @@ const Speakers = () => {
       image: KathleenMcMahon,
       bio: "Kathleen is an engineer, designer, & international conference speaker with deep industry experience fueling her passion for creating beautifully accessible apps. She's a Senior Design Technologist at Electronic Arts, a Design Tokens Community Group spec editor and races bikes — in costume — as the best lanterne-rouge cyclocrosser you'll ever meet.",
       topic: "🏖 The Beachcomber's Guide to Type-Safe Design Systems",
+    },
+    {
+      name: 'Michael Brown',
+      title: 'Senior Software Engineer',
+      company: 'Synaptic Weave',
+      image: MichaelBrown,
+      bio: 'Michael Brown is a seasoned technologist with over 30 years of experience in software development and innovation. Currently at Microsoft, he focuses on accelerating customer adoption of Microsoft Cloud services using modern engineering practices and emerging technologies. Michael is a leading voice in Hypervelocity Engineering (HVE)—a framework for eliminating engineering friction to deliver value at speed. He is also the founder of the Juneteenth Conference, launched in 2020 to celebrate and elevate Black professionals in tech. Through his work, Michael bridges innovation and inclusion to drive lasting impact.',
+      topic: 'Beyond Vibe Coding: High Velocity Engineering with AI Across the SDLC',
     },
     {
       name: 'Michael Lamb',
@@ -172,6 +191,14 @@ const Speakers = () => {
       company: 'Sumo Logic',
       image: VincentFalconi,
       bio: 'Vincent is a recovering full-stack developer based in Jackson, Mississippi. He cusses a lot, but only because he cares.',
+      topic: "That's bullshit: using the web to hold power accountable",
+    },
+    {
+      name: 'Will Klein',
+      title: 'Lead Developer Relations Engineer, Developer Experience',
+      company: 'North',
+      image: WillKlein,
+      bio: "Will is dedicated to crafting exceptional developer experiences that help us increase our understanding, creativity, and flow. Throughout his career, he's shared expertise building developer tools, organized meetups, and helped build thriving technical communities. Now at North Developer, he leads the effort to elevate the developer experience of their APIs and payments platform, through clear documentation, practical examples, and by working with the developer community to solve their challenges.",
       topic: 'DevTool Wars: Across the Browser-verse',
     },
   ]
