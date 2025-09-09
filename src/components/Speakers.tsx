@@ -17,6 +17,7 @@ import MichaelLamb from '../assets/speakers/MichaelLamb.jpg'
 import NerandoJohnson from '../assets/speakers/NerandoJohnson.jpg'
 import RoxyRodriguezBecker from '../assets/speakers/RoxyRodriguezBecker.png'
 import ThorbenPrimke from '../assets/speakers/ThorbenPrimke.jpg'
+import ToddLibby from '../assets/speakers/ToddLibby.jpg'
 import TrevorAcy from '../assets/speakers/TrevorAcy.jpg'
 import VincentFalconi from '../assets/speakers/VincentFalconi.jpeg'
 import WillKlein from '../assets/speakers/WillKlein.jpg'
@@ -176,6 +177,14 @@ const Speakers = () => {
       bio: 'Product Engineer and engineering leader at Pinterest since 2015, building innovative mobile features including Collages/Shuffles, Pinterest TV Studio, and creator tools. Specializes in Android development and React Native for consumer applications reaching millions of users. Previously: Facebook, Jelly Industries, Gowalla.',
       topic:
         'One Codebase, Three Platforms: Building Cross-Platform Products with Modern React Native',
+    },
+    {
+      name: 'Todd Libby',
+      title: 'Founder, RouteReady, W3C Invited Expert WCAG',
+      company: 'RouteReady',
+      image: ToddLibby,
+      bio: 'Desert nomad, active lobsterholic, former executive head chef.',
+      topic: 'Safety & Deception: The Impact on Accessibility',
     },
     {
       name: 'Trevor Acy',
