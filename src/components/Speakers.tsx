@@ -38,7 +38,8 @@ const Speakers = () => {
       company: 'C Spire',
       image: AbhishekChatterjee,
       bio: 'Cloud infrastructure wizard specializing in containerization and CI/CD pipelines that never die.',
-      topic: 'Docker Containers: Keeping Your Apps Alive Forever',
+      topic:
+        'Taming the Caveman: Understanding and Managing Stress and Anxiety in a Hyperconnected World',
     },
     {
       name: 'Ameer Sami',
