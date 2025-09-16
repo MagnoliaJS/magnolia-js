@@ -3,6 +3,8 @@ import hclbLogo from '/src/assets/hclb.jpg'
 import magnoliaBricksLogo from '/src/assets/magnoliabricks.png'
 import cloudinaryLogo from '/src/assets/cloudinary.png'
 import infiniteRedLogo from '/src/assets/infinitered.png'
+import mcaLogo from '/src/assets/mca.png'
+import htmlForPeopleLogo from '/src/assets/html_for_people_logo.png'
 
 const Sponsors = () => {
   const hackathonSponsor = {
@@ -34,7 +36,28 @@ const Sponsors = () => {
   ]
 
   const communitySponsors = [
-    { name: 'HTML for People', logo: '', link: 'https://htmlforpeople.com' },
+    {
+      name: 'HTML for People',
+      logo: (
+        <img
+          src={htmlForPeopleLogo}
+          alt='HTML for People Logo'
+          className='w-auto h-[6rem] block m-4'
+        />
+      ),
+      link: 'https://htmlforpeople.com',
+    },
+    {
+      name: 'Mississippi Coding Academies',
+      logo: (
+        <img
+          src={mcaLogo}
+          alt='Mississippi Coding Academies Logo'
+          className='w-auto h-[6rem] block my-4 mx-auto'
+        />
+      ),
+      link: 'https://mscoding.org',
+    },
   ]
 
   const batSponsors = [
