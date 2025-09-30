@@ -8,6 +8,7 @@ import BrianChirgwin from '../assets/speakers/BrianChirgwin.jpg'
 import CalypsoHernandez from '../assets/speakers/CalypsoHernandez.png'
 import ChrisDeMars from '../assets/speakers/ChrisDeMars.jpg'
 import ChristinaYu from '../assets/speakers/ChristinaYu.jpeg'
+import ElianVanCutsem from '../assets/speakers/ElianVanCutsem.png'
 import JasonTorres from '../assets/speakers/JasonTorres.jpg'
 import JenLooper from '../assets/speakers/JenLooper.jpeg'
 import JoshGoldberg from '../assets/speakers/JoshGoldberg.jpg'
@@ -104,6 +105,14 @@ const Speakers = () => {
       image: ChristinaYu,
       bio: 'Senior Software Engineer at Sigma Computing. Previously at Citadel and PayPal. New York transplant sampling my way through the city, one bagel at a time. Currently saving my dog from being replaced by my AI coding assistant as my favorite coworker.',
       topic: 'Adopting AI Coding Tools: Enterprise Lessons in Speed and Scale',
+    },
+    {
+      name: 'Elian Van Cutsem',
+      title: 'CTO @ Vulpo | Lead DevRel @ React Bricks | Astro Maintainer',
+      company: 'Vulpo | React Bricks',
+      image: ElianVanCutsem,
+      bio: 'Elian Van Cutsem or "ElianCodes" is a full-stack developer, creative technologist, and all-around internet troublemaker based in Belgium. He’s the CTO at Vulpo and works in Developer Relations at React Bricks, focusing on developer experience, documentation, and education. Previously, he was a Software Engineer and core maintainer at Astro.\nElian is also a co-organizer of several major JavaScript communities and events, including BeJS React Paris React Brussels and React Africa.\nAlongside his professional work, he creates provocative and experimental AI projects, designed to challenge our assumptions about ethics, automation, and human behavior. His work blends code and commentary, often in ways that are both hilarious and uncomfortably real.\nElian is known for his passion, puns, and offbeat sense of humor. His talks combine technical insight with a strong dose of creative chaos—guaranteed fun on stage.',
+      topic: 'The Web Can Be Weird',
     },
     {
       name: 'Jason Torres',
