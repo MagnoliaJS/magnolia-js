@@ -1,4 +1,5 @@
 import { ReactComponent as ProgressLogo } from '/src/assets/progress.svg'
+import { ReactComponent as HygienaLogo } from '/src/assets/hygiena.svg'
 import hclbLogo from '/src/assets/hclb.jpg'
 import magnoliaBricksLogo from '/src/assets/magnoliabricks.png'
 import cloudinaryLogo from '/src/assets/cloudinary.png'
@@ -67,6 +68,11 @@ const Sponsors = () => {
         <img src={infiniteRedLogo} alt='Infinite Red Logo' className='w-auto h-[6rem] block m-4' />
       ),
       link: 'https://infinite.red',
+    },
+    {
+      name: 'Kleanz',
+      logo: <HygienaLogo className='fill-white w-[12rem] h-[6rem] block m-4' />,
+      link: 'https://www.kleanz.com',
     },
   ]
 
@@ -192,7 +198,7 @@ const Sponsors = () => {
               >
                 <div className='text-center'>
                   <div className='text-3xl mb-2'>{sponsor.logo}</div>
-                  <h4 className='text-sm font-bold text-white'>{sponsor.name}</h4>
+                  {/* <h4 className='text-sm font-bold text-white'>{sponsor.name}</h4> */}
                 </div>
               </a>
             ))}
@@ -210,7 +216,7 @@ const Sponsors = () => {
               >
                 <div className='text-center'>
                   <div className='text-3xl mb-2'>{sponsor.logo}</div>
-                  <h4 className='text-sm font-bold text-white'>{sponsor.name}</h4>
+                  {/* <h4 className='text-sm font-bold text-white'>{sponsor.name}</h4> */}
                 </div>
               </a>
             ))}
