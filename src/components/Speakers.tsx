@@ -44,7 +44,7 @@ const Speakers = () => {
     },
     {
       name: 'Ameer Sami',
-      title: 'Senior Software Engineer',
+      title: 'Staff Software Engineer',
       company: 'S&C Electric Company',
       image: AmeerSami,
       bio: 'Protector of digital realms with expertise in ethical hacking and penetration testing.',
