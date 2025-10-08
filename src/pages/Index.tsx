@@ -8,13 +8,15 @@ import CodeOfConduct from '../components/CodeOfConduct'
 import Footer from '../components/Footer'
 import EmailGrab from '@/components/EmailGrab'
 import Tickets from '@/components/Tickets'
+import { Schedule } from '@/components/Schedule'
 
 const Index = () => {
   return (
     <div className='min-h-screen bg-black'>
       <Navigation />
       <Hero />
-      <Speakers />
+      {/* <Speakers /> */}
+      <Schedule />
       <Sponsors />
       <Venue />
       <Tickets />
