@@ -6,6 +6,7 @@ import cloudinaryLogo from '/src/assets/cloudinary.png'
 import infiniteRedLogo from '/src/assets/infinitered.png'
 import mcaLogo from '/src/assets/mca.png'
 import htmlForPeopleLogo from '/src/assets/html_for_people_logo.png'
+import torcLogo from '/src/assets/torc_white.png'
 
 const Sponsors = () => {
   const hackathonSponsor = {
@@ -58,6 +59,17 @@ const Sponsors = () => {
         />
       ),
       link: 'https://mscoding.org',
+    },
+    {
+      name: 'Torc',
+      logo: (
+        <img
+          src={torcLogo}
+          alt='Randstad Digital Torc Logo'
+          className='w-auto h-[6rem] block my-4 mx-auto'
+        />
+      ),
+      link: 'https://torc.community',
     },
   ]
 
