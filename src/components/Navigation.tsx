@@ -8,7 +8,7 @@ const Navigation = () => {
 
   const navItems = [
     { href: '#home', label: 'Home' },
-    { href: '#speakers', label: 'Speakers' },
+    { href: '#speakers', label: 'Schedule' },
     { href: '#sponsors', label: 'Sponsors' },
     { href: '#venue', label: 'Venue' },
     { href: '#tickets', label: 'Tickets' },

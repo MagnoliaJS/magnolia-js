@@ -827,7 +827,7 @@ export const Schedule = () => {
   const [activeDay, setActiveDay] = useState('day1')
 
   return (
-    <div className='w-full max-w-7xl mx-auto px-4 py-8 sm:py-12'>
+    <div id='speakers' className='w-full max-w-7xl mx-auto px-4 py-8 sm:py-12'>
       <div className='text-center mb-8 sm:mb-12'>
         <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold mb-4'>
           <span className='text-orange-500'>Conference</span>{' '}
