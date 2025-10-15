@@ -91,10 +91,13 @@ const Sponsors = () => {
   const specialThanks = [
     'Amy Blankenship',
     'Jackie Condon',
+    'Dr. Amber Johnson Avery',
     'Nerando Johnson',
     'Kenneth LaFrance',
     'Abbey Perini',
     'Alex Riviere',
+    'Jason Torres',
+    'The Bean Path',
   ]
 
   const giveawaySponsors = [
