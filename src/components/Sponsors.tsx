@@ -90,6 +90,7 @@ const Sponsors = () => {
 
   const specialThanks = [
     'Amy Blankenship',
+    'Calypso Hernandez',
     'Jackie Condon',
     'Dr. Amber Johnson Avery',
     'Nerando Johnson',
