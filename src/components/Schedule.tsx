@@ -394,26 +394,26 @@ const scheduleData: ScheduleDay[] = [
           imageUrl: AbhishekChatterjee,
         },
       },
-      {
-        id: '26',
-        time: '4:40 PM',
-        duration: '25 min',
-        title: 'Beyond Vibe Coding: High Velocity Engineering with AI Across the SDLC',
-        description:
-          'AI-assisted development isn\'t just about autocompleting code—it\'s about accelerating the entire software delivery lifecycle. In this talk, we’ll explore High Velocity Engineering, a disciplined, AI-augmented approach to software development that leverages intelligent agents from specification to deployment. You’ll see how we use AI not just to write code, but to: Translate product requirements into structured specifications Build secure, scalable CI/CD pipelines Automate environment provisioning and infrastructure as code Continuously evolve systems based on real-time insights We’ll go beyond the hype of ""prompt-driven development"" and dig into how developers can collaborate with AI agents to produce systems that are well-architected, maintainable, and testable. This is not about replacing engineering judgment—it\'s about amplifying it. High Velocity Engineering empowers you to move faster and smarter. Whether you\'re an individual contributor or a team lead, this session will give you practical strategies and real-world patterns to responsibly integrate AI throughout your SDLC and redefine what developer velocity means in 2025.',
-        type: 'talk',
-        room: 'Main Hall',
-        speaker: {
-          name: 'Michael Brown',
-          title: 'Senior Software Engineer',
-          company: 'Synaptic Weave',
-          bio: 'Michael Brown is a seasoned technologist with over 30 years of experience in software development and innovation. Michael is a leading voice in Hypervelocity Engineering (HVE)—a framework for eliminating engineering friction to deliver value at speed. He is also the founder of the Juneteenth Conference, launched in 2020 to celebrate and elevate Black professionals in tech. Through his work, Michael bridges innovation and inclusion to drive lasting impact.',
-          imageUrl: MichaelBrown,
-        },
-      },
+      // {
+      //   id: '26',
+      //   time: '4:40 PM',
+      //   duration: '25 min',
+      //   title: 'Beyond Vibe Coding: High Velocity Engineering with AI Across the SDLC',
+      //   description:
+      //     'AI-assisted development isn\'t just about autocompleting code—it\'s about accelerating the entire software delivery lifecycle. In this talk, we’ll explore High Velocity Engineering, a disciplined, AI-augmented approach to software development that leverages intelligent agents from specification to deployment. You’ll see how we use AI not just to write code, but to: Translate product requirements into structured specifications Build secure, scalable CI/CD pipelines Automate environment provisioning and infrastructure as code Continuously evolve systems based on real-time insights We’ll go beyond the hype of ""prompt-driven development"" and dig into how developers can collaborate with AI agents to produce systems that are well-architected, maintainable, and testable. This is not about replacing engineering judgment—it\'s about amplifying it. High Velocity Engineering empowers you to move faster and smarter. Whether you\'re an individual contributor or a team lead, this session will give you practical strategies and real-world patterns to responsibly integrate AI throughout your SDLC and redefine what developer velocity means in 2025.',
+      //   type: 'talk',
+      //   room: 'Main Hall',
+      //   speaker: {
+      //     name: 'Michael Brown',
+      //     title: 'Senior Software Engineer',
+      //     company: 'Synaptic Weave',
+      //     bio: 'Michael Brown is a seasoned technologist with over 30 years of experience in software development and innovation. Michael is a leading voice in Hypervelocity Engineering (HVE)—a framework for eliminating engineering friction to deliver value at speed. He is also the founder of the Juneteenth Conference, launched in 2020 to celebrate and elevate Black professionals in tech. Through his work, Michael bridges innovation and inclusion to drive lasting impact.',
+      //     imageUrl: MichaelBrown,
+      //   },
+      // },
       {
         id: '27',
-        time: '5:05PM',
+        time: '4:40PM',
         duration: '10 min',
         title: 'Closing & Costume Contest Winner',
         description: '',
@@ -824,7 +824,7 @@ const TalkCard = ({ talk }: { talk: Talk }) => {
 }
 
 export const Schedule = () => {
-  const [activeDay, setActiveDay] = useState('day1')
+  const [activeDay, setActiveDay] = useState('day2')
 
   return (
     <div id='speakers' className='w-full max-w-7xl mx-auto px-4 py-8 sm:py-12'>
