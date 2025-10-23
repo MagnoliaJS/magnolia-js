@@ -824,7 +824,7 @@ const TalkCard = ({ talk }: { talk: Talk }) => {
 }
 
 export const Schedule = () => {
-  const [activeDay, setActiveDay] = useState('day2')
+  const [activeDay, setActiveDay] = useState('day3')
 
   return (
     <div id='speakers' className='w-full max-w-7xl mx-auto px-4 py-8 sm:py-12'>
